@@ -98,94 +98,94 @@ local Arch = {
 	UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint"),
 	Universal = Instance.new("Frame"),
 	ScrollingFrame = Instance.new("ScrollingFrame"),
-	Scripty = Instance.new("ImageButton"),
+	_3 = Instance.new("ImageButton"),
 	TextLabel_2 = Instance.new("TextLabel"),
 	UICorner_11 = Instance.new("UICorner"),
 	UICorner_12 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_2 = Instance.new("ImageButton"),
+	_6 = Instance.new("ImageButton"),
 	TextLabel_3 = Instance.new("TextLabel"),
 	UICorner_13 = Instance.new("UICorner"),
 	UICorner_14 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_3 = Instance.new("ImageButton"),
+	_5 = Instance.new("ImageButton"),
 	TextLabel_4 = Instance.new("TextLabel"),
 	UICorner_15 = Instance.new("UICorner"),
 	UICorner_16 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_32 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_4 = Instance.new("ImageButton"),
+	_2 = Instance.new("ImageButton"),
 	TextLabel_5 = Instance.new("TextLabel"),
 	UICorner_17 = Instance.new("UICorner"),
 	UICorner_18 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_33 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_5 = Instance.new("ImageButton"),
+	_7 = Instance.new("ImageButton"),
 	TextLabel_6 = Instance.new("TextLabel"),
 	UICorner_19 = Instance.new("UICorner"),
 	UICorner_20 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_34 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_6 = Instance.new("ImageButton"),
+	_9 = Instance.new("ImageButton"),
 	TextLabel_7 = Instance.new("TextLabel"),
 	UICorner_21 = Instance.new("UICorner"),
 	UICorner_22 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_35 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_7 = Instance.new("ImageButton"),
+	_8 = Instance.new("ImageButton"),
 	TextLabel_8 = Instance.new("TextLabel"),
 	UICorner_23 = Instance.new("UICorner"),
 	UICorner_24 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_36 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_8 = Instance.new("ImageButton"),
+	_10 = Instance.new("ImageButton"),
 	TextLabel_9 = Instance.new("TextLabel"),
 	UICorner_25 = Instance.new("UICorner"),
 	UICorner_26 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_37 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_9 = Instance.new("ImageButton"),
+	_4 = Instance.new("ImageButton"),
 	TextLabel_10 = Instance.new("TextLabel"),
 	UICorner_27 = Instance.new("UICorner"),
 	UICorner_28 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_38 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_10 = Instance.new("ImageButton"),
+	_11 = Instance.new("ImageButton"),
 	TextLabel_11 = Instance.new("TextLabel"),
 	UICorner_29 = Instance.new("UICorner"),
 	UICorner_30 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_39 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_11 = Instance.new("ImageButton"),
+	_12 = Instance.new("ImageButton"),
 	TextLabel_12 = Instance.new("TextLabel"),
 	UICorner_31 = Instance.new("UICorner"),
 	UICorner_32 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_40 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_12 = Instance.new("ImageButton"),
+	_1 = Instance.new("ImageButton"),
 	TextLabel_13 = Instance.new("TextLabel"),
 	UICorner_33 = Instance.new("UICorner"),
 	UICorner_34 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_41 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_13 = Instance.new("ImageButton"),
+	_14 = Instance.new("ImageButton"),
 	TextLabel_14 = Instance.new("TextLabel"),
 	UICorner_35 = Instance.new("UICorner"),
 	UICorner_36 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_42 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_14 = Instance.new("ImageButton"),
+	_13 = Instance.new("ImageButton"),
 	TextLabel_15 = Instance.new("TextLabel"),
 	UICorner_37 = Instance.new("UICorner"),
 	UICorner_38 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_43 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_15 = Instance.new("ImageButton"),
+	_15 = Instance.new("ImageButton"),
 	TextLabel_16 = Instance.new("TextLabel"),
 	UICorner_39 = Instance.new("UICorner"),
 	UICorner_40 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_44 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_16 = Instance.new("ImageButton"),
+	_17 = Instance.new("ImageButton"),
 	TextLabel_17 = Instance.new("TextLabel"),
 	UICorner_41 = Instance.new("UICorner"),
 	UICorner_42 = Instance.new("UICorner"),
 	TextLabel_18 = Instance.new("TextLabel"),
 	UICorner_43 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_45 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_17 = Instance.new("ImageButton"),
+	_16 = Instance.new("ImageButton"),
 	TextLabel_19 = Instance.new("TextLabel"),
 	UICorner_44 = Instance.new("UICorner"),
 	UICorner_45 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_46 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_18 = Instance.new("ImageButton"),
+	_18 = Instance.new("ImageButton"),
 	TextLabel_20 = Instance.new("TextLabel"),
 	UICorner_46 = Instance.new("UICorner"),
 	UICorner_47 = Instance.new("UICorner"),
@@ -195,92 +195,92 @@ local Arch = {
 	UIAspectRatioConstraint_49 = Instance.new("UIAspectRatioConstraint"),
 	Game = Instance.new("Frame"),
 	ScrollingFrame_2 = Instance.new("ScrollingFrame"),
-	Scripty_19 = Instance.new("ImageButton"),
+	Scripty = Instance.new("ImageButton"),
 	TextLabel_21 = Instance.new("TextLabel"),
 	UICorner_49 = Instance.new("UICorner"),
 	UICorner_50 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_50 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_20 = Instance.new("ImageButton"),
+	Scripty_2 = Instance.new("ImageButton"),
 	TextLabel_22 = Instance.new("TextLabel"),
 	UICorner_51 = Instance.new("UICorner"),
 	UICorner_52 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_51 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_21 = Instance.new("ImageButton"),
+	Scripty_3 = Instance.new("ImageButton"),
 	TextLabel_23 = Instance.new("TextLabel"),
 	UICorner_53 = Instance.new("UICorner"),
 	UICorner_54 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_52 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_22 = Instance.new("ImageButton"),
+	Scripty_4 = Instance.new("ImageButton"),
 	TextLabel_24 = Instance.new("TextLabel"),
 	UICorner_55 = Instance.new("UICorner"),
 	UICorner_56 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_53 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_23 = Instance.new("ImageButton"),
+	Scripty_5 = Instance.new("ImageButton"),
 	TextLabel_25 = Instance.new("TextLabel"),
 	UICorner_57 = Instance.new("UICorner"),
 	UICorner_58 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_54 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_24 = Instance.new("ImageButton"),
+	Scripty_6 = Instance.new("ImageButton"),
 	TextLabel_26 = Instance.new("TextLabel"),
 	UICorner_59 = Instance.new("UICorner"),
 	UICorner_60 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_55 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_25 = Instance.new("ImageButton"),
+	Scripty_7 = Instance.new("ImageButton"),
 	TextLabel_27 = Instance.new("TextLabel"),
 	UICorner_61 = Instance.new("UICorner"),
 	UICorner_62 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_56 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_26 = Instance.new("ImageButton"),
+	Scripty_8 = Instance.new("ImageButton"),
 	TextLabel_28 = Instance.new("TextLabel"),
 	UICorner_63 = Instance.new("UICorner"),
 	UICorner_64 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_57 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_27 = Instance.new("ImageButton"),
+	Scripty_9 = Instance.new("ImageButton"),
 	TextLabel_29 = Instance.new("TextLabel"),
 	UICorner_65 = Instance.new("UICorner"),
 	UICorner_66 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_58 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_28 = Instance.new("ImageButton"),
+	Scripty_10 = Instance.new("ImageButton"),
 	TextLabel_30 = Instance.new("TextLabel"),
 	UICorner_67 = Instance.new("UICorner"),
 	UICorner_68 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_59 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_29 = Instance.new("ImageButton"),
+	Scripty_11 = Instance.new("ImageButton"),
 	TextLabel_31 = Instance.new("TextLabel"),
 	UICorner_69 = Instance.new("UICorner"),
 	UICorner_70 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_60 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_30 = Instance.new("ImageButton"),
+	Scripty_12 = Instance.new("ImageButton"),
 	TextLabel_32 = Instance.new("TextLabel"),
 	UICorner_71 = Instance.new("UICorner"),
 	UICorner_72 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_61 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_31 = Instance.new("ImageButton"),
+	Scripty_13 = Instance.new("ImageButton"),
 	TextLabel_33 = Instance.new("TextLabel"),
 	UICorner_73 = Instance.new("UICorner"),
 	UICorner_74 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_62 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_32 = Instance.new("ImageButton"),
+	Scripty_14 = Instance.new("ImageButton"),
 	TextLabel_34 = Instance.new("TextLabel"),
 	UICorner_75 = Instance.new("UICorner"),
 	UICorner_76 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_63 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_33 = Instance.new("ImageButton"),
+	Scripty_15 = Instance.new("ImageButton"),
 	TextLabel_35 = Instance.new("TextLabel"),
 	UICorner_77 = Instance.new("UICorner"),
 	UICorner_78 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_64 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_34 = Instance.new("ImageButton"),
+	Scripty_16 = Instance.new("ImageButton"),
 	TextLabel_36 = Instance.new("TextLabel"),
 	UICorner_79 = Instance.new("UICorner"),
 	UICorner_80 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_65 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_35 = Instance.new("ImageButton"),
+	Scripty_17 = Instance.new("ImageButton"),
 	TextLabel_37 = Instance.new("TextLabel"),
 	UICorner_81 = Instance.new("UICorner"),
 	UICorner_82 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_66 = Instance.new("UIAspectRatioConstraint"),
-	Scripty_36 = Instance.new("ImageButton"),
+	Scripty_18 = Instance.new("ImageButton"),
 	TextLabel_38 = Instance.new("TextLabel"),
 	UICorner_83 = Instance.new("UICorner"),
 	UICorner_84 = Instance.new("UICorner"),
@@ -888,15 +888,15 @@ Arch.ScrollingFrame.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
 Arch.ScrollingFrame.BorderSizePixel = 0
 Arch.ScrollingFrame.Size = UDim2.new(1, 0, 1, 0)
 
-Arch.Scripty.Name = "Scripty"
-Arch.Scripty.Parent = Arch.ScrollingFrame
-Arch.Scripty.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty.BorderSizePixel = 0
-Arch.Scripty.Position = UDim2.new(0.295404792, 0, 0.178750038, 0)
-Arch.Scripty.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._3.Name = "3"
+Arch._3.Parent = Arch.ScrollingFrame
+Arch._3.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._3.BorderSizePixel = 0
+Arch._3.Position = UDim2.new(0.295404792, 0, 0.178750038, 0)
+Arch._3.Size = UDim2.new(0, 113, 0, 113)
+Arch._3.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_2.Parent = Arch.Scripty
+Arch.TextLabel_2.Parent = Arch._3
 Arch.TextLabel_2.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_2.BorderSizePixel = 0
 Arch.TextLabel_2.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -909,19 +909,19 @@ Arch.TextLabel_2.TextSize = 14.000
 Arch.UICorner_11.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_11.Parent = Arch.TextLabel_2
 
-Arch.UICorner_12.Parent = Arch.Scripty
+Arch.UICorner_12.Parent = Arch._3
 
-Arch.UIAspectRatioConstraint_30.Parent = Arch.Scripty
+Arch.UIAspectRatioConstraint_30.Parent = Arch._3
 
-Arch.Scripty_2.Name = "Scripty"
-Arch.Scripty_2.Parent = Arch.ScrollingFrame
-Arch.Scripty_2.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_2.BorderSizePixel = 0
-Arch.Scripty_2.Position = UDim2.new(0.295404792, 0, 0.0162499994, 0)
-Arch.Scripty_2.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_2.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._6.Name = "6"
+Arch._6.Parent = Arch.ScrollingFrame
+Arch._6.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._6.BorderSizePixel = 0
+Arch._6.Position = UDim2.new(0.295404792, 0, 0.0162499994, 0)
+Arch._6.Size = UDim2.new(0, 113, 0, 113)
+Arch._6.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_3.Parent = Arch.Scripty_2
+Arch.TextLabel_3.Parent = Arch._6
 Arch.TextLabel_3.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_3.BorderSizePixel = 0
 Arch.TextLabel_3.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -934,19 +934,19 @@ Arch.TextLabel_3.TextSize = 14.000
 Arch.UICorner_13.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_13.Parent = Arch.TextLabel_3
 
-Arch.UICorner_14.Parent = Arch.Scripty_2
+Arch.UICorner_14.Parent = Arch._6
 
-Arch.UIAspectRatioConstraint_31.Parent = Arch.Scripty_2
+Arch.UIAspectRatioConstraint_31.Parent = Arch._6
 
-Arch.Scripty_3.Name = "Scripty"
-Arch.Scripty_3.Parent = Arch.ScrollingFrame
-Arch.Scripty_3.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_3.BorderSizePixel = 0
-Arch.Scripty_3.Position = UDim2.new(0.568927824, 0, 0.178750038, 0)
-Arch.Scripty_3.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_3.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._5.Name = "5"
+Arch._5.Parent = Arch.ScrollingFrame
+Arch._5.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._5.BorderSizePixel = 0
+Arch._5.Position = UDim2.new(0.568927824, 0, 0.178750038, 0)
+Arch._5.Size = UDim2.new(0, 113, 0, 113)
+Arch._5.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_4.Parent = Arch.Scripty_3
+Arch.TextLabel_4.Parent = Arch._5
 Arch.TextLabel_4.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_4.BorderSizePixel = 0
 Arch.TextLabel_4.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -959,19 +959,19 @@ Arch.TextLabel_4.TextSize = 14.000
 Arch.UICorner_15.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_15.Parent = Arch.TextLabel_4
 
-Arch.UICorner_16.Parent = Arch.Scripty_3
+Arch.UICorner_16.Parent = Arch._5
 
-Arch.UIAspectRatioConstraint_32.Parent = Arch.Scripty_3
+Arch.UIAspectRatioConstraint_32.Parent = Arch._5
 
-Arch.Scripty_4.Name = "Scripty"
-Arch.Scripty_4.Parent = Arch.ScrollingFrame
-Arch.Scripty_4.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_4.BorderSizePixel = 0
-Arch.Scripty_4.Position = UDim2.new(0.568927824, 0, 0.0162499994, 0)
-Arch.Scripty_4.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_4.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._2.Name = "2"
+Arch._2.Parent = Arch.ScrollingFrame
+Arch._2.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._2.BorderSizePixel = 0
+Arch._2.Position = UDim2.new(0.568927824, 0, 0.0162499994, 0)
+Arch._2.Size = UDim2.new(0, 113, 0, 113)
+Arch._2.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_5.Parent = Arch.Scripty_4
+Arch.TextLabel_5.Parent = Arch._2
 Arch.TextLabel_5.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_5.BorderSizePixel = 0
 Arch.TextLabel_5.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -984,19 +984,19 @@ Arch.TextLabel_5.TextSize = 14.000
 Arch.UICorner_17.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_17.Parent = Arch.TextLabel_5
 
-Arch.UICorner_18.Parent = Arch.Scripty_4
+Arch.UICorner_18.Parent = Arch._2
 
-Arch.UIAspectRatioConstraint_33.Parent = Arch.Scripty_4
+Arch.UIAspectRatioConstraint_33.Parent = Arch._2
 
-Arch.Scripty_5.Name = "Scripty"
-Arch.Scripty_5.Parent = Arch.ScrollingFrame
-Arch.Scripty_5.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_5.BorderSizePixel = 0
-Arch.Scripty_5.Position = UDim2.new(0.0262582004, 0, 0.178750038, 0)
-Arch.Scripty_5.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_5.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._7.Name = "7"
+Arch._7.Parent = Arch.ScrollingFrame
+Arch._7.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._7.BorderSizePixel = 0
+Arch._7.Position = UDim2.new(0.0262582004, 0, 0.178750038, 0)
+Arch._7.Size = UDim2.new(0, 113, 0, 113)
+Arch._7.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_6.Parent = Arch.Scripty_5
+Arch.TextLabel_6.Parent = Arch._7
 Arch.TextLabel_6.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_6.BorderSizePixel = 0
 Arch.TextLabel_6.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1009,19 +1009,19 @@ Arch.TextLabel_6.TextSize = 14.000
 Arch.UICorner_19.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_19.Parent = Arch.TextLabel_6
 
-Arch.UICorner_20.Parent = Arch.Scripty_5
+Arch.UICorner_20.Parent = Arch._7
 
-Arch.UIAspectRatioConstraint_34.Parent = Arch.Scripty_5
+Arch.UIAspectRatioConstraint_34.Parent = Arch._7
 
-Arch.Scripty_6.Name = "Scripty"
-Arch.Scripty_6.Parent = Arch.ScrollingFrame
-Arch.Scripty_6.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_6.BorderSizePixel = 0
-Arch.Scripty_6.Position = UDim2.new(0.0262582004, 0, 0.0162499994, 0)
-Arch.Scripty_6.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_6.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._9.Name = "9"
+Arch._9.Parent = Arch.ScrollingFrame
+Arch._9.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._9.BorderSizePixel = 0
+Arch._9.Position = UDim2.new(0.0262582004, 0, 0.0162499994, 0)
+Arch._9.Size = UDim2.new(0, 113, 0, 113)
+Arch._9.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_7.Parent = Arch.Scripty_6
+Arch.TextLabel_7.Parent = Arch._9
 Arch.TextLabel_7.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_7.BorderSizePixel = 0
 Arch.TextLabel_7.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1034,19 +1034,19 @@ Arch.TextLabel_7.TextSize = 14.000
 Arch.UICorner_21.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_21.Parent = Arch.TextLabel_7
 
-Arch.UICorner_22.Parent = Arch.Scripty_6
+Arch.UICorner_22.Parent = Arch._9
 
-Arch.UIAspectRatioConstraint_35.Parent = Arch.Scripty_6
+Arch.UIAspectRatioConstraint_35.Parent = Arch._9
 
-Arch.Scripty_7.Name = "Scripty"
-Arch.Scripty_7.Parent = Arch.ScrollingFrame
-Arch.Scripty_7.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_7.BorderSizePixel = 0
-Arch.Scripty_7.Position = UDim2.new(0.295404792, 0, 0.34375, 0)
-Arch.Scripty_7.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_7.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._8.Name = "8"
+Arch._8.Parent = Arch.ScrollingFrame
+Arch._8.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._8.BorderSizePixel = 0
+Arch._8.Position = UDim2.new(0.295404792, 0, 0.34375, 0)
+Arch._8.Size = UDim2.new(0, 113, 0, 113)
+Arch._8.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_8.Parent = Arch.Scripty_7
+Arch.TextLabel_8.Parent = Arch._8
 Arch.TextLabel_8.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_8.BorderSizePixel = 0
 Arch.TextLabel_8.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1059,19 +1059,19 @@ Arch.TextLabel_8.TextSize = 14.000
 Arch.UICorner_23.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_23.Parent = Arch.TextLabel_8
 
-Arch.UICorner_24.Parent = Arch.Scripty_7
+Arch.UICorner_24.Parent = Arch._8
 
-Arch.UIAspectRatioConstraint_36.Parent = Arch.Scripty_7
+Arch.UIAspectRatioConstraint_36.Parent = Arch._8
 
-Arch.Scripty_8.Name = "Scripty"
-Arch.Scripty_8.Parent = Arch.ScrollingFrame
-Arch.Scripty_8.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_8.BorderSizePixel = 0
-Arch.Scripty_8.Position = UDim2.new(0.0262582004, 0, 0.34375, 0)
-Arch.Scripty_8.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_8.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._10.Name = "10"
+Arch._10.Parent = Arch.ScrollingFrame
+Arch._10.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._10.BorderSizePixel = 0
+Arch._10.Position = UDim2.new(0.0262582004, 0, 0.34375, 0)
+Arch._10.Size = UDim2.new(0, 113, 0, 113)
+Arch._10.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_9.Parent = Arch.Scripty_8
+Arch.TextLabel_9.Parent = Arch._10
 Arch.TextLabel_9.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_9.BorderSizePixel = 0
 Arch.TextLabel_9.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1084,19 +1084,19 @@ Arch.TextLabel_9.TextSize = 14.000
 Arch.UICorner_25.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_25.Parent = Arch.TextLabel_9
 
-Arch.UICorner_26.Parent = Arch.Scripty_8
+Arch.UICorner_26.Parent = Arch._10
 
-Arch.UIAspectRatioConstraint_37.Parent = Arch.Scripty_8
+Arch.UIAspectRatioConstraint_37.Parent = Arch._10
 
-Arch.Scripty_9.Name = "Scripty"
-Arch.Scripty_9.Parent = Arch.ScrollingFrame
-Arch.Scripty_9.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_9.BorderSizePixel = 0
-Arch.Scripty_9.Position = UDim2.new(0.568927824, 0, 0.34375, 0)
-Arch.Scripty_9.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_9.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._4.Name = "4"
+Arch._4.Parent = Arch.ScrollingFrame
+Arch._4.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._4.BorderSizePixel = 0
+Arch._4.Position = UDim2.new(0.568927824, 0, 0.34375, 0)
+Arch._4.Size = UDim2.new(0, 113, 0, 113)
+Arch._4.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_10.Parent = Arch.Scripty_9
+Arch.TextLabel_10.Parent = Arch._4
 Arch.TextLabel_10.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_10.BorderSizePixel = 0
 Arch.TextLabel_10.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1109,19 +1109,19 @@ Arch.TextLabel_10.TextSize = 14.000
 Arch.UICorner_27.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_27.Parent = Arch.TextLabel_10
 
-Arch.UICorner_28.Parent = Arch.Scripty_9
+Arch.UICorner_28.Parent = Arch._4
 
-Arch.UIAspectRatioConstraint_38.Parent = Arch.Scripty_9
+Arch.UIAspectRatioConstraint_38.Parent = Arch._4
 
-Arch.Scripty_10.Name = "Scripty"
-Arch.Scripty_10.Parent = Arch.ScrollingFrame
-Arch.Scripty_10.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_10.BorderSizePixel = 0
-Arch.Scripty_10.Position = UDim2.new(0.566739619, 0, 0.512499988, 0)
-Arch.Scripty_10.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_10.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._11.Name = "11"
+Arch._11.Parent = Arch.ScrollingFrame
+Arch._11.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._11.BorderSizePixel = 0
+Arch._11.Position = UDim2.new(0.566739619, 0, 0.512499988, 0)
+Arch._11.Size = UDim2.new(0, 113, 0, 113)
+Arch._11.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_11.Parent = Arch.Scripty_10
+Arch.TextLabel_11.Parent = Arch._11
 Arch.TextLabel_11.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_11.BorderSizePixel = 0
 Arch.TextLabel_11.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1134,19 +1134,19 @@ Arch.TextLabel_11.TextSize = 14.000
 Arch.UICorner_29.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_29.Parent = Arch.TextLabel_11
 
-Arch.UICorner_30.Parent = Arch.Scripty_10
+Arch.UICorner_30.Parent = Arch._11
 
-Arch.UIAspectRatioConstraint_39.Parent = Arch.Scripty_10
+Arch.UIAspectRatioConstraint_39.Parent = Arch._11
 
-Arch.Scripty_11.Name = "Scripty"
-Arch.Scripty_11.Parent = Arch.ScrollingFrame
-Arch.Scripty_11.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_11.BorderSizePixel = 0
-Arch.Scripty_11.Position = UDim2.new(0.293216616, 0, 0.512499988, 0)
-Arch.Scripty_11.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_11.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._12.Name = "12"
+Arch._12.Parent = Arch.ScrollingFrame
+Arch._12.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._12.BorderSizePixel = 0
+Arch._12.Position = UDim2.new(0.293216616, 0, 0.512499988, 0)
+Arch._12.Size = UDim2.new(0, 113, 0, 113)
+Arch._12.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_12.Parent = Arch.Scripty_11
+Arch.TextLabel_12.Parent = Arch._12
 Arch.TextLabel_12.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_12.BorderSizePixel = 0
 Arch.TextLabel_12.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1159,19 +1159,19 @@ Arch.TextLabel_12.TextSize = 14.000
 Arch.UICorner_31.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_31.Parent = Arch.TextLabel_12
 
-Arch.UICorner_32.Parent = Arch.Scripty_11
+Arch.UICorner_32.Parent = Arch._12
 
-Arch.UIAspectRatioConstraint_40.Parent = Arch.Scripty_11
+Arch.UIAspectRatioConstraint_40.Parent = Arch._12
 
-Arch.Scripty_12.Name = "Scripty"
-Arch.Scripty_12.Parent = Arch.ScrollingFrame
-Arch.Scripty_12.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_12.BorderSizePixel = 0
-Arch.Scripty_12.Position = UDim2.new(0.024070017, 0, 0.512499988, 0)
-Arch.Scripty_12.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_12.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._1.Name = "1"
+Arch._1.Parent = Arch.ScrollingFrame
+Arch._1.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._1.BorderSizePixel = 0
+Arch._1.Position = UDim2.new(0.024070017, 0, 0.512499988, 0)
+Arch._1.Size = UDim2.new(0, 113, 0, 113)
+Arch._1.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_13.Parent = Arch.Scripty_12
+Arch.TextLabel_13.Parent = Arch._1
 Arch.TextLabel_13.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_13.BorderSizePixel = 0
 Arch.TextLabel_13.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1184,19 +1184,19 @@ Arch.TextLabel_13.TextSize = 14.000
 Arch.UICorner_33.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_33.Parent = Arch.TextLabel_13
 
-Arch.UICorner_34.Parent = Arch.Scripty_12
+Arch.UICorner_34.Parent = Arch._1
 
-Arch.UIAspectRatioConstraint_41.Parent = Arch.Scripty_12
+Arch.UIAspectRatioConstraint_41.Parent = Arch._1
 
-Arch.Scripty_13.Name = "Scripty"
-Arch.Scripty_13.Parent = Arch.ScrollingFrame
-Arch.Scripty_13.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_13.BorderSizePixel = 0
-Arch.Scripty_13.Position = UDim2.new(0.024070017, 0, 0.678749979, 0)
-Arch.Scripty_13.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_13.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._14.Name = "14"
+Arch._14.Parent = Arch.ScrollingFrame
+Arch._14.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._14.BorderSizePixel = 0
+Arch._14.Position = UDim2.new(0.024070017, 0, 0.678749979, 0)
+Arch._14.Size = UDim2.new(0, 113, 0, 113)
+Arch._14.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_14.Parent = Arch.Scripty_13
+Arch.TextLabel_14.Parent = Arch._14
 Arch.TextLabel_14.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_14.BorderSizePixel = 0
 Arch.TextLabel_14.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1209,19 +1209,19 @@ Arch.TextLabel_14.TextSize = 14.000
 Arch.UICorner_35.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_35.Parent = Arch.TextLabel_14
 
-Arch.UICorner_36.Parent = Arch.Scripty_13
+Arch.UICorner_36.Parent = Arch._14
 
-Arch.UIAspectRatioConstraint_42.Parent = Arch.Scripty_13
+Arch.UIAspectRatioConstraint_42.Parent = Arch._14
 
-Arch.Scripty_14.Name = "Scripty"
-Arch.Scripty_14.Parent = Arch.ScrollingFrame
-Arch.Scripty_14.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_14.BorderSizePixel = 0
-Arch.Scripty_14.Position = UDim2.new(0.293216616, 0, 0.678749979, 0)
-Arch.Scripty_14.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_14.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._13.Name = "13"
+Arch._13.Parent = Arch.ScrollingFrame
+Arch._13.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._13.BorderSizePixel = 0
+Arch._13.Position = UDim2.new(0.293216616, 0, 0.678749979, 0)
+Arch._13.Size = UDim2.new(0, 113, 0, 113)
+Arch._13.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_15.Parent = Arch.Scripty_14
+Arch.TextLabel_15.Parent = Arch._13
 Arch.TextLabel_15.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_15.BorderSizePixel = 0
 Arch.TextLabel_15.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1234,19 +1234,19 @@ Arch.TextLabel_15.TextSize = 14.000
 Arch.UICorner_37.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_37.Parent = Arch.TextLabel_15
 
-Arch.UICorner_38.Parent = Arch.Scripty_14
+Arch.UICorner_38.Parent = Arch._13
 
-Arch.UIAspectRatioConstraint_43.Parent = Arch.Scripty_14
+Arch.UIAspectRatioConstraint_43.Parent = Arch._13
 
-Arch.Scripty_15.Name = "Scripty"
-Arch.Scripty_15.Parent = Arch.ScrollingFrame
-Arch.Scripty_15.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_15.BorderSizePixel = 0
-Arch.Scripty_15.Position = UDim2.new(0.566739619, 0, 0.678749979, 0)
-Arch.Scripty_15.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_15.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._15.Name = "15"
+Arch._15.Parent = Arch.ScrollingFrame
+Arch._15.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._15.BorderSizePixel = 0
+Arch._15.Position = UDim2.new(0.566739619, 0, 0.678749979, 0)
+Arch._15.Size = UDim2.new(0, 113, 0, 113)
+Arch._15.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_16.Parent = Arch.Scripty_15
+Arch.TextLabel_16.Parent = Arch._15
 Arch.TextLabel_16.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_16.BorderSizePixel = 0
 Arch.TextLabel_16.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1259,19 +1259,19 @@ Arch.TextLabel_16.TextSize = 14.000
 Arch.UICorner_39.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_39.Parent = Arch.TextLabel_16
 
-Arch.UICorner_40.Parent = Arch.Scripty_15
+Arch.UICorner_40.Parent = Arch._15
 
-Arch.UIAspectRatioConstraint_44.Parent = Arch.Scripty_15
+Arch.UIAspectRatioConstraint_44.Parent = Arch._15
 
-Arch.Scripty_16.Name = "Scripty"
-Arch.Scripty_16.Parent = Arch.ScrollingFrame
-Arch.Scripty_16.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_16.BorderSizePixel = 0
-Arch.Scripty_16.Position = UDim2.new(0.0218818337, 0, 0.84375, 0)
-Arch.Scripty_16.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_16.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._17.Name = "17"
+Arch._17.Parent = Arch.ScrollingFrame
+Arch._17.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._17.BorderSizePixel = 0
+Arch._17.Position = UDim2.new(0.0218818337, 0, 0.84375, 0)
+Arch._17.Size = UDim2.new(0, 113, 0, 113)
+Arch._17.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_17.Parent = Arch.Scripty_16
+Arch.TextLabel_17.Parent = Arch._17
 Arch.TextLabel_17.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_17.BorderSizePixel = 0
 Arch.TextLabel_17.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1284,9 +1284,9 @@ Arch.TextLabel_17.TextSize = 14.000
 Arch.UICorner_41.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_41.Parent = Arch.TextLabel_17
 
-Arch.UICorner_42.Parent = Arch.Scripty_16
+Arch.UICorner_42.Parent = Arch._17
 
-Arch.TextLabel_18.Parent = Arch.Scripty_16
+Arch.TextLabel_18.Parent = Arch._17
 Arch.TextLabel_18.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_18.BorderSizePixel = 0
 Arch.TextLabel_18.Position = UDim2.new(0, 0, 0.769911528, 0)
@@ -1299,17 +1299,17 @@ Arch.TextLabel_18.TextSize = 9.000
 Arch.UICorner_43.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_43.Parent = Arch.TextLabel_18
 
-Arch.UIAspectRatioConstraint_45.Parent = Arch.Scripty_16
+Arch.UIAspectRatioConstraint_45.Parent = Arch._17
 
-Arch.Scripty_17.Name = "Scripty"
-Arch.Scripty_17.Parent = Arch.ScrollingFrame
-Arch.Scripty_17.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_17.BorderSizePixel = 0
-Arch.Scripty_17.Position = UDim2.new(0.29102844, 0, 0.84375, 0)
-Arch.Scripty_17.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_17.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._16.Name = "16"
+Arch._16.Parent = Arch.ScrollingFrame
+Arch._16.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._16.BorderSizePixel = 0
+Arch._16.Position = UDim2.new(0.29102844, 0, 0.84375, 0)
+Arch._16.Size = UDim2.new(0, 113, 0, 113)
+Arch._16.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_19.Parent = Arch.Scripty_17
+Arch.TextLabel_19.Parent = Arch._16
 Arch.TextLabel_19.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_19.BorderSizePixel = 0
 Arch.TextLabel_19.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1322,19 +1322,19 @@ Arch.TextLabel_19.TextSize = 14.000
 Arch.UICorner_44.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_44.Parent = Arch.TextLabel_19
 
-Arch.UICorner_45.Parent = Arch.Scripty_17
+Arch.UICorner_45.Parent = Arch._16
 
-Arch.UIAspectRatioConstraint_46.Parent = Arch.Scripty_17
+Arch.UIAspectRatioConstraint_46.Parent = Arch._16
 
-Arch.Scripty_18.Name = "Scripty"
-Arch.Scripty_18.Parent = Arch.ScrollingFrame
-Arch.Scripty_18.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_18.BorderSizePixel = 0
-Arch.Scripty_18.Position = UDim2.new(0.564551413, 0, 0.84375, 0)
-Arch.Scripty_18.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_18.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch._18.Name = "18"
+Arch._18.Parent = Arch.ScrollingFrame
+Arch._18.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch._18.BorderSizePixel = 0
+Arch._18.Position = UDim2.new(0.564551413, 0, 0.84375, 0)
+Arch._18.Size = UDim2.new(0, 113, 0, 113)
+Arch._18.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_20.Parent = Arch.Scripty_18
+Arch.TextLabel_20.Parent = Arch._18
 Arch.TextLabel_20.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_20.BorderSizePixel = 0
 Arch.TextLabel_20.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1347,9 +1347,9 @@ Arch.TextLabel_20.TextSize = 14.000
 Arch.UICorner_46.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_46.Parent = Arch.TextLabel_20
 
-Arch.UICorner_47.Parent = Arch.Scripty_18
+Arch.UICorner_47.Parent = Arch._18
 
-Arch.UIAspectRatioConstraint_47.Parent = Arch.Scripty_18
+Arch.UIAspectRatioConstraint_47.Parent = Arch._18
 
 Arch.UIAspectRatioConstraint_48.Parent = Arch.ScrollingFrame
 Arch.UIAspectRatioConstraint_48.AspectRatio = 1.143
@@ -1373,15 +1373,15 @@ Arch.ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
 Arch.ScrollingFrame_2.BorderSizePixel = 0
 Arch.ScrollingFrame_2.Size = UDim2.new(1, 0, 1, 0)
 
-Arch.Scripty_19.Name = "Scripty"
-Arch.Scripty_19.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_19.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_19.BorderSizePixel = 0
-Arch.Scripty_19.Position = UDim2.new(0.295404792, 0, 0.178750038, 0)
-Arch.Scripty_19.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_19.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty.Name = "Scripty"
+Arch.Scripty.Parent = Arch.ScrollingFrame_2
+Arch.Scripty.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty.BorderSizePixel = 0
+Arch.Scripty.Position = UDim2.new(0.295404792, 0, 0.178750038, 0)
+Arch.Scripty.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_21.Parent = Arch.Scripty_19
+Arch.TextLabel_21.Parent = Arch.Scripty
 Arch.TextLabel_21.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_21.BorderSizePixel = 0
 Arch.TextLabel_21.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1394,19 +1394,19 @@ Arch.TextLabel_21.TextSize = 14.000
 Arch.UICorner_49.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_49.Parent = Arch.TextLabel_21
 
-Arch.UICorner_50.Parent = Arch.Scripty_19
+Arch.UICorner_50.Parent = Arch.Scripty
 
-Arch.UIAspectRatioConstraint_50.Parent = Arch.Scripty_19
+Arch.UIAspectRatioConstraint_50.Parent = Arch.Scripty
 
-Arch.Scripty_20.Name = "Scripty"
-Arch.Scripty_20.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_20.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_20.BorderSizePixel = 0
-Arch.Scripty_20.Position = UDim2.new(0.295404792, 0, 0.0162499994, 0)
-Arch.Scripty_20.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_20.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_2.Name = "Scripty"
+Arch.Scripty_2.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_2.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_2.BorderSizePixel = 0
+Arch.Scripty_2.Position = UDim2.new(0.295404792, 0, 0.0162499994, 0)
+Arch.Scripty_2.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_2.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_22.Parent = Arch.Scripty_20
+Arch.TextLabel_22.Parent = Arch.Scripty_2
 Arch.TextLabel_22.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_22.BorderSizePixel = 0
 Arch.TextLabel_22.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1419,19 +1419,19 @@ Arch.TextLabel_22.TextSize = 14.000
 Arch.UICorner_51.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_51.Parent = Arch.TextLabel_22
 
-Arch.UICorner_52.Parent = Arch.Scripty_20
+Arch.UICorner_52.Parent = Arch.Scripty_2
 
-Arch.UIAspectRatioConstraint_51.Parent = Arch.Scripty_20
+Arch.UIAspectRatioConstraint_51.Parent = Arch.Scripty_2
 
-Arch.Scripty_21.Name = "Scripty"
-Arch.Scripty_21.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_21.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_21.BorderSizePixel = 0
-Arch.Scripty_21.Position = UDim2.new(0.568927824, 0, 0.178750038, 0)
-Arch.Scripty_21.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_21.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_3.Name = "Scripty"
+Arch.Scripty_3.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_3.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_3.BorderSizePixel = 0
+Arch.Scripty_3.Position = UDim2.new(0.568927824, 0, 0.178750038, 0)
+Arch.Scripty_3.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_3.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_23.Parent = Arch.Scripty_21
+Arch.TextLabel_23.Parent = Arch.Scripty_3
 Arch.TextLabel_23.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_23.BorderSizePixel = 0
 Arch.TextLabel_23.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1444,19 +1444,19 @@ Arch.TextLabel_23.TextSize = 14.000
 Arch.UICorner_53.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_53.Parent = Arch.TextLabel_23
 
-Arch.UICorner_54.Parent = Arch.Scripty_21
+Arch.UICorner_54.Parent = Arch.Scripty_3
 
-Arch.UIAspectRatioConstraint_52.Parent = Arch.Scripty_21
+Arch.UIAspectRatioConstraint_52.Parent = Arch.Scripty_3
 
-Arch.Scripty_22.Name = "Scripty"
-Arch.Scripty_22.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_22.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_22.BorderSizePixel = 0
-Arch.Scripty_22.Position = UDim2.new(0.568927824, 0, 0.0162499994, 0)
-Arch.Scripty_22.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_22.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_4.Name = "Scripty"
+Arch.Scripty_4.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_4.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_4.BorderSizePixel = 0
+Arch.Scripty_4.Position = UDim2.new(0.568927824, 0, 0.0162499994, 0)
+Arch.Scripty_4.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_4.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_24.Parent = Arch.Scripty_22
+Arch.TextLabel_24.Parent = Arch.Scripty_4
 Arch.TextLabel_24.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_24.BorderSizePixel = 0
 Arch.TextLabel_24.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1469,19 +1469,19 @@ Arch.TextLabel_24.TextSize = 14.000
 Arch.UICorner_55.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_55.Parent = Arch.TextLabel_24
 
-Arch.UICorner_56.Parent = Arch.Scripty_22
+Arch.UICorner_56.Parent = Arch.Scripty_4
 
-Arch.UIAspectRatioConstraint_53.Parent = Arch.Scripty_22
+Arch.UIAspectRatioConstraint_53.Parent = Arch.Scripty_4
 
-Arch.Scripty_23.Name = "Scripty"
-Arch.Scripty_23.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_23.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_23.BorderSizePixel = 0
-Arch.Scripty_23.Position = UDim2.new(0.0262582004, 0, 0.178750038, 0)
-Arch.Scripty_23.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_23.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_5.Name = "Scripty"
+Arch.Scripty_5.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_5.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_5.BorderSizePixel = 0
+Arch.Scripty_5.Position = UDim2.new(0.0262582004, 0, 0.178750038, 0)
+Arch.Scripty_5.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_5.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_25.Parent = Arch.Scripty_23
+Arch.TextLabel_25.Parent = Arch.Scripty_5
 Arch.TextLabel_25.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_25.BorderSizePixel = 0
 Arch.TextLabel_25.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1494,19 +1494,19 @@ Arch.TextLabel_25.TextSize = 14.000
 Arch.UICorner_57.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_57.Parent = Arch.TextLabel_25
 
-Arch.UICorner_58.Parent = Arch.Scripty_23
+Arch.UICorner_58.Parent = Arch.Scripty_5
 
-Arch.UIAspectRatioConstraint_54.Parent = Arch.Scripty_23
+Arch.UIAspectRatioConstraint_54.Parent = Arch.Scripty_5
 
-Arch.Scripty_24.Name = "Scripty"
-Arch.Scripty_24.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_24.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_24.BorderSizePixel = 0
-Arch.Scripty_24.Position = UDim2.new(0.0262582004, 0, 0.0162499994, 0)
-Arch.Scripty_24.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_24.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_6.Name = "Scripty"
+Arch.Scripty_6.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_6.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_6.BorderSizePixel = 0
+Arch.Scripty_6.Position = UDim2.new(0.0262582004, 0, 0.0162499994, 0)
+Arch.Scripty_6.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_6.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_26.Parent = Arch.Scripty_24
+Arch.TextLabel_26.Parent = Arch.Scripty_6
 Arch.TextLabel_26.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_26.BorderSizePixel = 0
 Arch.TextLabel_26.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1519,19 +1519,19 @@ Arch.TextLabel_26.TextSize = 14.000
 Arch.UICorner_59.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_59.Parent = Arch.TextLabel_26
 
-Arch.UICorner_60.Parent = Arch.Scripty_24
+Arch.UICorner_60.Parent = Arch.Scripty_6
 
-Arch.UIAspectRatioConstraint_55.Parent = Arch.Scripty_24
+Arch.UIAspectRatioConstraint_55.Parent = Arch.Scripty_6
 
-Arch.Scripty_25.Name = "Scripty"
-Arch.Scripty_25.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_25.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_25.BorderSizePixel = 0
-Arch.Scripty_25.Position = UDim2.new(0.295404792, 0, 0.34375, 0)
-Arch.Scripty_25.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_25.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_7.Name = "Scripty"
+Arch.Scripty_7.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_7.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_7.BorderSizePixel = 0
+Arch.Scripty_7.Position = UDim2.new(0.295404792, 0, 0.34375, 0)
+Arch.Scripty_7.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_7.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_27.Parent = Arch.Scripty_25
+Arch.TextLabel_27.Parent = Arch.Scripty_7
 Arch.TextLabel_27.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_27.BorderSizePixel = 0
 Arch.TextLabel_27.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1544,19 +1544,19 @@ Arch.TextLabel_27.TextSize = 14.000
 Arch.UICorner_61.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_61.Parent = Arch.TextLabel_27
 
-Arch.UICorner_62.Parent = Arch.Scripty_25
+Arch.UICorner_62.Parent = Arch.Scripty_7
 
-Arch.UIAspectRatioConstraint_56.Parent = Arch.Scripty_25
+Arch.UIAspectRatioConstraint_56.Parent = Arch.Scripty_7
 
-Arch.Scripty_26.Name = "Scripty"
-Arch.Scripty_26.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_26.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_26.BorderSizePixel = 0
-Arch.Scripty_26.Position = UDim2.new(0.0262582004, 0, 0.34375, 0)
-Arch.Scripty_26.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_26.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_8.Name = "Scripty"
+Arch.Scripty_8.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_8.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_8.BorderSizePixel = 0
+Arch.Scripty_8.Position = UDim2.new(0.0262582004, 0, 0.34375, 0)
+Arch.Scripty_8.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_8.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_28.Parent = Arch.Scripty_26
+Arch.TextLabel_28.Parent = Arch.Scripty_8
 Arch.TextLabel_28.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_28.BorderSizePixel = 0
 Arch.TextLabel_28.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1569,19 +1569,19 @@ Arch.TextLabel_28.TextSize = 14.000
 Arch.UICorner_63.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_63.Parent = Arch.TextLabel_28
 
-Arch.UICorner_64.Parent = Arch.Scripty_26
+Arch.UICorner_64.Parent = Arch.Scripty_8
 
-Arch.UIAspectRatioConstraint_57.Parent = Arch.Scripty_26
+Arch.UIAspectRatioConstraint_57.Parent = Arch.Scripty_8
 
-Arch.Scripty_27.Name = "Scripty"
-Arch.Scripty_27.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_27.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_27.BorderSizePixel = 0
-Arch.Scripty_27.Position = UDim2.new(0.568927824, 0, 0.34375, 0)
-Arch.Scripty_27.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_27.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_9.Name = "Scripty"
+Arch.Scripty_9.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_9.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_9.BorderSizePixel = 0
+Arch.Scripty_9.Position = UDim2.new(0.568927824, 0, 0.34375, 0)
+Arch.Scripty_9.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_9.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_29.Parent = Arch.Scripty_27
+Arch.TextLabel_29.Parent = Arch.Scripty_9
 Arch.TextLabel_29.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_29.BorderSizePixel = 0
 Arch.TextLabel_29.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1594,19 +1594,19 @@ Arch.TextLabel_29.TextSize = 14.000
 Arch.UICorner_65.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_65.Parent = Arch.TextLabel_29
 
-Arch.UICorner_66.Parent = Arch.Scripty_27
+Arch.UICorner_66.Parent = Arch.Scripty_9
 
-Arch.UIAspectRatioConstraint_58.Parent = Arch.Scripty_27
+Arch.UIAspectRatioConstraint_58.Parent = Arch.Scripty_9
 
-Arch.Scripty_28.Name = "Scripty"
-Arch.Scripty_28.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_28.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_28.BorderSizePixel = 0
-Arch.Scripty_28.Position = UDim2.new(0.568927824, 0, 0.516250014, 0)
-Arch.Scripty_28.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_28.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_10.Name = "Scripty"
+Arch.Scripty_10.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_10.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_10.BorderSizePixel = 0
+Arch.Scripty_10.Position = UDim2.new(0.568927824, 0, 0.516250014, 0)
+Arch.Scripty_10.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_10.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_30.Parent = Arch.Scripty_28
+Arch.TextLabel_30.Parent = Arch.Scripty_10
 Arch.TextLabel_30.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_30.BorderSizePixel = 0
 Arch.TextLabel_30.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1619,19 +1619,19 @@ Arch.TextLabel_30.TextSize = 14.000
 Arch.UICorner_67.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_67.Parent = Arch.TextLabel_30
 
-Arch.UICorner_68.Parent = Arch.Scripty_28
+Arch.UICorner_68.Parent = Arch.Scripty_10
 
-Arch.UIAspectRatioConstraint_59.Parent = Arch.Scripty_28
+Arch.UIAspectRatioConstraint_59.Parent = Arch.Scripty_10
 
-Arch.Scripty_29.Name = "Scripty"
-Arch.Scripty_29.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_29.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_29.BorderSizePixel = 0
-Arch.Scripty_29.Position = UDim2.new(0.295404792, 0, 0.516250014, 0)
-Arch.Scripty_29.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_29.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_11.Name = "Scripty"
+Arch.Scripty_11.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_11.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_11.BorderSizePixel = 0
+Arch.Scripty_11.Position = UDim2.new(0.295404792, 0, 0.516250014, 0)
+Arch.Scripty_11.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_11.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_31.Parent = Arch.Scripty_29
+Arch.TextLabel_31.Parent = Arch.Scripty_11
 Arch.TextLabel_31.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_31.BorderSizePixel = 0
 Arch.TextLabel_31.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1644,19 +1644,19 @@ Arch.TextLabel_31.TextSize = 14.000
 Arch.UICorner_69.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_69.Parent = Arch.TextLabel_31
 
-Arch.UICorner_70.Parent = Arch.Scripty_29
+Arch.UICorner_70.Parent = Arch.Scripty_11
 
-Arch.UIAspectRatioConstraint_60.Parent = Arch.Scripty_29
+Arch.UIAspectRatioConstraint_60.Parent = Arch.Scripty_11
 
-Arch.Scripty_30.Name = "Scripty"
-Arch.Scripty_30.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_30.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_30.BorderSizePixel = 0
-Arch.Scripty_30.Position = UDim2.new(0.0262582004, 0, 0.516250014, 0)
-Arch.Scripty_30.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_30.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_12.Name = "Scripty"
+Arch.Scripty_12.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_12.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_12.BorderSizePixel = 0
+Arch.Scripty_12.Position = UDim2.new(0.0262582004, 0, 0.516250014, 0)
+Arch.Scripty_12.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_12.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_32.Parent = Arch.Scripty_30
+Arch.TextLabel_32.Parent = Arch.Scripty_12
 Arch.TextLabel_32.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_32.BorderSizePixel = 0
 Arch.TextLabel_32.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1669,19 +1669,19 @@ Arch.TextLabel_32.TextSize = 14.000
 Arch.UICorner_71.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_71.Parent = Arch.TextLabel_32
 
-Arch.UICorner_72.Parent = Arch.Scripty_30
+Arch.UICorner_72.Parent = Arch.Scripty_12
 
-Arch.UIAspectRatioConstraint_61.Parent = Arch.Scripty_30
+Arch.UIAspectRatioConstraint_61.Parent = Arch.Scripty_12
 
-Arch.Scripty_31.Name = "Scripty"
-Arch.Scripty_31.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_31.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_31.BorderSizePixel = 0
-Arch.Scripty_31.Position = UDim2.new(0.024070017, 0, 0.683750033, 0)
-Arch.Scripty_31.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_31.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_13.Name = "Scripty"
+Arch.Scripty_13.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_13.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_13.BorderSizePixel = 0
+Arch.Scripty_13.Position = UDim2.new(0.024070017, 0, 0.683750033, 0)
+Arch.Scripty_13.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_13.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_33.Parent = Arch.Scripty_31
+Arch.TextLabel_33.Parent = Arch.Scripty_13
 Arch.TextLabel_33.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_33.BorderSizePixel = 0
 Arch.TextLabel_33.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1694,19 +1694,19 @@ Arch.TextLabel_33.TextSize = 14.000
 Arch.UICorner_73.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_73.Parent = Arch.TextLabel_33
 
-Arch.UICorner_74.Parent = Arch.Scripty_31
+Arch.UICorner_74.Parent = Arch.Scripty_13
 
-Arch.UIAspectRatioConstraint_62.Parent = Arch.Scripty_31
+Arch.UIAspectRatioConstraint_62.Parent = Arch.Scripty_13
 
-Arch.Scripty_32.Name = "Scripty"
-Arch.Scripty_32.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_32.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_32.BorderSizePixel = 0
-Arch.Scripty_32.Position = UDim2.new(0.295404822, 0, 0.683750033, 0)
-Arch.Scripty_32.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_32.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_14.Name = "Scripty"
+Arch.Scripty_14.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_14.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_14.BorderSizePixel = 0
+Arch.Scripty_14.Position = UDim2.new(0.295404822, 0, 0.683750033, 0)
+Arch.Scripty_14.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_14.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_34.Parent = Arch.Scripty_32
+Arch.TextLabel_34.Parent = Arch.Scripty_14
 Arch.TextLabel_34.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_34.BorderSizePixel = 0
 Arch.TextLabel_34.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1719,19 +1719,19 @@ Arch.TextLabel_34.TextSize = 14.000
 Arch.UICorner_75.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_75.Parent = Arch.TextLabel_34
 
-Arch.UICorner_76.Parent = Arch.Scripty_32
+Arch.UICorner_76.Parent = Arch.Scripty_14
 
-Arch.UIAspectRatioConstraint_63.Parent = Arch.Scripty_32
+Arch.UIAspectRatioConstraint_63.Parent = Arch.Scripty_14
 
-Arch.Scripty_33.Name = "Scripty"
-Arch.Scripty_33.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_33.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_33.BorderSizePixel = 0
-Arch.Scripty_33.Position = UDim2.new(0.568927824, 0, 0.683750033, 0)
-Arch.Scripty_33.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_33.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_15.Name = "Scripty"
+Arch.Scripty_15.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_15.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_15.BorderSizePixel = 0
+Arch.Scripty_15.Position = UDim2.new(0.568927824, 0, 0.683750033, 0)
+Arch.Scripty_15.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_15.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_35.Parent = Arch.Scripty_33
+Arch.TextLabel_35.Parent = Arch.Scripty_15
 Arch.TextLabel_35.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_35.BorderSizePixel = 0
 Arch.TextLabel_35.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1744,19 +1744,19 @@ Arch.TextLabel_35.TextSize = 14.000
 Arch.UICorner_77.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_77.Parent = Arch.TextLabel_35
 
-Arch.UICorner_78.Parent = Arch.Scripty_33
+Arch.UICorner_78.Parent = Arch.Scripty_15
 
-Arch.UIAspectRatioConstraint_64.Parent = Arch.Scripty_33
+Arch.UIAspectRatioConstraint_64.Parent = Arch.Scripty_15
 
-Arch.Scripty_34.Name = "Scripty"
-Arch.Scripty_34.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_34.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_34.BorderSizePixel = 0
-Arch.Scripty_34.Position = UDim2.new(0.566739619, 0, 0.838750064, 0)
-Arch.Scripty_34.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_34.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_16.Name = "Scripty"
+Arch.Scripty_16.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_16.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_16.BorderSizePixel = 0
+Arch.Scripty_16.Position = UDim2.new(0.566739619, 0, 0.838750064, 0)
+Arch.Scripty_16.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_16.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_36.Parent = Arch.Scripty_34
+Arch.TextLabel_36.Parent = Arch.Scripty_16
 Arch.TextLabel_36.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_36.BorderSizePixel = 0
 Arch.TextLabel_36.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1769,19 +1769,19 @@ Arch.TextLabel_36.TextSize = 14.000
 Arch.UICorner_79.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_79.Parent = Arch.TextLabel_36
 
-Arch.UICorner_80.Parent = Arch.Scripty_34
+Arch.UICorner_80.Parent = Arch.Scripty_16
 
-Arch.UIAspectRatioConstraint_65.Parent = Arch.Scripty_34
+Arch.UIAspectRatioConstraint_65.Parent = Arch.Scripty_16
 
-Arch.Scripty_35.Name = "Scripty"
-Arch.Scripty_35.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_35.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_35.BorderSizePixel = 0
-Arch.Scripty_35.Position = UDim2.new(0.293216646, 0, 0.838750064, 0)
-Arch.Scripty_35.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_35.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_17.Name = "Scripty"
+Arch.Scripty_17.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_17.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_17.BorderSizePixel = 0
+Arch.Scripty_17.Position = UDim2.new(0.293216646, 0, 0.838750064, 0)
+Arch.Scripty_17.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_17.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_37.Parent = Arch.Scripty_35
+Arch.TextLabel_37.Parent = Arch.Scripty_17
 Arch.TextLabel_37.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_37.BorderSizePixel = 0
 Arch.TextLabel_37.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1794,19 +1794,19 @@ Arch.TextLabel_37.TextSize = 14.000
 Arch.UICorner_81.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_81.Parent = Arch.TextLabel_37
 
-Arch.UICorner_82.Parent = Arch.Scripty_35
+Arch.UICorner_82.Parent = Arch.Scripty_17
 
-Arch.UIAspectRatioConstraint_66.Parent = Arch.Scripty_35
+Arch.UIAspectRatioConstraint_66.Parent = Arch.Scripty_17
 
-Arch.Scripty_36.Name = "Scripty"
-Arch.Scripty_36.Parent = Arch.ScrollingFrame_2
-Arch.Scripty_36.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-Arch.Scripty_36.BorderSizePixel = 0
-Arch.Scripty_36.Position = UDim2.new(0.0218818337, 0, 0.838750064, 0)
-Arch.Scripty_36.Size = UDim2.new(0, 113, 0, 113)
-Arch.Scripty_36.Image = "http://www.roblox.com/asset/?id=3264014749"
+Arch.Scripty_18.Name = "Scripty"
+Arch.Scripty_18.Parent = Arch.ScrollingFrame_2
+Arch.Scripty_18.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+Arch.Scripty_18.BorderSizePixel = 0
+Arch.Scripty_18.Position = UDim2.new(0.0218818337, 0, 0.838750064, 0)
+Arch.Scripty_18.Size = UDim2.new(0, 113, 0, 113)
+Arch.Scripty_18.Image = "http://www.roblox.com/asset/?id=3264014749"
 
-Arch.TextLabel_38.Parent = Arch.Scripty_36
+Arch.TextLabel_38.Parent = Arch.Scripty_18
 Arch.TextLabel_38.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
 Arch.TextLabel_38.BorderSizePixel = 0
 Arch.TextLabel_38.Position = UDim2.new(0, 0, 0.911504447, 0)
@@ -1819,9 +1819,9 @@ Arch.TextLabel_38.TextSize = 14.000
 Arch.UICorner_83.CornerRadius = UDim.new(0, 4)
 Arch.UICorner_83.Parent = Arch.TextLabel_38
 
-Arch.UICorner_84.Parent = Arch.Scripty_36
+Arch.UICorner_84.Parent = Arch.Scripty_18
 
-Arch.UIAspectRatioConstraint_67.Parent = Arch.Scripty_36
+Arch.UIAspectRatioConstraint_67.Parent = Arch.Scripty_18
 
 Arch.UICorner_85.Parent = Arch.ScrollingFrame_2
 
@@ -1945,7 +1945,7 @@ Arch.UIAspectRatioConstraint_77.Parent = Arch.Pop
 
 -- Scripts:
 
-local function QEPRS_fake_script() -- Arch.Side.LocalScript 
+local function MGTWWYH_fake_script() -- Arch.Side.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Side)
 
 	side = script.Parent
@@ -1988,8 +1988,8 @@ local function QEPRS_fake_script() -- Arch.Side.LocalScript
 	end)
 	]]
 end
-coroutine.wrap(QEPRS_fake_script)()
-local function DVUWR_fake_script() -- Arch.ImageLabel.LocalScript 
+coroutine.wrap(MGTWWYH_fake_script)()
+local function UNNZL_fake_script() -- Arch.ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', Arch.ImageLabel)
 
 	local frame = script.Parent
@@ -2016,8 +2016,8 @@ local function DVUWR_fake_script() -- Arch.ImageLabel.LocalScript
 	
 	script.Parent.Parent.USERNAME.Text = player.DisplayName
 end
-coroutine.wrap(DVUWR_fake_script)()
-local function OXNVSCQ_fake_script() -- Arch.USERID.LocalScript 
+coroutine.wrap(UNNZL_fake_script)()
+local function XLISAS_fake_script() -- Arch.USERID.LocalScript 
 	local script = Instance.new('LocalScript', Arch.USERID)
 
 	local player = game.Players.LocalPlayer
@@ -2028,8 +2028,8 @@ local function OXNVSCQ_fake_script() -- Arch.USERID.LocalScript
 	
 	script.Parent.Text = userId
 end
-coroutine.wrap(OXNVSCQ_fake_script)()
-local function LGWOKV_fake_script() -- Arch.DISPLAY.LocalScript 
+coroutine.wrap(XLISAS_fake_script)()
+local function FSEXQBF_fake_script() -- Arch.DISPLAY.LocalScript 
 	local script = Instance.new('LocalScript', Arch.DISPLAY)
 
 	local player = game.Players.LocalPlayer
@@ -2040,8 +2040,8 @@ local function LGWOKV_fake_script() -- Arch.DISPLAY.LocalScript
 	
 	script.Parent.Text = dis
 end
-coroutine.wrap(LGWOKV_fake_script)()
-local function HXSRKDF_fake_script() -- Arch.USER.LocalScript 
+coroutine.wrap(FSEXQBF_fake_script)()
+local function PYHSL_fake_script() -- Arch.USER.LocalScript 
 	local script = Instance.new('LocalScript', Arch.USER)
 
 	local player = game.Players.LocalPlayer
@@ -2052,332 +2052,332 @@ local function HXSRKDF_fake_script() -- Arch.USER.LocalScript
 	
 	script.Parent.Text = dis
 end
-coroutine.wrap(HXSRKDF_fake_script)()
-local function XDMB_fake_script() -- Arch.Scripty.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty)
+coroutine.wrap(PYHSL_fake_script)()
+local function XYGKVQE_fake_script() -- Arch._3.LocalScript 
+	local script = Instance.new('LocalScript', Arch._3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
 	end)
 	
 end
-coroutine.wrap(XDMB_fake_script)()
-local function ABYO_fake_script() -- Arch.Scripty_2.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_2)
+coroutine.wrap(XYGKVQE_fake_script)()
+local function EEKL_fake_script() -- Arch._6.LocalScript 
+	local script = Instance.new('LocalScript', Arch._6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex Explorer V2.txt"))
 	end)
 	
 end
-coroutine.wrap(ABYO_fake_script)()
-local function OOXUL_fake_script() -- Arch.Scripty_3.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_3)
+coroutine.wrap(EEKL_fake_script)()
+local function JUGRQ_fake_script() -- Arch._5.LocalScript 
+	local script = Instance.new('LocalScript', Arch._5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/VBH32/Verts-Hub/main/Source"), true))()
 	end)
 	
 end
-coroutine.wrap(OOXUL_fake_script)()
-local function DEBJD_fake_script() -- Arch.Scripty_4.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_4)
+coroutine.wrap(JUGRQ_fake_script)()
+local function ZNUZDC_fake_script() -- Arch._2.LocalScript 
+	local script = Instance.new('LocalScript', Arch._2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
 	end)
 	
 end
-coroutine.wrap(DEBJD_fake_script)()
-local function MEQLAL_fake_script() -- Arch.Scripty_5.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_5)
+coroutine.wrap(ZNUZDC_fake_script)()
+local function BMRWH_fake_script() -- Arch._7.LocalScript 
+	local script = Instance.new('LocalScript', Arch._7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/zsC61DcA'),true))()
 	end)
 	
 end
-coroutine.wrap(MEQLAL_fake_script)()
-local function NCFPH_fake_script() -- Arch.Scripty_6.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_6)
+coroutine.wrap(BMRWH_fake_script)()
+local function ZEREJEU_fake_script() -- Arch._9.LocalScript 
+	local script = Instance.new('LocalScript', Arch._9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 	
 end
-coroutine.wrap(NCFPH_fake_script)()
-local function TIPXWBB_fake_script() -- Arch.Scripty_7.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_7)
+coroutine.wrap(ZEREJEU_fake_script)()
+local function YMBXJ_fake_script() -- Arch._8.LocalScript 
+	local script = Instance.new('LocalScript', Arch._8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/LionelStreaming/GumaHub/main/LX-FE-Hub"))()
 	end)
 	
 end
-coroutine.wrap(TIPXWBB_fake_script)()
-local function CHUBPM_fake_script() -- Arch.Scripty_8.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_8)
+coroutine.wrap(YMBXJ_fake_script)()
+local function DGYY_fake_script() -- Arch._10.LocalScript 
+	local script = Instance.new('LocalScript', Arch._10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 	end)
 	
 end
-coroutine.wrap(CHUBPM_fake_script)()
-local function MIEENFV_fake_script() -- Arch.Scripty_9.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_9)
+coroutine.wrap(DGYY_fake_script)()
+local function SSLVOQF_fake_script() -- Arch._4.LocalScript 
+	local script = Instance.new('LocalScript', Arch._4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/RcCEjx08'))()
 	end)
 	
 end
-coroutine.wrap(MIEENFV_fake_script)()
-local function EAWNWV_fake_script() -- Arch.Scripty_10.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_10)
+coroutine.wrap(SSLVOQF_fake_script)()
+local function SCHUV_fake_script() -- Arch._11.LocalScript 
+	local script = Instance.new('LocalScript', Arch._11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconLords/shit-with-sugar/main/Bacon%20Hub%20Main%20Loader'))()
 	end)
 	
 end
-coroutine.wrap(EAWNWV_fake_script)()
-local function CTZAQYR_fake_script() -- Arch.Scripty_11.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_11)
+coroutine.wrap(SCHUV_fake_script)()
+local function GWIWTK_fake_script() -- Arch._12.LocalScript 
+	local script = Instance.new('LocalScript', Arch._12)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FoClips/Luciousware-Cracked/main/Luciousware%20Premium.lua"))()
 	end)
 	
 end
-coroutine.wrap(CTZAQYR_fake_script)()
-local function HIHGQE_fake_script() -- Arch.Scripty_12.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_12)
+coroutine.wrap(GWIWTK_fake_script)()
+local function AEGTVY_fake_script() -- Arch._1.LocalScript 
+	local script = Instance.new('LocalScript', Arch._1)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 	
 end
-coroutine.wrap(HIHGQE_fake_script)()
-local function SJEEK_fake_script() -- Arch.Scripty_13.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_13)
+coroutine.wrap(AEGTVY_fake_script)()
+local function DYMRMTR_fake_script() -- Arch._14.LocalScript 
+	local script = Instance.new('LocalScript', Arch._14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
 	end)
 	
 end
-coroutine.wrap(SJEEK_fake_script)()
-local function ONEKW_fake_script() -- Arch.Scripty_14.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_14)
+coroutine.wrap(DYMRMTR_fake_script)()
+local function SWRF_fake_script() -- Arch._13.LocalScript 
+	local script = Instance.new('LocalScript', Arch._13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(string.reverse('aul.niam/niam/zeraWg/1mapslarenegd2/moc.tnetnocresubuhtig.war//:sptth')))()
 	end)
 	
 end
-coroutine.wrap(ONEKW_fake_script)()
-local function LTBKU_fake_script() -- Arch.Scripty_15.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_15)
+coroutine.wrap(SWRF_fake_script)()
+local function TNFEV_fake_script() -- Arch._15.LocalScript 
+	local script = Instance.new('LocalScript', Arch._15)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
 	end)
 	
 end
-coroutine.wrap(LTBKU_fake_script)()
-local function AJSR_fake_script() -- Arch.Scripty_16.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_16)
+coroutine.wrap(TNFEV_fake_script)()
+local function NKUXNAD_fake_script() -- Arch._17.LocalScript 
+	local script = Instance.new('LocalScript', Arch._17)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://paste.ee/r/Qf17k",true))()
 	end)
 	
 end
-coroutine.wrap(AJSR_fake_script)()
-local function LKNM_fake_script() -- Arch.Scripty_17.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_17)
+coroutine.wrap(NKUXNAD_fake_script)()
+local function HFQGTX_fake_script() -- Arch._16.LocalScript 
+	local script = Instance.new('LocalScript', Arch._16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/9QEb9D0x", true))()
 	end)
 	
 end
-coroutine.wrap(LKNM_fake_script)()
-local function LCTIJ_fake_script() -- Arch.Scripty_18.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_18)
+coroutine.wrap(HFQGTX_fake_script)()
+local function ROAJEKI_fake_script() -- Arch._18.LocalScript 
+	local script = Instance.new('LocalScript', Arch._18)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AaronS69420/unca/main/ff"))()
 	end)
 	
 end
-coroutine.wrap(LCTIJ_fake_script)()
-local function VXSYWD_fake_script() -- Arch.Scripty_19.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_19)
+coroutine.wrap(ROAJEKI_fake_script)()
+local function FOZSY_fake_script() -- Arch.Scripty.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 	end)
 	
 end
-coroutine.wrap(VXSYWD_fake_script)()
-local function JMLNJQF_fake_script() -- Arch.Scripty_20.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_20)
+coroutine.wrap(FOZSY_fake_script)()
+local function TSQXAZ_fake_script() -- Arch.Scripty_2.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
 	end)
 	
 end
-coroutine.wrap(JMLNJQF_fake_script)()
-local function QRUKV_fake_script() -- Arch.Scripty_21.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_21)
+coroutine.wrap(TSQXAZ_fake_script)()
+local function ELOQXH_fake_script() -- Arch.Scripty_3.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
 	end)
 	
 end
-coroutine.wrap(QRUKV_fake_script)()
-local function PWVDNFS_fake_script() -- Arch.Scripty_22.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_22)
+coroutine.wrap(ELOQXH_fake_script)()
+local function XFSE_fake_script() -- Arch.Scripty_4.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 	end)
 	
 end
-coroutine.wrap(PWVDNFS_fake_script)()
-local function KGNV_fake_script() -- Arch.Scripty_23.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_23)
+coroutine.wrap(XFSE_fake_script)()
+local function IZSKV_fake_script() -- Arch.Scripty_5.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
 	end)
 	
 end
-coroutine.wrap(KGNV_fake_script)()
-local function NESEEBR_fake_script() -- Arch.Scripty_24.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_24)
+coroutine.wrap(IZSKV_fake_script)()
+local function SXVJ_fake_script() -- Arch.Scripty_6.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
 	end)
 	
 end
-coroutine.wrap(NESEEBR_fake_script)()
-local function KOUFF_fake_script() -- Arch.Scripty_25.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_25)
+coroutine.wrap(SXVJ_fake_script)()
+local function BGNXRC_fake_script() -- Arch.Scripty_7.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))()
 	end)
 	
 end
-coroutine.wrap(KOUFF_fake_script)()
-local function NXVG_fake_script() -- Arch.Scripty_26.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_26)
+coroutine.wrap(BGNXRC_fake_script)()
+local function ABRH_fake_script() -- Arch.Scripty_8.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/93d59eb6d826262396d8436868e73033/raw/eaa85b6545ff8a06fe89d7093cb3666461b628e8/gaga", true))()
 	end)
 	
 end
-coroutine.wrap(NXVG_fake_script)()
-local function FTOH_fake_script() -- Arch.Scripty_27.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_27)
+coroutine.wrap(ABRH_fake_script)()
+local function QPKBYFI_fake_script() -- Arch.Scripty_9.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
 	end)
 	
 end
-coroutine.wrap(FTOH_fake_script)()
-local function ALUN_fake_script() -- Arch.Scripty_28.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_28)
+coroutine.wrap(QPKBYFI_fake_script)()
+local function JDYXYNF_fake_script() -- Arch.Scripty_10.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
 	end)
 	
 end
-coroutine.wrap(ALUN_fake_script)()
-local function AWYM_fake_script() -- Arch.Scripty_29.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_29)
+coroutine.wrap(JDYXYNF_fake_script)()
+local function ODGZPVH_fake_script() -- Arch.Scripty_11.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://banbus.cf/scripts/autofarmconfig"))()
 	end)
 	
 end
-coroutine.wrap(AWYM_fake_script)()
-local function TOHTFXN_fake_script() -- Arch.Scripty_30.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_30)
+coroutine.wrap(ODGZPVH_fake_script)()
+local function YPSFWOP_fake_script() -- Arch.Scripty_12.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()
 	end)
 	
 end
-coroutine.wrap(TOHTFXN_fake_script)()
-local function OHKBJPV_fake_script() -- Arch.Scripty_31.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_31)
+coroutine.wrap(YPSFWOP_fake_script)()
+local function FYYNW_fake_script() -- Arch.Scripty_13.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BRM5/SilentAim.lua"))()
 	end)
 	
 end
-coroutine.wrap(OHKBJPV_fake_script)()
-local function TJJKZRA_fake_script() -- Arch.Scripty_32.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_32)
+coroutine.wrap(FYYNW_fake_script)()
+local function LGXNOQM_fake_script() -- Arch.Scripty_14.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()
 	end)
 	
 end
-coroutine.wrap(TJJKZRA_fake_script)()
-local function MXURO_fake_script() -- Arch.Scripty_33.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_33)
+coroutine.wrap(LGXNOQM_fake_script)()
+local function EROOL_fake_script() -- Arch.Scripty_15.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
 	end)
 	
 end
-coroutine.wrap(MXURO_fake_script)()
-local function VTNYHL_fake_script() -- Arch.Scripty_34.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_34)
+coroutine.wrap(EROOL_fake_script)()
+local function TZXH_fake_script() -- Arch.Scripty_16.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/Blast.Off")()
 	end)
 	
 end
-coroutine.wrap(VTNYHL_fake_script)()
-local function TILA_fake_script() -- Arch.Scripty_35.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_35)
+coroutine.wrap(TZXH_fake_script)()
+local function QTTNCX_fake_script() -- Arch.Scripty_17.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Drifter0507/scripts/main/westbound"),true))()
 	end)
 	
 end
-coroutine.wrap(TILA_fake_script)()
-local function VKTKXOE_fake_script() -- Arch.Scripty_36.LocalScript 
-	local script = Instance.new('LocalScript', Arch.Scripty_36)
+coroutine.wrap(QTTNCX_fake_script)()
+local function KWSLQQ_fake_script() -- Arch.Scripty_18.LocalScript 
+	local script = Instance.new('LocalScript', Arch.Scripty_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/not-weuz/Lua/main/kocmoc.lua"))()
 	end)
 	
 end
-coroutine.wrap(VKTKXOE_fake_script)()
-local function TNYLQU_fake_script() -- Arch.Main.Dragger 
+coroutine.wrap(KWSLQQ_fake_script)()
+local function BBFTYRE_fake_script() -- Arch.Main.Dragger 
 	local script = Instance.new('LocalScript', Arch.Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2423,9 +2423,9 @@ local function TNYLQU_fake_script() -- Arch.Main.Dragger
 		end
 	end)
 end
-coroutine.wrap(TNYLQU_fake_script)()
+coroutine.wrap(BBFTYRE_fake_script)()
 -- Arch.Main.sizee is disabled.
-local function CQWLN_fake_script() -- Arch.Arch.LocalScript 
+local function DPNI_fake_script() -- Arch.Arch.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Arch)
 
 	main = script.Parent.Main
@@ -2476,8 +2476,8 @@ local function CQWLN_fake_script() -- Arch.Arch.LocalScript
 	
 	
 end
-coroutine.wrap(CQWLN_fake_script)()
-local function FLCM_fake_script() -- Arch.ImageLabel_2.LocalScript 
+coroutine.wrap(DPNI_fake_script)()
+local function YDJOEAK_fake_script() -- Arch.ImageLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', Arch.ImageLabel_2)
 
 	
@@ -2518,9 +2518,9 @@ local function FLCM_fake_script() -- Arch.ImageLabel_2.LocalScript
 	
 	
 end
-coroutine.wrap(FLCM_fake_script)()
+coroutine.wrap(YDJOEAK_fake_script)()
 -- Arch.ImageLabel_2.fade is disabled.
-local function FXICKOX_fake_script() -- Arch.ImageLabel_2.scr 
+local function AQUM_fake_script() -- Arch.ImageLabel_2.scr 
 	local script = Instance.new('LocalScript', Arch.ImageLabel_2)
 
 	wait(4)
@@ -2533,8 +2533,8 @@ local function FXICKOX_fake_script() -- Arch.ImageLabel_2.scr
 	key:TweenSize(UDim2.new(0, 281, 0, 152))
 	
 end
-coroutine.wrap(FXICKOX_fake_script)()
-local function AREYPE_fake_script() -- Arch.Check.LocalScript 
+coroutine.wrap(AQUM_fake_script)()
+local function OOTKTU_fake_script() -- Arch.Check.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Check)
 
 	local password = script.Parent.Parent.Enter    --change these if you didnt do what i did
@@ -2561,4 +2561,4 @@ local function AREYPE_fake_script() -- Arch.Check.LocalScript
 	 end
 	end)
 end
-coroutine.wrap(AREYPE_fake_script)()
+coroutine.wrap(OOTKTU_fake_script)()
