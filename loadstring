@@ -1945,7 +1945,7 @@ Arch.UIAspectRatioConstraint_77.Parent = Arch.Pop
 
 -- Scripts:
 
-local function KBQN_fake_script() -- Arch.Side.LocalScript 
+local function QEPRS_fake_script() -- Arch.Side.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Side)
 
 	side = script.Parent
@@ -1988,8 +1988,8 @@ local function KBQN_fake_script() -- Arch.Side.LocalScript
 	end)
 	]]
 end
-coroutine.wrap(KBQN_fake_script)()
-local function LIRBE_fake_script() -- Arch.ImageLabel.LocalScript 
+coroutine.wrap(QEPRS_fake_script)()
+local function DVUWR_fake_script() -- Arch.ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', Arch.ImageLabel)
 
 	local frame = script.Parent
@@ -2016,8 +2016,8 @@ local function LIRBE_fake_script() -- Arch.ImageLabel.LocalScript
 	
 	script.Parent.Parent.USERNAME.Text = player.DisplayName
 end
-coroutine.wrap(LIRBE_fake_script)()
-local function IJFQXPC_fake_script() -- Arch.USERID.LocalScript 
+coroutine.wrap(DVUWR_fake_script)()
+local function OXNVSCQ_fake_script() -- Arch.USERID.LocalScript 
 	local script = Instance.new('LocalScript', Arch.USERID)
 
 	local player = game.Players.LocalPlayer
@@ -2028,8 +2028,8 @@ local function IJFQXPC_fake_script() -- Arch.USERID.LocalScript
 	
 	script.Parent.Text = userId
 end
-coroutine.wrap(IJFQXPC_fake_script)()
-local function AAXW_fake_script() -- Arch.DISPLAY.LocalScript 
+coroutine.wrap(OXNVSCQ_fake_script)()
+local function LGWOKV_fake_script() -- Arch.DISPLAY.LocalScript 
 	local script = Instance.new('LocalScript', Arch.DISPLAY)
 
 	local player = game.Players.LocalPlayer
@@ -2040,8 +2040,8 @@ local function AAXW_fake_script() -- Arch.DISPLAY.LocalScript
 	
 	script.Parent.Text = dis
 end
-coroutine.wrap(AAXW_fake_script)()
-local function WKFGHM_fake_script() -- Arch.USER.LocalScript 
+coroutine.wrap(LGWOKV_fake_script)()
+local function HXSRKDF_fake_script() -- Arch.USER.LocalScript 
 	local script = Instance.new('LocalScript', Arch.USER)
 
 	local player = game.Players.LocalPlayer
@@ -2052,8 +2052,8 @@ local function WKFGHM_fake_script() -- Arch.USER.LocalScript
 	
 	script.Parent.Text = dis
 end
-coroutine.wrap(WKFGHM_fake_script)()
-local function LZZVVYV_fake_script() -- Arch.Scripty.LocalScript 
+coroutine.wrap(HXSRKDF_fake_script)()
+local function XDMB_fake_script() -- Arch.Scripty.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2061,8 +2061,8 @@ local function LZZVVYV_fake_script() -- Arch.Scripty.LocalScript
 	end)
 	
 end
-coroutine.wrap(LZZVVYV_fake_script)()
-local function QLMPCR_fake_script() -- Arch.Scripty_2.LocalScript 
+coroutine.wrap(XDMB_fake_script)()
+local function ABYO_fake_script() -- Arch.Scripty_2.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2070,8 +2070,8 @@ local function QLMPCR_fake_script() -- Arch.Scripty_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(QLMPCR_fake_script)()
-local function ASGTO_fake_script() -- Arch.Scripty_3.LocalScript 
+coroutine.wrap(ABYO_fake_script)()
+local function OOXUL_fake_script() -- Arch.Scripty_3.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2079,8 +2079,8 @@ local function ASGTO_fake_script() -- Arch.Scripty_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(ASGTO_fake_script)()
-local function YWJAS_fake_script() -- Arch.Scripty_4.LocalScript 
+coroutine.wrap(OOXUL_fake_script)()
+local function DEBJD_fake_script() -- Arch.Scripty_4.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2088,8 +2088,8 @@ local function YWJAS_fake_script() -- Arch.Scripty_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(YWJAS_fake_script)()
-local function QGWUD_fake_script() -- Arch.Scripty_5.LocalScript 
+coroutine.wrap(DEBJD_fake_script)()
+local function MEQLAL_fake_script() -- Arch.Scripty_5.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2097,8 +2097,8 @@ local function QGWUD_fake_script() -- Arch.Scripty_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(QGWUD_fake_script)()
-local function JLULOM_fake_script() -- Arch.Scripty_6.LocalScript 
+coroutine.wrap(MEQLAL_fake_script)()
+local function NCFPH_fake_script() -- Arch.Scripty_6.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2106,8 +2106,8 @@ local function JLULOM_fake_script() -- Arch.Scripty_6.LocalScript
 	end)
 	
 end
-coroutine.wrap(JLULOM_fake_script)()
-local function RIWZ_fake_script() -- Arch.Scripty_7.LocalScript 
+coroutine.wrap(NCFPH_fake_script)()
+local function TIPXWBB_fake_script() -- Arch.Scripty_7.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2115,8 +2115,8 @@ local function RIWZ_fake_script() -- Arch.Scripty_7.LocalScript
 	end)
 	
 end
-coroutine.wrap(RIWZ_fake_script)()
-local function TOVT_fake_script() -- Arch.Scripty_8.LocalScript 
+coroutine.wrap(TIPXWBB_fake_script)()
+local function CHUBPM_fake_script() -- Arch.Scripty_8.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2124,8 +2124,8 @@ local function TOVT_fake_script() -- Arch.Scripty_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(TOVT_fake_script)()
-local function HWQU_fake_script() -- Arch.Scripty_9.LocalScript 
+coroutine.wrap(CHUBPM_fake_script)()
+local function MIEENFV_fake_script() -- Arch.Scripty_9.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2133,8 +2133,8 @@ local function HWQU_fake_script() -- Arch.Scripty_9.LocalScript
 	end)
 	
 end
-coroutine.wrap(HWQU_fake_script)()
-local function EJVMTFF_fake_script() -- Arch.Scripty_10.LocalScript 
+coroutine.wrap(MIEENFV_fake_script)()
+local function EAWNWV_fake_script() -- Arch.Scripty_10.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2142,8 +2142,8 @@ local function EJVMTFF_fake_script() -- Arch.Scripty_10.LocalScript
 	end)
 	
 end
-coroutine.wrap(EJVMTFF_fake_script)()
-local function JTOIL_fake_script() -- Arch.Scripty_11.LocalScript 
+coroutine.wrap(EAWNWV_fake_script)()
+local function CTZAQYR_fake_script() -- Arch.Scripty_11.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2151,8 +2151,8 @@ local function JTOIL_fake_script() -- Arch.Scripty_11.LocalScript
 	end)
 	
 end
-coroutine.wrap(JTOIL_fake_script)()
-local function PWUYOJ_fake_script() -- Arch.Scripty_12.LocalScript 
+coroutine.wrap(CTZAQYR_fake_script)()
+local function HIHGQE_fake_script() -- Arch.Scripty_12.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2160,8 +2160,8 @@ local function PWUYOJ_fake_script() -- Arch.Scripty_12.LocalScript
 	end)
 	
 end
-coroutine.wrap(PWUYOJ_fake_script)()
-local function BUZMTWT_fake_script() -- Arch.Scripty_13.LocalScript 
+coroutine.wrap(HIHGQE_fake_script)()
+local function SJEEK_fake_script() -- Arch.Scripty_13.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2169,8 +2169,8 @@ local function BUZMTWT_fake_script() -- Arch.Scripty_13.LocalScript
 	end)
 	
 end
-coroutine.wrap(BUZMTWT_fake_script)()
-local function TRNSWM_fake_script() -- Arch.Scripty_14.LocalScript 
+coroutine.wrap(SJEEK_fake_script)()
+local function ONEKW_fake_script() -- Arch.Scripty_14.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2178,8 +2178,8 @@ local function TRNSWM_fake_script() -- Arch.Scripty_14.LocalScript
 	end)
 	
 end
-coroutine.wrap(TRNSWM_fake_script)()
-local function YOGO_fake_script() -- Arch.Scripty_15.LocalScript 
+coroutine.wrap(ONEKW_fake_script)()
+local function LTBKU_fake_script() -- Arch.Scripty_15.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2187,8 +2187,8 @@ local function YOGO_fake_script() -- Arch.Scripty_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(YOGO_fake_script)()
-local function PMYLJGZ_fake_script() -- Arch.Scripty_16.LocalScript 
+coroutine.wrap(LTBKU_fake_script)()
+local function AJSR_fake_script() -- Arch.Scripty_16.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2196,8 +2196,8 @@ local function PMYLJGZ_fake_script() -- Arch.Scripty_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(PMYLJGZ_fake_script)()
-local function IBPKMY_fake_script() -- Arch.Scripty_17.LocalScript 
+coroutine.wrap(AJSR_fake_script)()
+local function LKNM_fake_script() -- Arch.Scripty_17.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2205,8 +2205,8 @@ local function IBPKMY_fake_script() -- Arch.Scripty_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(IBPKMY_fake_script)()
-local function LVESK_fake_script() -- Arch.Scripty_18.LocalScript 
+coroutine.wrap(LKNM_fake_script)()
+local function LCTIJ_fake_script() -- Arch.Scripty_18.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2214,8 +2214,8 @@ local function LVESK_fake_script() -- Arch.Scripty_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(LVESK_fake_script)()
-local function YHPKTNA_fake_script() -- Arch.Scripty_19.LocalScript 
+coroutine.wrap(LCTIJ_fake_script)()
+local function VXSYWD_fake_script() -- Arch.Scripty_19.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2223,8 +2223,8 @@ local function YHPKTNA_fake_script() -- Arch.Scripty_19.LocalScript
 	end)
 	
 end
-coroutine.wrap(YHPKTNA_fake_script)()
-local function DCYHD_fake_script() -- Arch.Scripty_20.LocalScript 
+coroutine.wrap(VXSYWD_fake_script)()
+local function JMLNJQF_fake_script() -- Arch.Scripty_20.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2232,8 +2232,8 @@ local function DCYHD_fake_script() -- Arch.Scripty_20.LocalScript
 	end)
 	
 end
-coroutine.wrap(DCYHD_fake_script)()
-local function EOTUCN_fake_script() -- Arch.Scripty_21.LocalScript 
+coroutine.wrap(JMLNJQF_fake_script)()
+local function QRUKV_fake_script() -- Arch.Scripty_21.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2241,8 +2241,8 @@ local function EOTUCN_fake_script() -- Arch.Scripty_21.LocalScript
 	end)
 	
 end
-coroutine.wrap(EOTUCN_fake_script)()
-local function KQUVPMB_fake_script() -- Arch.Scripty_22.LocalScript 
+coroutine.wrap(QRUKV_fake_script)()
+local function PWVDNFS_fake_script() -- Arch.Scripty_22.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2250,8 +2250,8 @@ local function KQUVPMB_fake_script() -- Arch.Scripty_22.LocalScript
 	end)
 	
 end
-coroutine.wrap(KQUVPMB_fake_script)()
-local function IAVYM_fake_script() -- Arch.Scripty_23.LocalScript 
+coroutine.wrap(PWVDNFS_fake_script)()
+local function KGNV_fake_script() -- Arch.Scripty_23.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2259,8 +2259,8 @@ local function IAVYM_fake_script() -- Arch.Scripty_23.LocalScript
 	end)
 	
 end
-coroutine.wrap(IAVYM_fake_script)()
-local function VABIPW_fake_script() -- Arch.Scripty_24.LocalScript 
+coroutine.wrap(KGNV_fake_script)()
+local function NESEEBR_fake_script() -- Arch.Scripty_24.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_24)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2268,8 +2268,8 @@ local function VABIPW_fake_script() -- Arch.Scripty_24.LocalScript
 	end)
 	
 end
-coroutine.wrap(VABIPW_fake_script)()
-local function MHLLF_fake_script() -- Arch.Scripty_25.LocalScript 
+coroutine.wrap(NESEEBR_fake_script)()
+local function KOUFF_fake_script() -- Arch.Scripty_25.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_25)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2277,8 +2277,8 @@ local function MHLLF_fake_script() -- Arch.Scripty_25.LocalScript
 	end)
 	
 end
-coroutine.wrap(MHLLF_fake_script)()
-local function QHMEC_fake_script() -- Arch.Scripty_26.LocalScript 
+coroutine.wrap(KOUFF_fake_script)()
+local function NXVG_fake_script() -- Arch.Scripty_26.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_26)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2286,8 +2286,8 @@ local function QHMEC_fake_script() -- Arch.Scripty_26.LocalScript
 	end)
 	
 end
-coroutine.wrap(QHMEC_fake_script)()
-local function MINCY_fake_script() -- Arch.Scripty_27.LocalScript 
+coroutine.wrap(NXVG_fake_script)()
+local function FTOH_fake_script() -- Arch.Scripty_27.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_27)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2295,8 +2295,8 @@ local function MINCY_fake_script() -- Arch.Scripty_27.LocalScript
 	end)
 	
 end
-coroutine.wrap(MINCY_fake_script)()
-local function TZOK_fake_script() -- Arch.Scripty_28.LocalScript 
+coroutine.wrap(FTOH_fake_script)()
+local function ALUN_fake_script() -- Arch.Scripty_28.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_28)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2304,8 +2304,8 @@ local function TZOK_fake_script() -- Arch.Scripty_28.LocalScript
 	end)
 	
 end
-coroutine.wrap(TZOK_fake_script)()
-local function ZVOIC_fake_script() -- Arch.Scripty_29.LocalScript 
+coroutine.wrap(ALUN_fake_script)()
+local function AWYM_fake_script() -- Arch.Scripty_29.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_29)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2313,8 +2313,8 @@ local function ZVOIC_fake_script() -- Arch.Scripty_29.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZVOIC_fake_script)()
-local function LGYGXC_fake_script() -- Arch.Scripty_30.LocalScript 
+coroutine.wrap(AWYM_fake_script)()
+local function TOHTFXN_fake_script() -- Arch.Scripty_30.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_30)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2322,8 +2322,8 @@ local function LGYGXC_fake_script() -- Arch.Scripty_30.LocalScript
 	end)
 	
 end
-coroutine.wrap(LGYGXC_fake_script)()
-local function PPNGZYD_fake_script() -- Arch.Scripty_31.LocalScript 
+coroutine.wrap(TOHTFXN_fake_script)()
+local function OHKBJPV_fake_script() -- Arch.Scripty_31.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_31)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2331,8 +2331,8 @@ local function PPNGZYD_fake_script() -- Arch.Scripty_31.LocalScript
 	end)
 	
 end
-coroutine.wrap(PPNGZYD_fake_script)()
-local function JWDMQ_fake_script() -- Arch.Scripty_32.LocalScript 
+coroutine.wrap(OHKBJPV_fake_script)()
+local function TJJKZRA_fake_script() -- Arch.Scripty_32.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_32)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2340,8 +2340,8 @@ local function JWDMQ_fake_script() -- Arch.Scripty_32.LocalScript
 	end)
 	
 end
-coroutine.wrap(JWDMQ_fake_script)()
-local function BLKXE_fake_script() -- Arch.Scripty_33.LocalScript 
+coroutine.wrap(TJJKZRA_fake_script)()
+local function MXURO_fake_script() -- Arch.Scripty_33.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_33)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2349,8 +2349,8 @@ local function BLKXE_fake_script() -- Arch.Scripty_33.LocalScript
 	end)
 	
 end
-coroutine.wrap(BLKXE_fake_script)()
-local function CVGTRTX_fake_script() -- Arch.Scripty_34.LocalScript 
+coroutine.wrap(MXURO_fake_script)()
+local function VTNYHL_fake_script() -- Arch.Scripty_34.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_34)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2358,8 +2358,8 @@ local function CVGTRTX_fake_script() -- Arch.Scripty_34.LocalScript
 	end)
 	
 end
-coroutine.wrap(CVGTRTX_fake_script)()
-local function ETVBKIQ_fake_script() -- Arch.Scripty_35.LocalScript 
+coroutine.wrap(VTNYHL_fake_script)()
+local function TILA_fake_script() -- Arch.Scripty_35.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_35)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2367,8 +2367,8 @@ local function ETVBKIQ_fake_script() -- Arch.Scripty_35.LocalScript
 	end)
 	
 end
-coroutine.wrap(ETVBKIQ_fake_script)()
-local function RMXNX_fake_script() -- Arch.Scripty_36.LocalScript 
+coroutine.wrap(TILA_fake_script)()
+local function VKTKXOE_fake_script() -- Arch.Scripty_36.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Scripty_36)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2376,8 +2376,8 @@ local function RMXNX_fake_script() -- Arch.Scripty_36.LocalScript
 	end)
 	
 end
-coroutine.wrap(RMXNX_fake_script)()
-local function FJTA_fake_script() -- Arch.Main.Dragger 
+coroutine.wrap(VKTKXOE_fake_script)()
+local function TNYLQU_fake_script() -- Arch.Main.Dragger 
 	local script = Instance.new('LocalScript', Arch.Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2423,9 +2423,9 @@ local function FJTA_fake_script() -- Arch.Main.Dragger
 		end
 	end)
 end
-coroutine.wrap(FJTA_fake_script)()
+coroutine.wrap(TNYLQU_fake_script)()
 -- Arch.Main.sizee is disabled.
-local function TLQFDLJ_fake_script() -- Arch.Arch.LocalScript 
+local function CQWLN_fake_script() -- Arch.Arch.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Arch)
 
 	main = script.Parent.Main
@@ -2462,7 +2462,7 @@ local function TLQFDLJ_fake_script() -- Arch.Arch.LocalScript
 	    "software";
 	}
 	
-	while wait(.05) do
+	while wait(10) do
 	warn((words[math.random(#words)]))
 	end
 	
@@ -2476,8 +2476,8 @@ local function TLQFDLJ_fake_script() -- Arch.Arch.LocalScript
 	
 	
 end
-coroutine.wrap(TLQFDLJ_fake_script)()
-local function FZAXT_fake_script() -- Arch.ImageLabel_2.LocalScript 
+coroutine.wrap(CQWLN_fake_script)()
+local function FLCM_fake_script() -- Arch.ImageLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', Arch.ImageLabel_2)
 
 	
@@ -2518,9 +2518,9 @@ local function FZAXT_fake_script() -- Arch.ImageLabel_2.LocalScript
 	
 	
 end
-coroutine.wrap(FZAXT_fake_script)()
+coroutine.wrap(FLCM_fake_script)()
 -- Arch.ImageLabel_2.fade is disabled.
-local function KUYX_fake_script() -- Arch.ImageLabel_2.scr 
+local function FXICKOX_fake_script() -- Arch.ImageLabel_2.scr 
 	local script = Instance.new('LocalScript', Arch.ImageLabel_2)
 
 	wait(4)
@@ -2533,8 +2533,8 @@ local function KUYX_fake_script() -- Arch.ImageLabel_2.scr
 	key:TweenSize(UDim2.new(0, 281, 0, 152))
 	
 end
-coroutine.wrap(KUYX_fake_script)()
-local function LIOR_fake_script() -- Arch.Check.LocalScript 
+coroutine.wrap(FXICKOX_fake_script)()
+local function AREYPE_fake_script() -- Arch.Check.LocalScript 
 	local script = Instance.new('LocalScript', Arch.Check)
 
 	local password = script.Parent.Parent.Enter    --change these if you didnt do what i did
@@ -2561,4 +2561,4 @@ local function LIOR_fake_script() -- Arch.Check.LocalScript
 	 end
 	end)
 end
-coroutine.wrap(LIOR_fake_script)()
+coroutine.wrap(AREYPE_fake_script)()
