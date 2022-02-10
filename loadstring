@@ -2134,7 +2134,7 @@ local function WSPQI_fake_script() -- ScreenGui.Scripty_9.LocalScript
 	local script = Instance.new('LocalScript', ScreenGui.Scripty_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 	
 end
