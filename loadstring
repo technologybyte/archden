@@ -3,8 +3,8 @@
 
 -- Instances:
 
-local ScreenGui = {
-	ScreenGui = Instance.new("ScreenGui"),
+local archden = {
+	archden = Instance.new("ScreenGui"),
 	Main = Instance.new("Frame"),
 	Side = Instance.new("Frame"),
 	camera = Instance.new("ImageButton"),
@@ -294,1547 +294,1677 @@ local ScreenGui = {
 	UICorner_88 = Instance.new("UICorner"),
 	UIAspectRatioConstraint_70 = Instance.new("UIAspectRatioConstraint"),
 	UIAspectRatioConstraint_71 = Instance.new("UIAspectRatioConstraint"),
+	Key = Instance.new("Frame"),
+	TextLabel_39 = Instance.new("TextLabel"),
+	TextLabel_40 = Instance.new("TextLabel"),
+	UICorner_89 = Instance.new("UICorner"),
+	Key_2 = Instance.new("TextBox"),
+	UICorner_90 = Instance.new("UICorner"),
+	TextLabel_41 = Instance.new("TextLabel"),
+	TextLabel_42 = Instance.new("TextLabel"),
+	DiscordButton = Instance.new("TextButton"),
+	UICorner_91 = Instance.new("UICorner"),
+	ImageLabel_2 = Instance.new("ImageLabel"),
+	Check = Instance.new("TextButton"),
+	UICorner_92 = Instance.new("UICorner"),
 }
 
 --Properties:
 
-ScreenGui.ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-ScreenGui.Main.Name = "Main"
-ScreenGui.Main.Parent = ScreenGui.ScreenGui
-ScreenGui.Main.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
-ScreenGui.Main.BorderSizePixel = 0
-ScreenGui.Main.Position = UDim2.new(0.281073451, 0, 0.261620998, 0)
-ScreenGui.Main.Size = UDim2.new(0.44668588, 0, 0.476758033, 0)
-
-ScreenGui.Side.Name = "Side"
-ScreenGui.Side.Parent = ScreenGui.Main
-ScreenGui.Side.BackgroundColor3 = Color3.fromRGB(20, 21, 25)
-ScreenGui.Side.BorderSizePixel = 0
-ScreenGui.Side.Size = UDim2.new(0.262903214, 0, 1, 0)
-
-ScreenGui.camera.Name = "camera"
-ScreenGui.camera.Parent = ScreenGui.Side
-ScreenGui.camera.BackgroundTransparency = 1.000
-ScreenGui.camera.Position = UDim2.new(0.168711662, 0, 0.030000018, 0)
-ScreenGui.camera.Size = UDim2.new(0.233128831, 0, 0.0949999988, 0)
-ScreenGui.camera.ZIndex = 2
-ScreenGui.camera.Image = "rbxassetid://3926305904"
-ScreenGui.camera.ImageRectOffset = Vector2.new(484, 964)
-ScreenGui.camera.ImageRectSize = Vector2.new(36, 36)
-
-ScreenGui.TextLabel.Parent = ScreenGui.camera
-ScreenGui.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel.BackgroundTransparency = 1.000
-ScreenGui.TextLabel.Position = UDim2.new(1, 0, 0.0526315793, 0)
-ScreenGui.TextLabel.Size = UDim2.new(1.76315784, 0, 0.868421078, 0)
-ScreenGui.TextLabel.Font = Enum.Font.GothamBlack
-ScreenGui.TextLabel.Text = "DEN"
-ScreenGui.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel.TextScaled = true
-ScreenGui.TextLabel.TextSize = 14.000
-ScreenGui.TextLabel.TextWrapped = true
-ScreenGui.TextLabel.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint.Parent = ScreenGui.TextLabel
-ScreenGui.UIAspectRatioConstraint.AspectRatio = 2.030
-
-ScreenGui.UITextSizeConstraint.Parent = ScreenGui.TextLabel
-ScreenGui.UITextSizeConstraint.MaxTextSize = 33
-
-ScreenGui.UIAspectRatioConstraint_2.Parent = ScreenGui.camera
-
-ScreenGui.H.Name = "H"
-ScreenGui.H.Parent = ScreenGui.Side
-ScreenGui.H.BackgroundColor3 = Color3.fromRGB(27, 29, 34)
-ScreenGui.H.BorderSizePixel = 0
-ScreenGui.H.Position = UDim2.new(0.0552147254, 0, 0.174999997, 0)
-ScreenGui.H.Size = UDim2.new(0.883435607, 0, 0.0850000009, 0)
-ScreenGui.H.Font = Enum.Font.GothamSemibold
-ScreenGui.H.Text = "Home"
-ScreenGui.H.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.H.TextScaled = true
-ScreenGui.H.TextSize = 20.000
-ScreenGui.H.TextWrapped = true
-
-ScreenGui.UICorner.Parent = ScreenGui.H
-
-ScreenGui.UIAspectRatioConstraint_3.Parent = ScreenGui.H
-ScreenGui.UIAspectRatioConstraint_3.AspectRatio = 4.235
-
-ScreenGui.UITextSizeConstraint_2.Parent = ScreenGui.H
-ScreenGui.UITextSizeConstraint_2.MaxTextSize = 20
-
-ScreenGui.G.Name = "G"
-ScreenGui.G.Parent = ScreenGui.Side
-ScreenGui.G.BackgroundColor3 = Color3.fromRGB(27, 29, 34)
-ScreenGui.G.BorderSizePixel = 0
-ScreenGui.G.Position = UDim2.new(0.0552147254, 0, 0.282499999, 0)
-ScreenGui.G.Size = UDim2.new(0.883435607, 0, 0.0850000009, 0)
-ScreenGui.G.Font = Enum.Font.GothamSemibold
-ScreenGui.G.Text = "Game SCR"
-ScreenGui.G.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.G.TextScaled = true
-ScreenGui.G.TextSize = 20.000
-ScreenGui.G.TextWrapped = true
-
-ScreenGui.UICorner_2.Parent = ScreenGui.G
-
-ScreenGui.UIAspectRatioConstraint_4.Parent = ScreenGui.G
-ScreenGui.UIAspectRatioConstraint_4.AspectRatio = 4.235
-
-ScreenGui.UITextSizeConstraint_3.Parent = ScreenGui.G
-ScreenGui.UITextSizeConstraint_3.MaxTextSize = 20
-
-ScreenGui.U.Name = "U"
-ScreenGui.U.Parent = ScreenGui.Side
-ScreenGui.U.BackgroundColor3 = Color3.fromRGB(27, 29, 34)
-ScreenGui.U.BorderSizePixel = 0
-ScreenGui.U.Position = UDim2.new(0.0552147254, 0, 0.392499983, 0)
-ScreenGui.U.Size = UDim2.new(0.883435607, 0, 0.0850000009, 0)
-ScreenGui.U.Font = Enum.Font.GothamSemibold
-ScreenGui.U.Text = "Univeral SCR"
-ScreenGui.U.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.U.TextScaled = true
-ScreenGui.U.TextSize = 20.000
-ScreenGui.U.TextWrapped = true
-
-ScreenGui.UICorner_3.Parent = ScreenGui.U
-
-ScreenGui.UIAspectRatioConstraint_5.Parent = ScreenGui.U
-ScreenGui.UIAspectRatioConstraint_5.AspectRatio = 4.235
-
-ScreenGui.UITextSizeConstraint_4.Parent = ScreenGui.U
-ScreenGui.UITextSizeConstraint_4.MaxTextSize = 20
-
-ScreenGui.UICorner_4.Parent = ScreenGui.Side
-
-ScreenGui.S.Name = "S"
-ScreenGui.S.Parent = ScreenGui.Side
-ScreenGui.S.BackgroundColor3 = Color3.fromRGB(27, 29, 34)
-ScreenGui.S.BorderSizePixel = 0
-ScreenGui.S.Position = UDim2.new(0.0552147254, 0, 0.502499998, 0)
-ScreenGui.S.Size = UDim2.new(0.883435607, 0, 0.0850000009, 0)
-ScreenGui.S.Visible = false
-ScreenGui.S.Font = Enum.Font.GothamSemibold
-ScreenGui.S.Text = "Settings"
-ScreenGui.S.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.S.TextScaled = true
-ScreenGui.S.TextSize = 20.000
-ScreenGui.S.TextWrapped = true
-
-ScreenGui.UICorner_5.Parent = ScreenGui.S
-
-ScreenGui.UIAspectRatioConstraint_6.Parent = ScreenGui.S
-ScreenGui.UIAspectRatioConstraint_6.AspectRatio = 4.235
-
-ScreenGui.UITextSizeConstraint_5.Parent = ScreenGui.S
-ScreenGui.UITextSizeConstraint_5.MaxTextSize = 20
-
-ScreenGui.UIAspectRatioConstraint_7.Parent = ScreenGui.Side
-ScreenGui.UIAspectRatioConstraint_7.AspectRatio = 0.407
-
-ScreenGui.Home.Name = "Home"
-ScreenGui.Home.Parent = ScreenGui.Main
-ScreenGui.Home.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
-ScreenGui.Home.BorderSizePixel = 0
-ScreenGui.Home.Position = UDim2.new(0.262903214, 0, 0, 0)
-ScreenGui.Home.Size = UDim2.new(0.737096786, 0, 1, 0)
-
-ScreenGui.User.Name = "User"
-ScreenGui.User.Parent = ScreenGui.Home
-ScreenGui.User.BackgroundColor3 = Color3.fromRGB(20, 21, 25)
-ScreenGui.User.BorderSizePixel = 0
-ScreenGui.User.LayoutOrder = 3
-ScreenGui.User.Position = UDim2.new(0.0371991247, 0, 0.0524999984, 0)
-ScreenGui.User.Size = UDim2.new(0.923413575, 0, 0.425000012, 0)
-
-ScreenGui.UICorner_6.Parent = ScreenGui.User
-
-ScreenGui.Welcome.Name = "Welcome"
-ScreenGui.Welcome.Parent = ScreenGui.User
-ScreenGui.Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Welcome.BackgroundTransparency = 1.000
-ScreenGui.Welcome.BorderSizePixel = 0
-ScreenGui.Welcome.Position = UDim2.new(0.236966819, 0, 0.0882352963, 0)
-ScreenGui.Welcome.Size = UDim2.new(0.473933637, 0, 0.152941182, 0)
-ScreenGui.Welcome.Font = Enum.Font.GothamSemibold
-ScreenGui.Welcome.Text = "Welcome, "
-ScreenGui.Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Welcome.TextScaled = true
-ScreenGui.Welcome.TextSize = 18.000
-ScreenGui.Welcome.TextWrapped = true
-ScreenGui.Welcome.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_8.Parent = ScreenGui.Welcome
-ScreenGui.UIAspectRatioConstraint_8.AspectRatio = 7.692
-
-ScreenGui.UITextSizeConstraint_6.Parent = ScreenGui.Welcome
-ScreenGui.UITextSizeConstraint_6.MaxTextSize = 18
-
-ScreenGui.ImageLabel.Parent = ScreenGui.User
-ScreenGui.ImageLabel.BackgroundColor3 = Color3.fromRGB(33, 35, 42)
-ScreenGui.ImageLabel.BorderSizePixel = 0
-ScreenGui.ImageLabel.Position = UDim2.new(0.0260663517, 0, 0.0823529437, 0)
-ScreenGui.ImageLabel.Size = UDim2.new(0.189573467, 0, 0.470588237, 0)
-ScreenGui.ImageLabel.Image = "rbxassetid://8772119953"
-
-ScreenGui.UICorner_7.CornerRadius = UDim.new(0, 60)
-ScreenGui.UICorner_7.Parent = ScreenGui.ImageLabel
-
-ScreenGui.UIAspectRatioConstraint_9.Parent = ScreenGui.ImageLabel
-
-ScreenGui.USERNAME.Name = "USERNAME"
-ScreenGui.USERNAME.Parent = ScreenGui.User
-ScreenGui.USERNAME.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.USERNAME.BackgroundTransparency = 1.000
-ScreenGui.USERNAME.BorderSizePixel = 0
-ScreenGui.USERNAME.Position = UDim2.new(0.445497632, 0, 0.0882352963, 0)
-ScreenGui.USERNAME.Size = UDim2.new(0.265402853, 0, 0.152941182, 0)
-ScreenGui.USERNAME.Font = Enum.Font.GothamSemibold
-ScreenGui.USERNAME.Text = "Random"
-ScreenGui.USERNAME.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.USERNAME.TextScaled = true
-ScreenGui.USERNAME.TextSize = 18.000
-ScreenGui.USERNAME.TextWrapped = true
-ScreenGui.USERNAME.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_10.Parent = ScreenGui.USERNAME
-ScreenGui.UIAspectRatioConstraint_10.AspectRatio = 4.308
-
-ScreenGui.UITextSizeConstraint_7.Parent = ScreenGui.USERNAME
-ScreenGui.UITextSizeConstraint_7.MaxTextSize = 18
-
-ScreenGui.Welcome_2.Name = "Welcome"
-ScreenGui.Welcome_2.Parent = ScreenGui.User
-ScreenGui.Welcome_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Welcome_2.BackgroundTransparency = 1.000
-ScreenGui.Welcome_2.BorderSizePixel = 0
-ScreenGui.Welcome_2.Position = UDim2.new(0.236966819, 0, 0.241176486, 0)
-ScreenGui.Welcome_2.Size = UDim2.new(0.473933637, 0, 0.152941182, 0)
-ScreenGui.Welcome_2.Font = Enum.Font.GothamSemibold
-ScreenGui.Welcome_2.Text = "Whitelisted: True "
-ScreenGui.Welcome_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Welcome_2.TextScaled = true
-ScreenGui.Welcome_2.TextSize = 13.000
-ScreenGui.Welcome_2.TextWrapped = true
-ScreenGui.Welcome_2.TextXAlignment = Enum.TextXAlignment.Left
-ScreenGui.Welcome_2.TextYAlignment = Enum.TextYAlignment.Top
-
-ScreenGui.UIAspectRatioConstraint_11.Parent = ScreenGui.Welcome_2
-ScreenGui.UIAspectRatioConstraint_11.AspectRatio = 7.692
-
-ScreenGui.UITextSizeConstraint_8.Parent = ScreenGui.Welcome_2
-ScreenGui.UITextSizeConstraint_8.MaxTextSize = 13
-
-ScreenGui.Welcome_3.Name = "Welcome"
-ScreenGui.Welcome_3.Parent = ScreenGui.User
-ScreenGui.Welcome_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Welcome_3.BackgroundTransparency = 1.000
-ScreenGui.Welcome_3.BorderSizePixel = 0
-ScreenGui.Welcome_3.Position = UDim2.new(0.336492866, 0, 0.488235295, 0)
-ScreenGui.Welcome_3.Rotation = -10.000
-ScreenGui.Welcome_3.Size = UDim2.new(0.644549787, 0, 0.311764717, 0)
-ScreenGui.Welcome_3.Font = Enum.Font.GothamBlack
-ScreenGui.Welcome_3.Text = "DEN TECH"
-ScreenGui.Welcome_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Welcome_3.TextScaled = true
-ScreenGui.Welcome_3.TextSize = 40.000
-ScreenGui.Welcome_3.TextTransparency = 0.960
-ScreenGui.Welcome_3.TextWrapped = true
-
-ScreenGui.UIAspectRatioConstraint_12.Parent = ScreenGui.Welcome_3
-ScreenGui.UIAspectRatioConstraint_12.AspectRatio = 5.132
-
-ScreenGui.UITextSizeConstraint_9.Parent = ScreenGui.Welcome_3
-ScreenGui.UITextSizeConstraint_9.MaxTextSize = 53
-
-ScreenGui.UIAspectRatioConstraint_13.Parent = ScreenGui.User
-ScreenGui.UIAspectRatioConstraint_13.AspectRatio = 2.482
-
-ScreenGui.PlayerInfo.Name = "PlayerInfo"
-ScreenGui.PlayerInfo.Parent = ScreenGui.Home
-ScreenGui.PlayerInfo.BackgroundColor3 = Color3.fromRGB(20, 21, 25)
-ScreenGui.PlayerInfo.BorderSizePixel = 0
-ScreenGui.PlayerInfo.Position = UDim2.new(0.617067814, 0, 0.574999988, 0)
-ScreenGui.PlayerInfo.Size = UDim2.new(0.361050338, 0, 0.400000006, 0)
-
-ScreenGui.Text.Name = "Text"
-ScreenGui.Text.Parent = ScreenGui.PlayerInfo
-ScreenGui.Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text.BackgroundTransparency = 1.000
-ScreenGui.Text.BorderSizePixel = 0
-ScreenGui.Text.Position = UDim2.new(0.0551484078, 0, 0.200735286, 0)
-ScreenGui.Text.Size = UDim2.new(0.890909076, 0, 0.162499994, 0)
-ScreenGui.Text.Font = Enum.Font.GothamSemibold
-ScreenGui.Text.Text = "UserID"
-ScreenGui.Text.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text.TextScaled = true
-ScreenGui.Text.TextSize = 18.000
-ScreenGui.Text.TextWrapped = true
-ScreenGui.Text.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_14.Parent = ScreenGui.Text
-ScreenGui.UIAspectRatioConstraint_14.AspectRatio = 5.654
-
-ScreenGui.UITextSizeConstraint_10.Parent = ScreenGui.Text
-ScreenGui.UITextSizeConstraint_10.MaxTextSize = 18
-
-ScreenGui.USERID.Name = "USERID"
-ScreenGui.USERID.Parent = ScreenGui.PlayerInfo
-ScreenGui.USERID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.USERID.BackgroundTransparency = 1.000
-ScreenGui.USERID.BorderSizePixel = 0
-ScreenGui.USERID.Position = UDim2.new(0.0551484078, 0, 0.363235474, 0)
-ScreenGui.USERID.Size = UDim2.new(0.890909076, 0, 0.075000003, 0)
-ScreenGui.USERID.Font = Enum.Font.Gotham
-ScreenGui.USERID.Text = "XXXXXXXX"
-ScreenGui.USERID.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.USERID.TextScaled = true
-ScreenGui.USERID.TextSize = 18.000
-ScreenGui.USERID.TextWrapped = true
-ScreenGui.USERID.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_15.Parent = ScreenGui.USERID
-ScreenGui.UIAspectRatioConstraint_15.AspectRatio = 12.250
-
-ScreenGui.UITextSizeConstraint_11.Parent = ScreenGui.USERID
-ScreenGui.UITextSizeConstraint_11.MaxTextSize = 12
-
-ScreenGui.UICorner_8.Parent = ScreenGui.PlayerInfo
-
-ScreenGui.Text_2.Name = "Text"
-ScreenGui.Text_2.Parent = ScreenGui.PlayerInfo
-ScreenGui.Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_2.BackgroundTransparency = 1.000
-ScreenGui.Text_2.BorderSizePixel = 0
-ScreenGui.Text_2.Position = UDim2.new(0.0490878001, 0, 0.475735307, 0)
-ScreenGui.Text_2.Size = UDim2.new(0.890909076, 0, 0.162499994, 0)
-ScreenGui.Text_2.Font = Enum.Font.GothamSemibold
-ScreenGui.Text_2.Text = "Display Name"
-ScreenGui.Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_2.TextScaled = true
-ScreenGui.Text_2.TextSize = 18.000
-ScreenGui.Text_2.TextWrapped = true
-ScreenGui.Text_2.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_16.Parent = ScreenGui.Text_2
-ScreenGui.UIAspectRatioConstraint_16.AspectRatio = 5.654
-
-ScreenGui.UITextSizeConstraint_12.Parent = ScreenGui.Text_2
-ScreenGui.UITextSizeConstraint_12.MaxTextSize = 18
-
-ScreenGui.DISPLAY.Name = "DISPLAY"
-ScreenGui.DISPLAY.Parent = ScreenGui.PlayerInfo
-ScreenGui.DISPLAY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.DISPLAY.BackgroundTransparency = 1.000
-ScreenGui.DISPLAY.BorderSizePixel = 0
-ScreenGui.DISPLAY.Position = UDim2.new(0.0490878001, 0, 0.63823545, 0)
-ScreenGui.DISPLAY.Size = UDim2.new(0.890909076, 0, 0.075000003, 0)
-ScreenGui.DISPLAY.Font = Enum.Font.Gotham
-ScreenGui.DISPLAY.Text = "XXXXXXXX"
-ScreenGui.DISPLAY.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.DISPLAY.TextScaled = true
-ScreenGui.DISPLAY.TextSize = 18.000
-ScreenGui.DISPLAY.TextWrapped = true
-ScreenGui.DISPLAY.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_17.Parent = ScreenGui.DISPLAY
-ScreenGui.UIAspectRatioConstraint_17.AspectRatio = 12.250
-
-ScreenGui.UITextSizeConstraint_13.Parent = ScreenGui.DISPLAY
-ScreenGui.UITextSizeConstraint_13.MaxTextSize = 12
-
-ScreenGui.USER.Name = "USER"
-ScreenGui.USER.Parent = ScreenGui.PlayerInfo
-ScreenGui.USER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.USER.BackgroundTransparency = 1.000
-ScreenGui.USER.BorderSizePixel = 0
-ScreenGui.USER.Position = UDim2.new(0.0490878001, 0, 0.91948545, 0)
-ScreenGui.USER.Size = UDim2.new(0.890909076, 0, 0.075000003, 0)
-ScreenGui.USER.Font = Enum.Font.Gotham
-ScreenGui.USER.Text = "XXXXXXXX"
-ScreenGui.USER.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.USER.TextSize = 18.000
-ScreenGui.USER.TextWrapped = true
-ScreenGui.USER.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_18.Parent = ScreenGui.USER
-ScreenGui.UIAspectRatioConstraint_18.AspectRatio = 12.250
-
-ScreenGui.UITextSizeConstraint_14.Parent = ScreenGui.USER
-ScreenGui.UITextSizeConstraint_14.MaxTextSize = 11
-
-ScreenGui.Text_3.Name = "Text"
-ScreenGui.Text_3.Parent = ScreenGui.PlayerInfo
-ScreenGui.Text_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_3.BackgroundTransparency = 1.000
-ScreenGui.Text_3.BorderSizePixel = 0
-ScreenGui.Text_3.Position = UDim2.new(0.0490878001, 0, 0.756985247, 0)
-ScreenGui.Text_3.Size = UDim2.new(0.890909076, 0, 0.162499994, 0)
-ScreenGui.Text_3.Font = Enum.Font.GothamSemibold
-ScreenGui.Text_3.Text = "User Name"
-ScreenGui.Text_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_3.TextScaled = true
-ScreenGui.Text_3.TextSize = 18.000
-ScreenGui.Text_3.TextWrapped = true
-ScreenGui.Text_3.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_19.Parent = ScreenGui.Text_3
-ScreenGui.UIAspectRatioConstraint_19.AspectRatio = 5.654
-
-ScreenGui.UITextSizeConstraint_15.Parent = ScreenGui.Text_3
-ScreenGui.UITextSizeConstraint_15.MaxTextSize = 18
-
-ScreenGui.Text_4.Name = "Text"
-ScreenGui.Text_4.Parent = ScreenGui.PlayerInfo
-ScreenGui.Text_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_4.BackgroundTransparency = 1.000
-ScreenGui.Text_4.BorderSizePixel = 0
-ScreenGui.Text_4.Position = UDim2.new(0.0490878001, 0, 0.0507354736, 0)
-ScreenGui.Text_4.Size = UDim2.new(0.945454538, 0, 0.131249994, 0)
-ScreenGui.Text_4.Font = Enum.Font.GothamBold
-ScreenGui.Text_4.Text = "Player Info"
-ScreenGui.Text_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_4.TextScaled = true
-ScreenGui.Text_4.TextSize = 26.000
-ScreenGui.Text_4.TextWrapped = true
-ScreenGui.Text_4.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_20.Parent = ScreenGui.Text_4
-ScreenGui.UIAspectRatioConstraint_20.AspectRatio = 7.429
-
-ScreenGui.UITextSizeConstraint_16.Parent = ScreenGui.Text_4
-ScreenGui.UITextSizeConstraint_16.MaxTextSize = 21
-
-ScreenGui.UIAspectRatioConstraint_21.Parent = ScreenGui.PlayerInfo
-ScreenGui.UIAspectRatioConstraint_21.AspectRatio = 1.031
-
-ScreenGui.UICorner_9.Parent = ScreenGui.Home
-
-ScreenGui.Updates.Name = "Updates"
-ScreenGui.Updates.Parent = ScreenGui.Home
-ScreenGui.Updates.BackgroundColor3 = Color3.fromRGB(20, 21, 25)
-ScreenGui.Updates.BorderSizePixel = 0
-ScreenGui.Updates.Position = UDim2.new(0.0371991247, 0, 0.574999988, 0)
-ScreenGui.Updates.Size = UDim2.new(0.557986856, 0, 0.400000006, 0)
-
-ScreenGui.Text_5.Name = "Text"
-ScreenGui.Text_5.Parent = ScreenGui.Updates
-ScreenGui.Text_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_5.BackgroundTransparency = 1.000
-ScreenGui.Text_5.BorderSizePixel = 0
-ScreenGui.Text_5.Position = UDim2.new(0.0473053567, 0, 0.613235474, 0)
-ScreenGui.Text_5.Size = UDim2.new(0.576470613, 0, 0.118749999, 0)
-ScreenGui.Text_5.Font = Enum.Font.GothamSemibold
-ScreenGui.Text_5.Text = "Update 7"
-ScreenGui.Text_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_5.TextScaled = true
-ScreenGui.Text_5.TextSize = 18.000
-ScreenGui.Text_5.TextWrapped = true
-ScreenGui.Text_5.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.Info.Name = "Info"
-ScreenGui.Info.Parent = ScreenGui.Text_5
-ScreenGui.Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Info.BackgroundTransparency = 1.000
-ScreenGui.Info.BorderSizePixel = 0
-ScreenGui.Info.Position = UDim2.new(0.000726608559, 0, 1, 0)
-ScreenGui.Info.Size = UDim2.new(1, 0, 0.578947365, 0)
-ScreenGui.Info.Font = Enum.Font.Gotham
-ScreenGui.Info.Text = "Added a preloader"
-ScreenGui.Info.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Info.TextScaled = true
-ScreenGui.Info.TextSize = 18.000
-ScreenGui.Info.TextWrapped = true
-ScreenGui.Info.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_22.Parent = ScreenGui.Info
-ScreenGui.UIAspectRatioConstraint_22.AspectRatio = 13.364
-
-ScreenGui.UITextSizeConstraint_17.Parent = ScreenGui.Info
-ScreenGui.UITextSizeConstraint_17.MaxTextSize = 11
-
-ScreenGui.UIAspectRatioConstraint_23.Parent = ScreenGui.Text_5
-ScreenGui.UIAspectRatioConstraint_23.AspectRatio = 7.737
-
-ScreenGui.UITextSizeConstraint_18.Parent = ScreenGui.Text_5
-ScreenGui.UITextSizeConstraint_18.MaxTextSize = 18
-
-ScreenGui.UICorner_10.Parent = ScreenGui.Updates
-
-ScreenGui.Discord.Name = "Discord"
-ScreenGui.Discord.Parent = ScreenGui.Updates
-ScreenGui.Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Discord.BackgroundTransparency = 1.000
-ScreenGui.Discord.BorderSizePixel = 0
-ScreenGui.Discord.Position = UDim2.new(0.0412444472, 0, 0.91948545, 0)
-ScreenGui.Discord.Size = UDim2.new(0.576470613, 0, 0.0687500015, 0)
-ScreenGui.Discord.Font = Enum.Font.Gotham
-ScreenGui.Discord.Text = "discord.gg/dtbNPXZP9Y"
-ScreenGui.Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Discord.TextScaled = true
-ScreenGui.Discord.TextSize = 18.000
-ScreenGui.Discord.TextWrapped = true
-ScreenGui.Discord.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_24.Parent = ScreenGui.Discord
-ScreenGui.UIAspectRatioConstraint_24.AspectRatio = 13.364
-
-ScreenGui.UITextSizeConstraint_19.Parent = ScreenGui.Discord
-ScreenGui.UITextSizeConstraint_19.MaxTextSize = 11
-
-ScreenGui.Text_6.Name = "Text"
-ScreenGui.Text_6.Parent = ScreenGui.Updates
-ScreenGui.Text_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_6.BackgroundTransparency = 1.000
-ScreenGui.Text_6.BorderSizePixel = 0
-ScreenGui.Text_6.Position = UDim2.new(0.0451660156, 0, 0.0507354736, 0)
-ScreenGui.Text_6.Size = UDim2.new(0.788235307, 0, 0.168750003, 0)
-ScreenGui.Text_6.Font = Enum.Font.GothamBold
-ScreenGui.Text_6.Text = "UPDATE LOG"
-ScreenGui.Text_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_6.TextScaled = true
-ScreenGui.Text_6.TextSize = 26.000
-ScreenGui.Text_6.TextWrapped = true
-ScreenGui.Text_6.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_25.Parent = ScreenGui.Text_6
-ScreenGui.UIAspectRatioConstraint_25.AspectRatio = 7.444
-
-ScreenGui.UITextSizeConstraint_20.Parent = ScreenGui.Text_6
-ScreenGui.UITextSizeConstraint_20.MaxTextSize = 27
-
-ScreenGui.Text_7.Name = "Text"
-ScreenGui.Text_7.Parent = ScreenGui.Updates
-ScreenGui.Text_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_7.BackgroundTransparency = 1.000
-ScreenGui.Text_7.BorderSizePixel = 0
-ScreenGui.Text_7.Position = UDim2.new(0.0473053567, 0, 0.26323545, 0)
-ScreenGui.Text_7.Size = UDim2.new(0.576470613, 0, 0.118749999, 0)
-ScreenGui.Text_7.Font = Enum.Font.GothamSemibold
-ScreenGui.Text_7.Text = "Update 8"
-ScreenGui.Text_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Text_7.TextScaled = true
-ScreenGui.Text_7.TextSize = 18.000
-ScreenGui.Text_7.TextWrapped = true
-ScreenGui.Text_7.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.Info_2.Name = "Info"
-ScreenGui.Info_2.Parent = ScreenGui.Text_7
-ScreenGui.Info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Info_2.BackgroundTransparency = 1.000
-ScreenGui.Info_2.BorderSizePixel = 0
-ScreenGui.Info_2.Position = UDim2.new(0.000726609025, 0, 1, 0)
-ScreenGui.Info_2.Size = UDim2.new(1, 0, 1.31578946, 0)
-ScreenGui.Info_2.Font = Enum.Font.Gotham
-ScreenGui.Info_2.Text = "Added animations and more games."
-ScreenGui.Info_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.Info_2.TextScaled = true
-ScreenGui.Info_2.TextSize = 18.000
-ScreenGui.Info_2.TextWrapped = true
-ScreenGui.Info_2.TextXAlignment = Enum.TextXAlignment.Left
-
-ScreenGui.UIAspectRatioConstraint_26.Parent = ScreenGui.Info_2
-ScreenGui.UIAspectRatioConstraint_26.AspectRatio = 5.880
-
-ScreenGui.UITextSizeConstraint_21.Parent = ScreenGui.Info_2
-ScreenGui.UITextSizeConstraint_21.MaxTextSize = 24
-
-ScreenGui.UIAspectRatioConstraint_27.Parent = ScreenGui.Text_7
-ScreenGui.UIAspectRatioConstraint_27.AspectRatio = 7.737
-
-ScreenGui.UITextSizeConstraint_22.Parent = ScreenGui.Text_7
-ScreenGui.UITextSizeConstraint_22.MaxTextSize = 18
-
-ScreenGui.UIAspectRatioConstraint_28.Parent = ScreenGui.Updates
-ScreenGui.UIAspectRatioConstraint_28.AspectRatio = 1.594
-
-ScreenGui.UIAspectRatioConstraint_29.Parent = ScreenGui.Home
-ScreenGui.UIAspectRatioConstraint_29.AspectRatio = 1.143
-
-ScreenGui.Universal.Name = "Universal"
-ScreenGui.Universal.Parent = ScreenGui.Main
-ScreenGui.Universal.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
-ScreenGui.Universal.BorderSizePixel = 0
-ScreenGui.Universal.Position = UDim2.new(0.262903214, 0, 0, 0)
-ScreenGui.Universal.Size = UDim2.new(0.737096786, 0, 1, 0)
-ScreenGui.Universal.Visible = false
-
-ScreenGui.ScrollingFrame.Parent = ScreenGui.Universal
-ScreenGui.ScrollingFrame.Active = true
-ScreenGui.ScrollingFrame.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
-ScreenGui.ScrollingFrame.BorderSizePixel = 0
-ScreenGui.ScrollingFrame.Size = UDim2.new(1, 0, 1, 0)
-
-ScreenGui._3.Name = "3"
-ScreenGui._3.Parent = ScreenGui.ScrollingFrame
-ScreenGui._3.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._3.BorderSizePixel = 0
-ScreenGui._3.Position = UDim2.new(0.295404792, 0, 0.178750038, 0)
-ScreenGui._3.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._3.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_2.Parent = ScreenGui._3
-ScreenGui.TextLabel_2.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_2.BorderSizePixel = 0
-ScreenGui.TextLabel_2.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_2.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_2.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_2.Text = "UTG V3"
-ScreenGui.TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_2.TextSize = 14.000
-
-ScreenGui.UICorner_11.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_11.Parent = ScreenGui.TextLabel_2
-
-ScreenGui.UICorner_12.Parent = ScreenGui._3
-
-ScreenGui.UIAspectRatioConstraint_30.Parent = ScreenGui._3
-
-ScreenGui._6.Name = "6"
-ScreenGui._6.Parent = ScreenGui.ScrollingFrame
-ScreenGui._6.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._6.BorderSizePixel = 0
-ScreenGui._6.Position = UDim2.new(0.295404792, 0, 0.0162499994, 0)
-ScreenGui._6.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._6.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_3.Parent = ScreenGui._6
-ScreenGui.TextLabel_3.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_3.BorderSizePixel = 0
-ScreenGui.TextLabel_3.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_3.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_3.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_3.Text = "Dex"
-ScreenGui.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_3.TextSize = 14.000
-
-ScreenGui.UICorner_13.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_13.Parent = ScreenGui.TextLabel_3
-
-ScreenGui.UICorner_14.Parent = ScreenGui._6
-
-ScreenGui.UIAspectRatioConstraint_31.Parent = ScreenGui._6
-
-ScreenGui._5.Name = "5"
-ScreenGui._5.Parent = ScreenGui.ScrollingFrame
-ScreenGui._5.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._5.BorderSizePixel = 0
-ScreenGui._5.Position = UDim2.new(0.568927824, 0, 0.178750038, 0)
-ScreenGui._5.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._5.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_4.Parent = ScreenGui._5
-ScreenGui.TextLabel_4.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_4.BorderSizePixel = 0
-ScreenGui.TextLabel_4.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_4.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_4.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_4.Text = "FE Boombox"
-ScreenGui.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_4.TextSize = 14.000
-
-ScreenGui.UICorner_15.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_15.Parent = ScreenGui.TextLabel_4
-
-ScreenGui.UICorner_16.Parent = ScreenGui._5
-
-ScreenGui.UIAspectRatioConstraint_32.Parent = ScreenGui._5
-
-ScreenGui._2.Name = "2"
-ScreenGui._2.Parent = ScreenGui.ScrollingFrame
-ScreenGui._2.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._2.BorderSizePixel = 0
-ScreenGui._2.Position = UDim2.new(0.568927824, 0, 0.0162499994, 0)
-ScreenGui._2.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._2.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_5.Parent = ScreenGui._2
-ScreenGui.TextLabel_5.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_5.BorderSizePixel = 0
-ScreenGui.TextLabel_5.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_5.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_5.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_5.Text = "Fathom Hub"
-ScreenGui.TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_5.TextSize = 14.000
-
-ScreenGui.UICorner_17.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_17.Parent = ScreenGui.TextLabel_5
-
-ScreenGui.UICorner_18.Parent = ScreenGui._2
-
-ScreenGui.UIAspectRatioConstraint_33.Parent = ScreenGui._2
-
-ScreenGui._7.Name = "7"
-ScreenGui._7.Parent = ScreenGui.ScrollingFrame
-ScreenGui._7.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._7.BorderSizePixel = 0
-ScreenGui._7.Position = UDim2.new(0.0262582004, 0, 0.178750038, 0)
-ScreenGui._7.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._7.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_6.Parent = ScreenGui._7
-ScreenGui.TextLabel_6.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_6.BorderSizePixel = 0
-ScreenGui.TextLabel_6.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_6.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_6.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_6.Text = "Fencing Gui"
-ScreenGui.TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_6.TextSize = 14.000
-
-ScreenGui.UICorner_19.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_19.Parent = ScreenGui.TextLabel_6
-
-ScreenGui.UICorner_20.Parent = ScreenGui._7
-
-ScreenGui.UIAspectRatioConstraint_34.Parent = ScreenGui._7
-
-ScreenGui._9.Name = "9"
-ScreenGui._9.Parent = ScreenGui.ScrollingFrame
-ScreenGui._9.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._9.BorderSizePixel = 0
-ScreenGui._9.Position = UDim2.new(0.0262582004, 0, 0.0162499994, 0)
-ScreenGui._9.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._9.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_7.Parent = ScreenGui._9
-ScreenGui.TextLabel_7.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_7.BorderSizePixel = 0
-ScreenGui.TextLabel_7.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_7.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_7.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_7.Text = "Infinite Yield"
-ScreenGui.TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_7.TextSize = 14.000
-
-ScreenGui.UICorner_21.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_21.Parent = ScreenGui.TextLabel_7
-
-ScreenGui.UICorner_22.Parent = ScreenGui._9
-
-ScreenGui.UIAspectRatioConstraint_35.Parent = ScreenGui._9
-
-ScreenGui._8.Name = "8"
-ScreenGui._8.Parent = ScreenGui.ScrollingFrame
-ScreenGui._8.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._8.BorderSizePixel = 0
-ScreenGui._8.Position = UDim2.new(0.295404792, 0, 0.34375, 0)
-ScreenGui._8.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._8.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_8.Parent = ScreenGui._8
-ScreenGui.TextLabel_8.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_8.BorderSizePixel = 0
-ScreenGui.TextLabel_8.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_8.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_8.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_8.Text = "LX FE Hub"
-ScreenGui.TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_8.TextSize = 14.000
-
-ScreenGui.UICorner_23.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_23.Parent = ScreenGui.TextLabel_8
-
-ScreenGui.UICorner_24.Parent = ScreenGui._8
-
-ScreenGui.UIAspectRatioConstraint_36.Parent = ScreenGui._8
-
-ScreenGui._10.Name = "10"
-ScreenGui._10.Parent = ScreenGui.ScrollingFrame
-ScreenGui._10.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._10.BorderSizePixel = 0
-ScreenGui._10.Position = UDim2.new(0.0262582004, 0, 0.34375, 0)
-ScreenGui._10.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._10.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_9.Parent = ScreenGui._10
-ScreenGui.TextLabel_9.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_9.BorderSizePixel = 0
-ScreenGui.TextLabel_9.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_9.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_9.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_9.Text = "Cool GUI"
-ScreenGui.TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_9.TextSize = 14.000
-
-ScreenGui.UICorner_25.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_25.Parent = ScreenGui.TextLabel_9
-
-ScreenGui.UICorner_26.Parent = ScreenGui._10
-
-ScreenGui.UIAspectRatioConstraint_37.Parent = ScreenGui._10
-
-ScreenGui._4.Name = "4"
-ScreenGui._4.Parent = ScreenGui.ScrollingFrame
-ScreenGui._4.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._4.BorderSizePixel = 0
-ScreenGui._4.Position = UDim2.new(0.568927824, 0, 0.34375, 0)
-ScreenGui._4.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._4.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_10.Parent = ScreenGui._4
-ScreenGui.TextLabel_10.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_10.BorderSizePixel = 0
-ScreenGui.TextLabel_10.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_10.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_10.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_10.Text = "Free Gamepass"
-ScreenGui.TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_10.TextSize = 14.000
-
-ScreenGui.UICorner_27.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_27.Parent = ScreenGui.TextLabel_10
-
-ScreenGui.UICorner_28.Parent = ScreenGui._4
-
-ScreenGui.UIAspectRatioConstraint_38.Parent = ScreenGui._4
-
-ScreenGui._11.Name = "11"
-ScreenGui._11.Parent = ScreenGui.ScrollingFrame
-ScreenGui._11.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._11.BorderSizePixel = 0
-ScreenGui._11.Position = UDim2.new(0.566739619, 0, 0.512499988, 0)
-ScreenGui._11.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._11.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_11.Parent = ScreenGui._11
-ScreenGui.TextLabel_11.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_11.BorderSizePixel = 0
-ScreenGui.TextLabel_11.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_11.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_11.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_11.Text = "Bacon Hub"
-ScreenGui.TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_11.TextSize = 14.000
-
-ScreenGui.UICorner_29.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_29.Parent = ScreenGui.TextLabel_11
-
-ScreenGui.UICorner_30.Parent = ScreenGui._11
-
-ScreenGui.UIAspectRatioConstraint_39.Parent = ScreenGui._11
-
-ScreenGui._12.Name = "12"
-ScreenGui._12.Parent = ScreenGui.ScrollingFrame
-ScreenGui._12.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._12.BorderSizePixel = 0
-ScreenGui._12.Position = UDim2.new(0.293216616, 0, 0.512499988, 0)
-ScreenGui._12.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._12.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_12.Parent = ScreenGui._12
-ScreenGui.TextLabel_12.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_12.BorderSizePixel = 0
-ScreenGui.TextLabel_12.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_12.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_12.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_12.Text = "LuciousWare"
-ScreenGui.TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_12.TextSize = 14.000
-
-ScreenGui.UICorner_31.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_31.Parent = ScreenGui.TextLabel_12
-
-ScreenGui.UICorner_32.Parent = ScreenGui._12
-
-ScreenGui.UIAspectRatioConstraint_40.Parent = ScreenGui._12
-
-ScreenGui._1.Name = "1"
-ScreenGui._1.Parent = ScreenGui.ScrollingFrame
-ScreenGui._1.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._1.BorderSizePixel = 0
-ScreenGui._1.Position = UDim2.new(0.024070017, 0, 0.512499988, 0)
-ScreenGui._1.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._1.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_13.Parent = ScreenGui._1
-ScreenGui.TextLabel_13.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_13.BorderSizePixel = 0
-ScreenGui.TextLabel_13.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_13.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_13.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_13.Text = "Cmd X"
-ScreenGui.TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_13.TextSize = 14.000
-
-ScreenGui.UICorner_33.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_33.Parent = ScreenGui.TextLabel_13
-
-ScreenGui.UICorner_34.Parent = ScreenGui._1
-
-ScreenGui.UIAspectRatioConstraint_41.Parent = ScreenGui._1
-
-ScreenGui.Scripty.Name = "Scripty"
-ScreenGui.Scripty.Parent = ScreenGui.ScrollingFrame
-ScreenGui.Scripty.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty.BorderSizePixel = 0
-ScreenGui.Scripty.Position = UDim2.new(0.024070017, 0, 0.678749979, 0)
-ScreenGui.Scripty.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_14.Parent = ScreenGui.Scripty
-ScreenGui.TextLabel_14.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_14.BorderSizePixel = 0
-ScreenGui.TextLabel_14.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_14.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_14.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_14.Text = "Cool Pro X"
-ScreenGui.TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_14.TextSize = 14.000
-
-ScreenGui.UICorner_35.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_35.Parent = ScreenGui.TextLabel_14
-
-ScreenGui.UICorner_36.Parent = ScreenGui.Scripty
-
-ScreenGui.UIAspectRatioConstraint_42.Parent = ScreenGui.Scripty
-
-ScreenGui._13.Name = "13"
-ScreenGui._13.Parent = ScreenGui.ScrollingFrame
-ScreenGui._13.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui._13.BorderSizePixel = 0
-ScreenGui._13.Position = UDim2.new(0.293216616, 0, 0.678749979, 0)
-ScreenGui._13.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui._13.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_15.Parent = ScreenGui._13
-ScreenGui.TextLabel_15.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_15.BorderSizePixel = 0
-ScreenGui.TextLabel_15.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_15.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_15.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_15.Text = "GWAREZ"
-ScreenGui.TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_15.TextSize = 14.000
-
-ScreenGui.UICorner_37.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_37.Parent = ScreenGui.TextLabel_15
-
-ScreenGui.UICorner_38.Parent = ScreenGui._13
-
-ScreenGui.UIAspectRatioConstraint_43.Parent = ScreenGui._13
-
-ScreenGui.Scripty_2.Name = "Scripty"
-ScreenGui.Scripty_2.Parent = ScreenGui.ScrollingFrame
-ScreenGui.Scripty_2.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_2.BorderSizePixel = 0
-ScreenGui.Scripty_2.Position = UDim2.new(0.566739619, 0, 0.678749979, 0)
-ScreenGui.Scripty_2.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_2.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_16.Parent = ScreenGui.Scripty_2
-ScreenGui.TextLabel_16.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_16.BorderSizePixel = 0
-ScreenGui.TextLabel_16.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_16.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_16.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_16.Text = "Universal Aimbot"
-ScreenGui.TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_16.TextSize = 14.000
-
-ScreenGui.UICorner_39.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_39.Parent = ScreenGui.TextLabel_16
-
-ScreenGui.UICorner_40.Parent = ScreenGui.Scripty_2
-
-ScreenGui.UIAspectRatioConstraint_44.Parent = ScreenGui.Scripty_2
-
-ScreenGui.Scripty_3.Name = "Scripty"
-ScreenGui.Scripty_3.Parent = ScreenGui.ScrollingFrame
-ScreenGui.Scripty_3.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_3.BorderSizePixel = 0
-ScreenGui.Scripty_3.Position = UDim2.new(0.0218818337, 0, 0.84375, 0)
-ScreenGui.Scripty_3.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_3.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_17.Parent = ScreenGui.Scripty_3
-ScreenGui.TextLabel_17.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_17.BorderSizePixel = 0
-ScreenGui.TextLabel_17.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_17.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_17.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_17.Text = "Unknown Hub"
-ScreenGui.TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_17.TextSize = 14.000
-
-ScreenGui.UICorner_41.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_41.Parent = ScreenGui.TextLabel_17
-
-ScreenGui.UICorner_42.Parent = ScreenGui.Scripty_3
-
-ScreenGui.TextLabel_18.Parent = ScreenGui.Scripty_3
-ScreenGui.TextLabel_18.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_18.BorderSizePixel = 0
-ScreenGui.TextLabel_18.Position = UDim2.new(0, 0, 0.769911528, 0)
-ScreenGui.TextLabel_18.Size = UDim2.new(0, 113, 0, 16)
-ScreenGui.TextLabel_18.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_18.Text = "Key: UpdatedV2.5"
-ScreenGui.TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_18.TextSize = 9.000
-
-ScreenGui.UICorner_43.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_43.Parent = ScreenGui.TextLabel_18
-
-ScreenGui.UIAspectRatioConstraint_45.Parent = ScreenGui.Scripty_3
-
-ScreenGui.Scripty_4.Name = "Scripty"
-ScreenGui.Scripty_4.Parent = ScreenGui.ScrollingFrame
-ScreenGui.Scripty_4.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_4.BorderSizePixel = 0
-ScreenGui.Scripty_4.Position = UDim2.new(0.29102844, 0, 0.84375, 0)
-ScreenGui.Scripty_4.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_4.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_19.Parent = ScreenGui.Scripty_4
-ScreenGui.TextLabel_19.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_19.BorderSizePixel = 0
-ScreenGui.TextLabel_19.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_19.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_19.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_19.Text = "Mele GUI"
-ScreenGui.TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_19.TextSize = 14.000
-
-ScreenGui.UICorner_44.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_44.Parent = ScreenGui.TextLabel_19
-
-ScreenGui.UICorner_45.Parent = ScreenGui.Scripty_4
-
-ScreenGui.UIAspectRatioConstraint_46.Parent = ScreenGui.Scripty_4
-
-ScreenGui.Scripty_5.Name = "Scripty"
-ScreenGui.Scripty_5.Parent = ScreenGui.ScrollingFrame
-ScreenGui.Scripty_5.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_5.BorderSizePixel = 0
-ScreenGui.Scripty_5.Position = UDim2.new(0.564551413, 0, 0.84375, 0)
-ScreenGui.Scripty_5.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_5.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_20.Parent = ScreenGui.Scripty_5
-ScreenGui.TextLabel_20.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_20.BorderSizePixel = 0
-ScreenGui.TextLabel_20.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_20.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_20.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_20.Text = "Speed Script"
-ScreenGui.TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_20.TextSize = 14.000
-
-ScreenGui.UICorner_46.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_46.Parent = ScreenGui.TextLabel_20
-
-ScreenGui.UICorner_47.Parent = ScreenGui.Scripty_5
-
-ScreenGui.UIAspectRatioConstraint_47.Parent = ScreenGui.Scripty_5
-
-ScreenGui.UIAspectRatioConstraint_48.Parent = ScreenGui.ScrollingFrame
-ScreenGui.UIAspectRatioConstraint_48.AspectRatio = 1.143
-
-ScreenGui.UICorner_48.Parent = ScreenGui.Universal
-
-ScreenGui.UIAspectRatioConstraint_49.Parent = ScreenGui.Universal
-ScreenGui.UIAspectRatioConstraint_49.AspectRatio = 1.143
-
-ScreenGui.Game.Name = "Game"
-ScreenGui.Game.Parent = ScreenGui.Main
-ScreenGui.Game.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
-ScreenGui.Game.BorderSizePixel = 0
-ScreenGui.Game.Position = UDim2.new(0.262903214, 0, 0, 0)
-ScreenGui.Game.Size = UDim2.new(0.737096786, 0, 1, 0)
-ScreenGui.Game.Visible = false
-
-ScreenGui.ScrollingFrame_2.Parent = ScreenGui.Game
-ScreenGui.ScrollingFrame_2.Active = true
-ScreenGui.ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
-ScreenGui.ScrollingFrame_2.BorderSizePixel = 0
-ScreenGui.ScrollingFrame_2.Size = UDim2.new(1, 0, 1, 0)
-
-ScreenGui.Scripty_6.Name = "Scripty"
-ScreenGui.Scripty_6.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_6.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_6.BorderSizePixel = 0
-ScreenGui.Scripty_6.Position = UDim2.new(0.295404792, 0, 0.178750038, 0)
-ScreenGui.Scripty_6.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_6.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_21.Parent = ScreenGui.Scripty_6
-ScreenGui.TextLabel_21.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_21.BorderSizePixel = 0
-ScreenGui.TextLabel_21.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_21.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_21.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_21.Text = "Arsenal"
-ScreenGui.TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_21.TextSize = 14.000
-
-ScreenGui.UICorner_49.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_49.Parent = ScreenGui.TextLabel_21
-
-ScreenGui.UICorner_50.Parent = ScreenGui.Scripty_6
-
-ScreenGui.UIAspectRatioConstraint_50.Parent = ScreenGui.Scripty_6
-
-ScreenGui.Scripty_7.Name = "Scripty"
-ScreenGui.Scripty_7.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_7.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_7.BorderSizePixel = 0
-ScreenGui.Scripty_7.Position = UDim2.new(0.295404792, 0, 0.0162499994, 0)
-ScreenGui.Scripty_7.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_7.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_22.Parent = ScreenGui.Scripty_7
-ScreenGui.TextLabel_22.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_22.BorderSizePixel = 0
-ScreenGui.TextLabel_22.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_22.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_22.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_22.Text = "Prison Life"
-ScreenGui.TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_22.TextSize = 14.000
-
-ScreenGui.UICorner_51.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_51.Parent = ScreenGui.TextLabel_22
-
-ScreenGui.UICorner_52.Parent = ScreenGui.Scripty_7
-
-ScreenGui.UIAspectRatioConstraint_51.Parent = ScreenGui.Scripty_7
-
-ScreenGui.Scripty_8.Name = "Scripty"
-ScreenGui.Scripty_8.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_8.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_8.BorderSizePixel = 0
-ScreenGui.Scripty_8.Position = UDim2.new(0.568927824, 0, 0.178750038, 0)
-ScreenGui.Scripty_8.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_8.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_23.Parent = ScreenGui.Scripty_8
-ScreenGui.TextLabel_23.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_23.BorderSizePixel = 0
-ScreenGui.TextLabel_23.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_23.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_23.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_23.Text = "BABFT"
-ScreenGui.TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_23.TextSize = 14.000
-
-ScreenGui.UICorner_53.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_53.Parent = ScreenGui.TextLabel_23
-
-ScreenGui.UICorner_54.Parent = ScreenGui.Scripty_8
-
-ScreenGui.UIAspectRatioConstraint_52.Parent = ScreenGui.Scripty_8
-
-ScreenGui.Scripty_9.Name = "Scripty"
-ScreenGui.Scripty_9.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_9.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_9.BorderSizePixel = 0
-ScreenGui.Scripty_9.Position = UDim2.new(0.568927824, 0, 0.0162499994, 0)
-ScreenGui.Scripty_9.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_9.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_24.Parent = ScreenGui.Scripty_9
-ScreenGui.TextLabel_24.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_24.BorderSizePixel = 0
-ScreenGui.TextLabel_24.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_24.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_24.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_24.Text = "Adopt Me!"
-ScreenGui.TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_24.TextSize = 14.000
-
-ScreenGui.UICorner_55.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_55.Parent = ScreenGui.TextLabel_24
-
-ScreenGui.UICorner_56.Parent = ScreenGui.Scripty_9
-
-ScreenGui.UIAspectRatioConstraint_53.Parent = ScreenGui.Scripty_9
-
-ScreenGui.Scripty_10.Name = "Scripty"
-ScreenGui.Scripty_10.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_10.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_10.BorderSizePixel = 0
-ScreenGui.Scripty_10.Position = UDim2.new(0.0262582004, 0, 0.178750038, 0)
-ScreenGui.Scripty_10.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_10.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_25.Parent = ScreenGui.Scripty_10
-ScreenGui.TextLabel_25.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_25.BorderSizePixel = 0
-ScreenGui.TextLabel_25.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_25.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_25.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_25.Text = "Dahood"
-ScreenGui.TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_25.TextSize = 14.000
-
-ScreenGui.UICorner_57.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_57.Parent = ScreenGui.TextLabel_25
-
-ScreenGui.UICorner_58.Parent = ScreenGui.Scripty_10
-
-ScreenGui.UIAspectRatioConstraint_54.Parent = ScreenGui.Scripty_10
-
-ScreenGui.Scripty_11.Name = "Scripty"
-ScreenGui.Scripty_11.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_11.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_11.BorderSizePixel = 0
-ScreenGui.Scripty_11.Position = UDim2.new(0.0262582004, 0, 0.0162499994, 0)
-ScreenGui.Scripty_11.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_11.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_26.Parent = ScreenGui.Scripty_11
-ScreenGui.TextLabel_26.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_26.BorderSizePixel = 0
-ScreenGui.TextLabel_26.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_26.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_26.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_26.Text = "MM2"
-ScreenGui.TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_26.TextSize = 14.000
-
-ScreenGui.UICorner_59.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_59.Parent = ScreenGui.TextLabel_26
-
-ScreenGui.UICorner_60.Parent = ScreenGui.Scripty_11
-
-ScreenGui.UIAspectRatioConstraint_55.Parent = ScreenGui.Scripty_11
-
-ScreenGui.Scripty_12.Name = "Scripty"
-ScreenGui.Scripty_12.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_12.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_12.BorderSizePixel = 0
-ScreenGui.Scripty_12.Position = UDim2.new(0.295404792, 0, 0.34375, 0)
-ScreenGui.Scripty_12.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_12.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_27.Parent = ScreenGui.Scripty_12
-ScreenGui.TextLabel_27.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_27.BorderSizePixel = 0
-ScreenGui.TextLabel_27.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_27.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_27.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_27.Text = "KAT"
-ScreenGui.TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_27.TextSize = 14.000
-
-ScreenGui.UICorner_61.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_61.Parent = ScreenGui.TextLabel_27
-
-ScreenGui.UICorner_62.Parent = ScreenGui.Scripty_12
-
-ScreenGui.UIAspectRatioConstraint_56.Parent = ScreenGui.Scripty_12
-
-ScreenGui.Scripty_13.Name = "Scripty"
-ScreenGui.Scripty_13.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_13.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_13.BorderSizePixel = 0
-ScreenGui.Scripty_13.Position = UDim2.new(0.0262582004, 0, 0.34375, 0)
-ScreenGui.Scripty_13.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_13.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_28.Parent = ScreenGui.Scripty_13
-ScreenGui.TextLabel_28.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_28.BorderSizePixel = 0
-ScreenGui.TextLabel_28.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_28.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_28.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_28.Text = "Brookhaven"
-ScreenGui.TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_28.TextSize = 14.000
-
-ScreenGui.UICorner_63.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_63.Parent = ScreenGui.TextLabel_28
-
-ScreenGui.UICorner_64.Parent = ScreenGui.Scripty_13
-
-ScreenGui.UIAspectRatioConstraint_57.Parent = ScreenGui.Scripty_13
-
-ScreenGui.Scripty_14.Name = "Scripty"
-ScreenGui.Scripty_14.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_14.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_14.BorderSizePixel = 0
-ScreenGui.Scripty_14.Position = UDim2.new(0.568927824, 0, 0.34375, 0)
-ScreenGui.Scripty_14.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_14.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_29.Parent = ScreenGui.Scripty_14
-ScreenGui.TextLabel_29.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_29.BorderSizePixel = 0
-ScreenGui.TextLabel_29.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_29.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_29.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_29.Text = "Jailbreak"
-ScreenGui.TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_29.TextSize = 14.000
-
-ScreenGui.UICorner_65.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_65.Parent = ScreenGui.TextLabel_29
-
-ScreenGui.UICorner_66.Parent = ScreenGui.Scripty_14
-
-ScreenGui.UIAspectRatioConstraint_58.Parent = ScreenGui.Scripty_14
-
-ScreenGui.Scripty_15.Name = "Scripty"
-ScreenGui.Scripty_15.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_15.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_15.BorderSizePixel = 0
-ScreenGui.Scripty_15.Position = UDim2.new(0.568927824, 0, 0.516250014, 0)
-ScreenGui.Scripty_15.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_15.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_30.Parent = ScreenGui.Scripty_15
-ScreenGui.TextLabel_30.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_30.BorderSizePixel = 0
-ScreenGui.TextLabel_30.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_30.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_30.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_30.Text = "Shindo Life"
-ScreenGui.TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_30.TextSize = 14.000
-
-ScreenGui.UICorner_67.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_67.Parent = ScreenGui.TextLabel_30
-
-ScreenGui.UICorner_68.Parent = ScreenGui.Scripty_15
-
-ScreenGui.UIAspectRatioConstraint_59.Parent = ScreenGui.Scripty_15
-
-ScreenGui.Scripty_16.Name = "Scripty"
-ScreenGui.Scripty_16.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_16.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_16.BorderSizePixel = 0
-ScreenGui.Scripty_16.Position = UDim2.new(0.295404792, 0, 0.516250014, 0)
-ScreenGui.Scripty_16.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_16.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_31.Parent = ScreenGui.Scripty_16
-ScreenGui.TextLabel_31.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_31.BorderSizePixel = 0
-ScreenGui.TextLabel_31.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_31.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_31.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_31.Text = "TDS"
-ScreenGui.TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_31.TextSize = 14.000
-
-ScreenGui.UICorner_69.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_69.Parent = ScreenGui.TextLabel_31
-
-ScreenGui.UICorner_70.Parent = ScreenGui.Scripty_16
-
-ScreenGui.UIAspectRatioConstraint_60.Parent = ScreenGui.Scripty_16
-
-ScreenGui.Scripty_17.Name = "Scripty"
-ScreenGui.Scripty_17.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_17.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_17.BorderSizePixel = 0
-ScreenGui.Scripty_17.Position = UDim2.new(0.0262582004, 0, 0.516250014, 0)
-ScreenGui.Scripty_17.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_17.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_32.Parent = ScreenGui.Scripty_17
-ScreenGui.TextLabel_32.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_32.BorderSizePixel = 0
-ScreenGui.TextLabel_32.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_32.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_32.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_32.Text = "Pet Sim X"
-ScreenGui.TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_32.TextSize = 14.000
-
-ScreenGui.UICorner_71.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_71.Parent = ScreenGui.TextLabel_32
-
-ScreenGui.UICorner_72.Parent = ScreenGui.Scripty_17
-
-ScreenGui.UIAspectRatioConstraint_61.Parent = ScreenGui.Scripty_17
-
-ScreenGui.Scripty_18.Name = "Scripty"
-ScreenGui.Scripty_18.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_18.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_18.BorderSizePixel = 0
-ScreenGui.Scripty_18.Position = UDim2.new(0.024070017, 0, 0.683750033, 0)
-ScreenGui.Scripty_18.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_18.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_33.Parent = ScreenGui.Scripty_18
-ScreenGui.TextLabel_33.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_33.BorderSizePixel = 0
-ScreenGui.TextLabel_33.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_33.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_33.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_33.Text = "PF X"
-ScreenGui.TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_33.TextSize = 14.000
-
-ScreenGui.UICorner_73.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_73.Parent = ScreenGui.TextLabel_33
-
-ScreenGui.UICorner_74.Parent = ScreenGui.Scripty_18
-
-ScreenGui.UIAspectRatioConstraint_62.Parent = ScreenGui.Scripty_18
-
-ScreenGui.Scripty_19.Name = "Scripty"
-ScreenGui.Scripty_19.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_19.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_19.BorderSizePixel = 0
-ScreenGui.Scripty_19.Position = UDim2.new(0.295404822, 0, 0.683750033, 0)
-ScreenGui.Scripty_19.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_19.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_34.Parent = ScreenGui.Scripty_19
-ScreenGui.TextLabel_34.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_34.BorderSizePixel = 0
-ScreenGui.TextLabel_34.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_34.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_34.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_34.Text = "Flee the Facility"
-ScreenGui.TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_34.TextSize = 14.000
-
-ScreenGui.UICorner_75.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_75.Parent = ScreenGui.TextLabel_34
-
-ScreenGui.UICorner_76.Parent = ScreenGui.Scripty_19
-
-ScreenGui.UIAspectRatioConstraint_63.Parent = ScreenGui.Scripty_19
-
-ScreenGui.Scripty_20.Name = "Scripty"
-ScreenGui.Scripty_20.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_20.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_20.BorderSizePixel = 0
-ScreenGui.Scripty_20.Position = UDim2.new(0.568927824, 0, 0.683750033, 0)
-ScreenGui.Scripty_20.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_20.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_35.Parent = ScreenGui.Scripty_20
-ScreenGui.TextLabel_35.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_35.BorderSizePixel = 0
-ScreenGui.TextLabel_35.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_35.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_35.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_35.Text = "Sharkbite"
-ScreenGui.TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_35.TextSize = 14.000
-
-ScreenGui.UICorner_77.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_77.Parent = ScreenGui.TextLabel_35
-
-ScreenGui.UICorner_78.Parent = ScreenGui.Scripty_20
-
-ScreenGui.UIAspectRatioConstraint_64.Parent = ScreenGui.Scripty_20
-
-ScreenGui.Scripty_21.Name = "Scripty"
-ScreenGui.Scripty_21.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_21.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_21.BorderSizePixel = 0
-ScreenGui.Scripty_21.Position = UDim2.new(0.566739619, 0, 0.838750064, 0)
-ScreenGui.Scripty_21.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_21.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_36.Parent = ScreenGui.Scripty_21
-ScreenGui.TextLabel_36.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_36.BorderSizePixel = 0
-ScreenGui.TextLabel_36.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_36.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_36.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_36.Text = "Blast Off Sim"
-ScreenGui.TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_36.TextSize = 14.000
-
-ScreenGui.UICorner_79.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_79.Parent = ScreenGui.TextLabel_36
-
-ScreenGui.UICorner_80.Parent = ScreenGui.Scripty_21
-
-ScreenGui.UIAspectRatioConstraint_65.Parent = ScreenGui.Scripty_21
-
-ScreenGui.Scripty_22.Name = "Scripty"
-ScreenGui.Scripty_22.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_22.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_22.BorderSizePixel = 0
-ScreenGui.Scripty_22.Position = UDim2.new(0.293216646, 0, 0.838750064, 0)
-ScreenGui.Scripty_22.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_22.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_37.Parent = ScreenGui.Scripty_22
-ScreenGui.TextLabel_37.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_37.BorderSizePixel = 0
-ScreenGui.TextLabel_37.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_37.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_37.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_37.Text = "Westbound"
-ScreenGui.TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_37.TextSize = 14.000
-
-ScreenGui.UICorner_81.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_81.Parent = ScreenGui.TextLabel_37
-
-ScreenGui.UICorner_82.Parent = ScreenGui.Scripty_22
-
-ScreenGui.UIAspectRatioConstraint_66.Parent = ScreenGui.Scripty_22
-
-ScreenGui.Scripty_23.Name = "Scripty"
-ScreenGui.Scripty_23.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.Scripty_23.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
-ScreenGui.Scripty_23.BorderSizePixel = 0
-ScreenGui.Scripty_23.Position = UDim2.new(0.0218818337, 0, 0.838750064, 0)
-ScreenGui.Scripty_23.Size = UDim2.new(0, 113, 0, 113)
-ScreenGui.Scripty_23.Image = "http://www.roblox.com/asset/?id=3264014749"
-
-ScreenGui.TextLabel_38.Parent = ScreenGui.Scripty_23
-ScreenGui.TextLabel_38.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
-ScreenGui.TextLabel_38.BorderSizePixel = 0
-ScreenGui.TextLabel_38.Position = UDim2.new(0, 0, 0.911504447, 0)
-ScreenGui.TextLabel_38.Size = UDim2.new(0, 113, 0, 22)
-ScreenGui.TextLabel_38.Font = Enum.Font.Gotham
-ScreenGui.TextLabel_38.Text = "Bee Swarm Sim"
-ScreenGui.TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
-ScreenGui.TextLabel_38.TextSize = 14.000
-
-ScreenGui.UICorner_83.CornerRadius = UDim.new(0, 4)
-ScreenGui.UICorner_83.Parent = ScreenGui.TextLabel_38
-
-ScreenGui.UICorner_84.Parent = ScreenGui.Scripty_23
-
-ScreenGui.UIAspectRatioConstraint_67.Parent = ScreenGui.Scripty_23
-
-ScreenGui.UICorner_85.Parent = ScreenGui.ScrollingFrame_2
-
-ScreenGui.UIAspectRatioConstraint_68.Parent = ScreenGui.ScrollingFrame_2
-ScreenGui.UIAspectRatioConstraint_68.AspectRatio = 1.143
-
-ScreenGui.UICorner_86.Parent = ScreenGui.Game
-
-ScreenGui.UIAspectRatioConstraint_69.Parent = ScreenGui.Game
-ScreenGui.UIAspectRatioConstraint_69.AspectRatio = 1.143
-
-ScreenGui.UICorner_87.Parent = ScreenGui.Main
-
-ScreenGui.Setting.Name = "Setting"
-ScreenGui.Setting.Parent = ScreenGui.Main
-ScreenGui.Setting.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
-ScreenGui.Setting.BorderSizePixel = 0
-ScreenGui.Setting.Position = UDim2.new(0.262903214, 0, 0, 0)
-ScreenGui.Setting.Size = UDim2.new(0.737096786, 0, 1, 0)
-ScreenGui.Setting.Visible = false
-
-ScreenGui.UICorner_88.Parent = ScreenGui.Setting
-
-ScreenGui.UIAspectRatioConstraint_70.Parent = ScreenGui.Setting
-ScreenGui.UIAspectRatioConstraint_70.AspectRatio = 1.143
-
-ScreenGui.UIAspectRatioConstraint_71.Parent = ScreenGui.Main
-ScreenGui.UIAspectRatioConstraint_71.AspectRatio = 1.550
+archden.archden.Name = "archden"
+archden.archden.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+archden.archden.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+archden.Main.Name = "Main"
+archden.Main.Parent = archden.archden
+archden.Main.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+archden.Main.BorderSizePixel = 0
+archden.Main.Position = UDim2.new(0.281073451, 0, 0.261620998, 0)
+archden.Main.Size = UDim2.new(0.44668588, 0, 0.476758033, 0)
+archden.Main.Visible = false
+
+archden.Side.Name = "Side"
+archden.Side.Parent = archden.Main
+archden.Side.BackgroundColor3 = Color3.fromRGB(20, 21, 25)
+archden.Side.BorderSizePixel = 0
+archden.Side.Size = UDim2.new(0.262903214, 0, 1, 0)
+
+archden.camera.Name = "camera"
+archden.camera.Parent = archden.Side
+archden.camera.BackgroundTransparency = 1.000
+archden.camera.Position = UDim2.new(0.168711662, 0, 0.030000018, 0)
+archden.camera.Size = UDim2.new(0.233128831, 0, 0.0949999988, 0)
+archden.camera.ZIndex = 2
+archden.camera.Image = "rbxassetid://3926305904"
+archden.camera.ImageRectOffset = Vector2.new(484, 964)
+archden.camera.ImageRectSize = Vector2.new(36, 36)
+
+archden.TextLabel.Parent = archden.camera
+archden.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel.BackgroundTransparency = 1.000
+archden.TextLabel.Position = UDim2.new(1, 0, 0.0526315793, 0)
+archden.TextLabel.Size = UDim2.new(1.76315784, 0, 0.868421078, 0)
+archden.TextLabel.Font = Enum.Font.GothamBlack
+archden.TextLabel.Text = "DEN"
+archden.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel.TextScaled = true
+archden.TextLabel.TextSize = 14.000
+archden.TextLabel.TextWrapped = true
+archden.TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint.Parent = archden.TextLabel
+archden.UIAspectRatioConstraint.AspectRatio = 2.030
+
+archden.UITextSizeConstraint.Parent = archden.TextLabel
+archden.UITextSizeConstraint.MaxTextSize = 33
+
+archden.UIAspectRatioConstraint_2.Parent = archden.camera
+
+archden.H.Name = "H"
+archden.H.Parent = archden.Side
+archden.H.BackgroundColor3 = Color3.fromRGB(27, 29, 34)
+archden.H.BorderSizePixel = 0
+archden.H.Position = UDim2.new(0.0552147254, 0, 0.174999997, 0)
+archden.H.Size = UDim2.new(0.883435607, 0, 0.0850000009, 0)
+archden.H.Font = Enum.Font.GothamSemibold
+archden.H.Text = "Home"
+archden.H.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.H.TextScaled = true
+archden.H.TextSize = 20.000
+archden.H.TextWrapped = true
+
+archden.UICorner.Parent = archden.H
+
+archden.UIAspectRatioConstraint_3.Parent = archden.H
+archden.UIAspectRatioConstraint_3.AspectRatio = 4.235
+
+archden.UITextSizeConstraint_2.Parent = archden.H
+archden.UITextSizeConstraint_2.MaxTextSize = 20
+
+archden.G.Name = "G"
+archden.G.Parent = archden.Side
+archden.G.BackgroundColor3 = Color3.fromRGB(27, 29, 34)
+archden.G.BorderSizePixel = 0
+archden.G.Position = UDim2.new(0.0552147254, 0, 0.282499999, 0)
+archden.G.Size = UDim2.new(0.883435607, 0, 0.0850000009, 0)
+archden.G.Font = Enum.Font.GothamSemibold
+archden.G.Text = "Game SCR"
+archden.G.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.G.TextScaled = true
+archden.G.TextSize = 20.000
+archden.G.TextWrapped = true
+
+archden.UICorner_2.Parent = archden.G
+
+archden.UIAspectRatioConstraint_4.Parent = archden.G
+archden.UIAspectRatioConstraint_4.AspectRatio = 4.235
+
+archden.UITextSizeConstraint_3.Parent = archden.G
+archden.UITextSizeConstraint_3.MaxTextSize = 20
+
+archden.U.Name = "U"
+archden.U.Parent = archden.Side
+archden.U.BackgroundColor3 = Color3.fromRGB(27, 29, 34)
+archden.U.BorderSizePixel = 0
+archden.U.Position = UDim2.new(0.0552147254, 0, 0.392499983, 0)
+archden.U.Size = UDim2.new(0.883435607, 0, 0.0850000009, 0)
+archden.U.Font = Enum.Font.GothamSemibold
+archden.U.Text = "Univeral SCR"
+archden.U.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.U.TextScaled = true
+archden.U.TextSize = 20.000
+archden.U.TextWrapped = true
+
+archden.UICorner_3.Parent = archden.U
+
+archden.UIAspectRatioConstraint_5.Parent = archden.U
+archden.UIAspectRatioConstraint_5.AspectRatio = 4.235
+
+archden.UITextSizeConstraint_4.Parent = archden.U
+archden.UITextSizeConstraint_4.MaxTextSize = 20
+
+archden.UICorner_4.Parent = archden.Side
+
+archden.S.Name = "S"
+archden.S.Parent = archden.Side
+archden.S.BackgroundColor3 = Color3.fromRGB(27, 29, 34)
+archden.S.BorderSizePixel = 0
+archden.S.Position = UDim2.new(0.0552147254, 0, 0.502499998, 0)
+archden.S.Size = UDim2.new(0.883435607, 0, 0.0850000009, 0)
+archden.S.Visible = false
+archden.S.Font = Enum.Font.GothamSemibold
+archden.S.Text = "Settings"
+archden.S.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.S.TextScaled = true
+archden.S.TextSize = 20.000
+archden.S.TextWrapped = true
+
+archden.UICorner_5.Parent = archden.S
+
+archden.UIAspectRatioConstraint_6.Parent = archden.S
+archden.UIAspectRatioConstraint_6.AspectRatio = 4.235
+
+archden.UITextSizeConstraint_5.Parent = archden.S
+archden.UITextSizeConstraint_5.MaxTextSize = 20
+
+archden.UIAspectRatioConstraint_7.Parent = archden.Side
+archden.UIAspectRatioConstraint_7.AspectRatio = 0.407
+
+archden.Home.Name = "Home"
+archden.Home.Parent = archden.Main
+archden.Home.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+archden.Home.BorderSizePixel = 0
+archden.Home.Position = UDim2.new(0.262903214, 0, 0, 0)
+archden.Home.Size = UDim2.new(0.737096786, 0, 1, 0)
+
+archden.User.Name = "User"
+archden.User.Parent = archden.Home
+archden.User.BackgroundColor3 = Color3.fromRGB(20, 21, 25)
+archden.User.BorderSizePixel = 0
+archden.User.LayoutOrder = 3
+archden.User.Position = UDim2.new(0.0371991247, 0, 0.0524999984, 0)
+archden.User.Size = UDim2.new(0.923413575, 0, 0.425000012, 0)
+
+archden.UICorner_6.Parent = archden.User
+
+archden.Welcome.Name = "Welcome"
+archden.Welcome.Parent = archden.User
+archden.Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Welcome.BackgroundTransparency = 1.000
+archden.Welcome.BorderSizePixel = 0
+archden.Welcome.Position = UDim2.new(0.236966819, 0, 0.0882352963, 0)
+archden.Welcome.Size = UDim2.new(0.473933637, 0, 0.152941182, 0)
+archden.Welcome.Font = Enum.Font.GothamSemibold
+archden.Welcome.Text = "Welcome, "
+archden.Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Welcome.TextScaled = true
+archden.Welcome.TextSize = 18.000
+archden.Welcome.TextWrapped = true
+archden.Welcome.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_8.Parent = archden.Welcome
+archden.UIAspectRatioConstraint_8.AspectRatio = 7.692
+
+archden.UITextSizeConstraint_6.Parent = archden.Welcome
+archden.UITextSizeConstraint_6.MaxTextSize = 18
+
+archden.ImageLabel.Parent = archden.User
+archden.ImageLabel.BackgroundColor3 = Color3.fromRGB(33, 35, 42)
+archden.ImageLabel.BorderSizePixel = 0
+archden.ImageLabel.Position = UDim2.new(0.0260663517, 0, 0.0823529437, 0)
+archden.ImageLabel.Size = UDim2.new(0.189573467, 0, 0.470588237, 0)
+archden.ImageLabel.Image = "rbxassetid://8772119953"
+
+archden.UICorner_7.CornerRadius = UDim.new(0, 60)
+archden.UICorner_7.Parent = archden.ImageLabel
+
+archden.UIAspectRatioConstraint_9.Parent = archden.ImageLabel
+
+archden.USERNAME.Name = "USERNAME"
+archden.USERNAME.Parent = archden.User
+archden.USERNAME.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.USERNAME.BackgroundTransparency = 1.000
+archden.USERNAME.BorderSizePixel = 0
+archden.USERNAME.Position = UDim2.new(0.445497632, 0, 0.0882352963, 0)
+archden.USERNAME.Size = UDim2.new(0.265402853, 0, 0.152941182, 0)
+archden.USERNAME.Font = Enum.Font.GothamSemibold
+archden.USERNAME.Text = "Random"
+archden.USERNAME.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.USERNAME.TextScaled = true
+archden.USERNAME.TextSize = 18.000
+archden.USERNAME.TextWrapped = true
+archden.USERNAME.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_10.Parent = archden.USERNAME
+archden.UIAspectRatioConstraint_10.AspectRatio = 4.308
+
+archden.UITextSizeConstraint_7.Parent = archden.USERNAME
+archden.UITextSizeConstraint_7.MaxTextSize = 18
+
+archden.Welcome_2.Name = "Welcome"
+archden.Welcome_2.Parent = archden.User
+archden.Welcome_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Welcome_2.BackgroundTransparency = 1.000
+archden.Welcome_2.BorderSizePixel = 0
+archden.Welcome_2.Position = UDim2.new(0.236966819, 0, 0.241176486, 0)
+archden.Welcome_2.Size = UDim2.new(0.473933637, 0, 0.152941182, 0)
+archden.Welcome_2.Font = Enum.Font.GothamSemibold
+archden.Welcome_2.Text = "Whitelisted: True "
+archden.Welcome_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Welcome_2.TextScaled = true
+archden.Welcome_2.TextSize = 13.000
+archden.Welcome_2.TextWrapped = true
+archden.Welcome_2.TextXAlignment = Enum.TextXAlignment.Left
+archden.Welcome_2.TextYAlignment = Enum.TextYAlignment.Top
+
+archden.UIAspectRatioConstraint_11.Parent = archden.Welcome_2
+archden.UIAspectRatioConstraint_11.AspectRatio = 7.692
+
+archden.UITextSizeConstraint_8.Parent = archden.Welcome_2
+archden.UITextSizeConstraint_8.MaxTextSize = 13
+
+archden.Welcome_3.Name = "Welcome"
+archden.Welcome_3.Parent = archden.User
+archden.Welcome_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Welcome_3.BackgroundTransparency = 1.000
+archden.Welcome_3.BorderSizePixel = 0
+archden.Welcome_3.Position = UDim2.new(0.336492866, 0, 0.488235295, 0)
+archden.Welcome_3.Rotation = -10.000
+archden.Welcome_3.Size = UDim2.new(0.644549787, 0, 0.311764717, 0)
+archden.Welcome_3.Font = Enum.Font.GothamBlack
+archden.Welcome_3.Text = "DEN TECH"
+archden.Welcome_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Welcome_3.TextScaled = true
+archden.Welcome_3.TextSize = 40.000
+archden.Welcome_3.TextTransparency = 0.960
+archden.Welcome_3.TextWrapped = true
+
+archden.UIAspectRatioConstraint_12.Parent = archden.Welcome_3
+archden.UIAspectRatioConstraint_12.AspectRatio = 5.132
+
+archden.UITextSizeConstraint_9.Parent = archden.Welcome_3
+archden.UITextSizeConstraint_9.MaxTextSize = 53
+
+archden.UIAspectRatioConstraint_13.Parent = archden.User
+archden.UIAspectRatioConstraint_13.AspectRatio = 2.482
+
+archden.PlayerInfo.Name = "PlayerInfo"
+archden.PlayerInfo.Parent = archden.Home
+archden.PlayerInfo.BackgroundColor3 = Color3.fromRGB(20, 21, 25)
+archden.PlayerInfo.BorderSizePixel = 0
+archden.PlayerInfo.Position = UDim2.new(0.617067814, 0, 0.574999988, 0)
+archden.PlayerInfo.Size = UDim2.new(0.361050338, 0, 0.400000006, 0)
+
+archden.Text.Name = "Text"
+archden.Text.Parent = archden.PlayerInfo
+archden.Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text.BackgroundTransparency = 1.000
+archden.Text.BorderSizePixel = 0
+archden.Text.Position = UDim2.new(0.0551484078, 0, 0.200735286, 0)
+archden.Text.Size = UDim2.new(0.890909076, 0, 0.162499994, 0)
+archden.Text.Font = Enum.Font.GothamSemibold
+archden.Text.Text = "UserID"
+archden.Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text.TextScaled = true
+archden.Text.TextSize = 18.000
+archden.Text.TextWrapped = true
+archden.Text.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_14.Parent = archden.Text
+archden.UIAspectRatioConstraint_14.AspectRatio = 5.654
+
+archden.UITextSizeConstraint_10.Parent = archden.Text
+archden.UITextSizeConstraint_10.MaxTextSize = 18
+
+archden.USERID.Name = "USERID"
+archden.USERID.Parent = archden.PlayerInfo
+archden.USERID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.USERID.BackgroundTransparency = 1.000
+archden.USERID.BorderSizePixel = 0
+archden.USERID.Position = UDim2.new(0.0551484078, 0, 0.363235474, 0)
+archden.USERID.Size = UDim2.new(0.890909076, 0, 0.075000003, 0)
+archden.USERID.Font = Enum.Font.Gotham
+archden.USERID.Text = "XXXXXXXX"
+archden.USERID.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.USERID.TextScaled = true
+archden.USERID.TextSize = 18.000
+archden.USERID.TextWrapped = true
+archden.USERID.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_15.Parent = archden.USERID
+archden.UIAspectRatioConstraint_15.AspectRatio = 12.250
+
+archden.UITextSizeConstraint_11.Parent = archden.USERID
+archden.UITextSizeConstraint_11.MaxTextSize = 12
+
+archden.UICorner_8.Parent = archden.PlayerInfo
+
+archden.Text_2.Name = "Text"
+archden.Text_2.Parent = archden.PlayerInfo
+archden.Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_2.BackgroundTransparency = 1.000
+archden.Text_2.BorderSizePixel = 0
+archden.Text_2.Position = UDim2.new(0.0490878001, 0, 0.475735307, 0)
+archden.Text_2.Size = UDim2.new(0.890909076, 0, 0.162499994, 0)
+archden.Text_2.Font = Enum.Font.GothamSemibold
+archden.Text_2.Text = "Display Name"
+archden.Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_2.TextScaled = true
+archden.Text_2.TextSize = 18.000
+archden.Text_2.TextWrapped = true
+archden.Text_2.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_16.Parent = archden.Text_2
+archden.UIAspectRatioConstraint_16.AspectRatio = 5.654
+
+archden.UITextSizeConstraint_12.Parent = archden.Text_2
+archden.UITextSizeConstraint_12.MaxTextSize = 18
+
+archden.DISPLAY.Name = "DISPLAY"
+archden.DISPLAY.Parent = archden.PlayerInfo
+archden.DISPLAY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.DISPLAY.BackgroundTransparency = 1.000
+archden.DISPLAY.BorderSizePixel = 0
+archden.DISPLAY.Position = UDim2.new(0.0490878001, 0, 0.63823545, 0)
+archden.DISPLAY.Size = UDim2.new(0.890909076, 0, 0.075000003, 0)
+archden.DISPLAY.Font = Enum.Font.Gotham
+archden.DISPLAY.Text = "XXXXXXXX"
+archden.DISPLAY.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.DISPLAY.TextScaled = true
+archden.DISPLAY.TextSize = 18.000
+archden.DISPLAY.TextWrapped = true
+archden.DISPLAY.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_17.Parent = archden.DISPLAY
+archden.UIAspectRatioConstraint_17.AspectRatio = 12.250
+
+archden.UITextSizeConstraint_13.Parent = archden.DISPLAY
+archden.UITextSizeConstraint_13.MaxTextSize = 12
+
+archden.USER.Name = "USER"
+archden.USER.Parent = archden.PlayerInfo
+archden.USER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.USER.BackgroundTransparency = 1.000
+archden.USER.BorderSizePixel = 0
+archden.USER.Position = UDim2.new(0.0490878001, 0, 0.91948545, 0)
+archden.USER.Size = UDim2.new(0.890909076, 0, 0.075000003, 0)
+archden.USER.Font = Enum.Font.Gotham
+archden.USER.Text = "XXXXXXXX"
+archden.USER.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.USER.TextSize = 18.000
+archden.USER.TextWrapped = true
+archden.USER.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_18.Parent = archden.USER
+archden.UIAspectRatioConstraint_18.AspectRatio = 12.250
+
+archden.UITextSizeConstraint_14.Parent = archden.USER
+archden.UITextSizeConstraint_14.MaxTextSize = 11
+
+archden.Text_3.Name = "Text"
+archden.Text_3.Parent = archden.PlayerInfo
+archden.Text_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_3.BackgroundTransparency = 1.000
+archden.Text_3.BorderSizePixel = 0
+archden.Text_3.Position = UDim2.new(0.0490878001, 0, 0.756985247, 0)
+archden.Text_3.Size = UDim2.new(0.890909076, 0, 0.162499994, 0)
+archden.Text_3.Font = Enum.Font.GothamSemibold
+archden.Text_3.Text = "User Name"
+archden.Text_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_3.TextScaled = true
+archden.Text_3.TextSize = 18.000
+archden.Text_3.TextWrapped = true
+archden.Text_3.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_19.Parent = archden.Text_3
+archden.UIAspectRatioConstraint_19.AspectRatio = 5.654
+
+archden.UITextSizeConstraint_15.Parent = archden.Text_3
+archden.UITextSizeConstraint_15.MaxTextSize = 18
+
+archden.Text_4.Name = "Text"
+archden.Text_4.Parent = archden.PlayerInfo
+archden.Text_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_4.BackgroundTransparency = 1.000
+archden.Text_4.BorderSizePixel = 0
+archden.Text_4.Position = UDim2.new(0.0490878001, 0, 0.0507354736, 0)
+archden.Text_4.Size = UDim2.new(0.945454538, 0, 0.131249994, 0)
+archden.Text_4.Font = Enum.Font.GothamBold
+archden.Text_4.Text = "Player Info"
+archden.Text_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_4.TextScaled = true
+archden.Text_4.TextSize = 26.000
+archden.Text_4.TextWrapped = true
+archden.Text_4.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_20.Parent = archden.Text_4
+archden.UIAspectRatioConstraint_20.AspectRatio = 7.429
+
+archden.UITextSizeConstraint_16.Parent = archden.Text_4
+archden.UITextSizeConstraint_16.MaxTextSize = 21
+
+archden.UIAspectRatioConstraint_21.Parent = archden.PlayerInfo
+archden.UIAspectRatioConstraint_21.AspectRatio = 1.031
+
+archden.UICorner_9.Parent = archden.Home
+
+archden.Updates.Name = "Updates"
+archden.Updates.Parent = archden.Home
+archden.Updates.BackgroundColor3 = Color3.fromRGB(20, 21, 25)
+archden.Updates.BorderSizePixel = 0
+archden.Updates.Position = UDim2.new(0.0371991247, 0, 0.574999988, 0)
+archden.Updates.Size = UDim2.new(0.557986856, 0, 0.400000006, 0)
+
+archden.Text_5.Name = "Text"
+archden.Text_5.Parent = archden.Updates
+archden.Text_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_5.BackgroundTransparency = 1.000
+archden.Text_5.BorderSizePixel = 0
+archden.Text_5.Position = UDim2.new(0.0473053567, 0, 0.613235474, 0)
+archden.Text_5.Size = UDim2.new(0.576470613, 0, 0.118749999, 0)
+archden.Text_5.Font = Enum.Font.GothamSemibold
+archden.Text_5.Text = "Update 7"
+archden.Text_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_5.TextScaled = true
+archden.Text_5.TextSize = 18.000
+archden.Text_5.TextWrapped = true
+archden.Text_5.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.Info.Name = "Info"
+archden.Info.Parent = archden.Text_5
+archden.Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Info.BackgroundTransparency = 1.000
+archden.Info.BorderSizePixel = 0
+archden.Info.Position = UDim2.new(0.000726608559, 0, 1, 0)
+archden.Info.Size = UDim2.new(1, 0, 0.578947365, 0)
+archden.Info.Font = Enum.Font.Gotham
+archden.Info.Text = "Added a preloader"
+archden.Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Info.TextScaled = true
+archden.Info.TextSize = 18.000
+archden.Info.TextWrapped = true
+archden.Info.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_22.Parent = archden.Info
+archden.UIAspectRatioConstraint_22.AspectRatio = 13.364
+
+archden.UITextSizeConstraint_17.Parent = archden.Info
+archden.UITextSizeConstraint_17.MaxTextSize = 11
+
+archden.UIAspectRatioConstraint_23.Parent = archden.Text_5
+archden.UIAspectRatioConstraint_23.AspectRatio = 7.737
+
+archden.UITextSizeConstraint_18.Parent = archden.Text_5
+archden.UITextSizeConstraint_18.MaxTextSize = 18
+
+archden.UICorner_10.Parent = archden.Updates
+
+archden.Discord.Name = "Discord"
+archden.Discord.Parent = archden.Updates
+archden.Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Discord.BackgroundTransparency = 1.000
+archden.Discord.BorderSizePixel = 0
+archden.Discord.Position = UDim2.new(0.0412444472, 0, 0.91948545, 0)
+archden.Discord.Size = UDim2.new(0.576470613, 0, 0.0687500015, 0)
+archden.Discord.Font = Enum.Font.Gotham
+archden.Discord.Text = "discord.gg/dtbNPXZP9Y"
+archden.Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Discord.TextScaled = true
+archden.Discord.TextSize = 18.000
+archden.Discord.TextWrapped = true
+archden.Discord.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_24.Parent = archden.Discord
+archden.UIAspectRatioConstraint_24.AspectRatio = 13.364
+
+archden.UITextSizeConstraint_19.Parent = archden.Discord
+archden.UITextSizeConstraint_19.MaxTextSize = 11
+
+archden.Text_6.Name = "Text"
+archden.Text_6.Parent = archden.Updates
+archden.Text_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_6.BackgroundTransparency = 1.000
+archden.Text_6.BorderSizePixel = 0
+archden.Text_6.Position = UDim2.new(0.0451660156, 0, 0.0507354736, 0)
+archden.Text_6.Size = UDim2.new(0.788235307, 0, 0.168750003, 0)
+archden.Text_6.Font = Enum.Font.GothamBold
+archden.Text_6.Text = "UPDATE LOG"
+archden.Text_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_6.TextScaled = true
+archden.Text_6.TextSize = 26.000
+archden.Text_6.TextWrapped = true
+archden.Text_6.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_25.Parent = archden.Text_6
+archden.UIAspectRatioConstraint_25.AspectRatio = 7.444
+
+archden.UITextSizeConstraint_20.Parent = archden.Text_6
+archden.UITextSizeConstraint_20.MaxTextSize = 27
+
+archden.Text_7.Name = "Text"
+archden.Text_7.Parent = archden.Updates
+archden.Text_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_7.BackgroundTransparency = 1.000
+archden.Text_7.BorderSizePixel = 0
+archden.Text_7.Position = UDim2.new(0.0473053567, 0, 0.26323545, 0)
+archden.Text_7.Size = UDim2.new(0.576470613, 0, 0.118749999, 0)
+archden.Text_7.Font = Enum.Font.GothamSemibold
+archden.Text_7.Text = "Update 8"
+archden.Text_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Text_7.TextScaled = true
+archden.Text_7.TextSize = 18.000
+archden.Text_7.TextWrapped = true
+archden.Text_7.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.Info_2.Name = "Info"
+archden.Info_2.Parent = archden.Text_7
+archden.Info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.Info_2.BackgroundTransparency = 1.000
+archden.Info_2.BorderSizePixel = 0
+archden.Info_2.Position = UDim2.new(0.000726609025, 0, 1, 0)
+archden.Info_2.Size = UDim2.new(1, 0, 1.31578946, 0)
+archden.Info_2.Font = Enum.Font.Gotham
+archden.Info_2.Text = "Added animations and more games."
+archden.Info_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Info_2.TextScaled = true
+archden.Info_2.TextSize = 18.000
+archden.Info_2.TextWrapped = true
+archden.Info_2.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UIAspectRatioConstraint_26.Parent = archden.Info_2
+archden.UIAspectRatioConstraint_26.AspectRatio = 5.880
+
+archden.UITextSizeConstraint_21.Parent = archden.Info_2
+archden.UITextSizeConstraint_21.MaxTextSize = 24
+
+archden.UIAspectRatioConstraint_27.Parent = archden.Text_7
+archden.UIAspectRatioConstraint_27.AspectRatio = 7.737
+
+archden.UITextSizeConstraint_22.Parent = archden.Text_7
+archden.UITextSizeConstraint_22.MaxTextSize = 18
+
+archden.UIAspectRatioConstraint_28.Parent = archden.Updates
+archden.UIAspectRatioConstraint_28.AspectRatio = 1.594
+
+archden.UIAspectRatioConstraint_29.Parent = archden.Home
+archden.UIAspectRatioConstraint_29.AspectRatio = 1.143
+
+archden.Universal.Name = "Universal"
+archden.Universal.Parent = archden.Main
+archden.Universal.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+archden.Universal.BorderSizePixel = 0
+archden.Universal.Position = UDim2.new(0.262903214, 0, 0, 0)
+archden.Universal.Size = UDim2.new(0.737096786, 0, 1, 0)
+archden.Universal.Visible = false
+
+archden.ScrollingFrame.Parent = archden.Universal
+archden.ScrollingFrame.Active = true
+archden.ScrollingFrame.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+archden.ScrollingFrame.BorderSizePixel = 0
+archden.ScrollingFrame.Size = UDim2.new(1, 0, 1, 0)
+
+archden._3.Name = "3"
+archden._3.Parent = archden.ScrollingFrame
+archden._3.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._3.BorderSizePixel = 0
+archden._3.Position = UDim2.new(0.295404792, 0, 0.178750038, 0)
+archden._3.Size = UDim2.new(0, 113, 0, 113)
+archden._3.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_2.Parent = archden._3
+archden.TextLabel_2.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_2.BorderSizePixel = 0
+archden.TextLabel_2.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_2.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_2.Font = Enum.Font.Gotham
+archden.TextLabel_2.Text = "UTG V3"
+archden.TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_2.TextSize = 14.000
+
+archden.UICorner_11.CornerRadius = UDim.new(0, 4)
+archden.UICorner_11.Parent = archden.TextLabel_2
+
+archden.UICorner_12.Parent = archden._3
+
+archden.UIAspectRatioConstraint_30.Parent = archden._3
+
+archden._6.Name = "6"
+archden._6.Parent = archden.ScrollingFrame
+archden._6.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._6.BorderSizePixel = 0
+archden._6.Position = UDim2.new(0.295404792, 0, 0.0162499994, 0)
+archden._6.Size = UDim2.new(0, 113, 0, 113)
+archden._6.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_3.Parent = archden._6
+archden.TextLabel_3.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_3.BorderSizePixel = 0
+archden.TextLabel_3.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_3.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_3.Font = Enum.Font.Gotham
+archden.TextLabel_3.Text = "Dex"
+archden.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_3.TextSize = 14.000
+
+archden.UICorner_13.CornerRadius = UDim.new(0, 4)
+archden.UICorner_13.Parent = archden.TextLabel_3
+
+archden.UICorner_14.Parent = archden._6
+
+archden.UIAspectRatioConstraint_31.Parent = archden._6
+
+archden._5.Name = "5"
+archden._5.Parent = archden.ScrollingFrame
+archden._5.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._5.BorderSizePixel = 0
+archden._5.Position = UDim2.new(0.568927824, 0, 0.178750038, 0)
+archden._5.Size = UDim2.new(0, 113, 0, 113)
+archden._5.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_4.Parent = archden._5
+archden.TextLabel_4.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_4.BorderSizePixel = 0
+archden.TextLabel_4.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_4.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_4.Font = Enum.Font.Gotham
+archden.TextLabel_4.Text = "FE Boombox"
+archden.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_4.TextSize = 14.000
+
+archden.UICorner_15.CornerRadius = UDim.new(0, 4)
+archden.UICorner_15.Parent = archden.TextLabel_4
+
+archden.UICorner_16.Parent = archden._5
+
+archden.UIAspectRatioConstraint_32.Parent = archden._5
+
+archden._2.Name = "2"
+archden._2.Parent = archden.ScrollingFrame
+archden._2.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._2.BorderSizePixel = 0
+archden._2.Position = UDim2.new(0.568927824, 0, 0.0162499994, 0)
+archden._2.Size = UDim2.new(0, 113, 0, 113)
+archden._2.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_5.Parent = archden._2
+archden.TextLabel_5.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_5.BorderSizePixel = 0
+archden.TextLabel_5.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_5.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_5.Font = Enum.Font.Gotham
+archden.TextLabel_5.Text = "Fathom Hub"
+archden.TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_5.TextSize = 14.000
+
+archden.UICorner_17.CornerRadius = UDim.new(0, 4)
+archden.UICorner_17.Parent = archden.TextLabel_5
+
+archden.UICorner_18.Parent = archden._2
+
+archden.UIAspectRatioConstraint_33.Parent = archden._2
+
+archden._7.Name = "7"
+archden._7.Parent = archden.ScrollingFrame
+archden._7.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._7.BorderSizePixel = 0
+archden._7.Position = UDim2.new(0.0262582004, 0, 0.178750038, 0)
+archden._7.Size = UDim2.new(0, 113, 0, 113)
+archden._7.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_6.Parent = archden._7
+archden.TextLabel_6.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_6.BorderSizePixel = 0
+archden.TextLabel_6.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_6.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_6.Font = Enum.Font.Gotham
+archden.TextLabel_6.Text = "Fencing Gui"
+archden.TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_6.TextSize = 14.000
+
+archden.UICorner_19.CornerRadius = UDim.new(0, 4)
+archden.UICorner_19.Parent = archden.TextLabel_6
+
+archden.UICorner_20.Parent = archden._7
+
+archden.UIAspectRatioConstraint_34.Parent = archden._7
+
+archden._9.Name = "9"
+archden._9.Parent = archden.ScrollingFrame
+archden._9.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._9.BorderSizePixel = 0
+archden._9.Position = UDim2.new(0.0262582004, 0, 0.0162499994, 0)
+archden._9.Size = UDim2.new(0, 113, 0, 113)
+archden._9.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_7.Parent = archden._9
+archden.TextLabel_7.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_7.BorderSizePixel = 0
+archden.TextLabel_7.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_7.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_7.Font = Enum.Font.Gotham
+archden.TextLabel_7.Text = "Infinite Yield"
+archden.TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_7.TextSize = 14.000
+
+archden.UICorner_21.CornerRadius = UDim.new(0, 4)
+archden.UICorner_21.Parent = archden.TextLabel_7
+
+archden.UICorner_22.Parent = archden._9
+
+archden.UIAspectRatioConstraint_35.Parent = archden._9
+
+archden._8.Name = "8"
+archden._8.Parent = archden.ScrollingFrame
+archden._8.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._8.BorderSizePixel = 0
+archden._8.Position = UDim2.new(0.295404792, 0, 0.34375, 0)
+archden._8.Size = UDim2.new(0, 113, 0, 113)
+archden._8.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_8.Parent = archden._8
+archden.TextLabel_8.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_8.BorderSizePixel = 0
+archden.TextLabel_8.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_8.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_8.Font = Enum.Font.Gotham
+archden.TextLabel_8.Text = "LX FE Hub"
+archden.TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_8.TextSize = 14.000
+
+archden.UICorner_23.CornerRadius = UDim.new(0, 4)
+archden.UICorner_23.Parent = archden.TextLabel_8
+
+archden.UICorner_24.Parent = archden._8
+
+archden.UIAspectRatioConstraint_36.Parent = archden._8
+
+archden._10.Name = "10"
+archden._10.Parent = archden.ScrollingFrame
+archden._10.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._10.BorderSizePixel = 0
+archden._10.Position = UDim2.new(0.0262582004, 0, 0.34375, 0)
+archden._10.Size = UDim2.new(0, 113, 0, 113)
+archden._10.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_9.Parent = archden._10
+archden.TextLabel_9.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_9.BorderSizePixel = 0
+archden.TextLabel_9.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_9.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_9.Font = Enum.Font.Gotham
+archden.TextLabel_9.Text = "Cool GUI"
+archden.TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_9.TextSize = 14.000
+
+archden.UICorner_25.CornerRadius = UDim.new(0, 4)
+archden.UICorner_25.Parent = archden.TextLabel_9
+
+archden.UICorner_26.Parent = archden._10
+
+archden.UIAspectRatioConstraint_37.Parent = archden._10
+
+archden._4.Name = "4"
+archden._4.Parent = archden.ScrollingFrame
+archden._4.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._4.BorderSizePixel = 0
+archden._4.Position = UDim2.new(0.568927824, 0, 0.34375, 0)
+archden._4.Size = UDim2.new(0, 113, 0, 113)
+archden._4.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_10.Parent = archden._4
+archden.TextLabel_10.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_10.BorderSizePixel = 0
+archden.TextLabel_10.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_10.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_10.Font = Enum.Font.Gotham
+archden.TextLabel_10.Text = "Free Gamepass"
+archden.TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_10.TextSize = 14.000
+
+archden.UICorner_27.CornerRadius = UDim.new(0, 4)
+archden.UICorner_27.Parent = archden.TextLabel_10
+
+archden.UICorner_28.Parent = archden._4
+
+archden.UIAspectRatioConstraint_38.Parent = archden._4
+
+archden._11.Name = "11"
+archden._11.Parent = archden.ScrollingFrame
+archden._11.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._11.BorderSizePixel = 0
+archden._11.Position = UDim2.new(0.566739619, 0, 0.512499988, 0)
+archden._11.Size = UDim2.new(0, 113, 0, 113)
+archden._11.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_11.Parent = archden._11
+archden.TextLabel_11.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_11.BorderSizePixel = 0
+archden.TextLabel_11.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_11.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_11.Font = Enum.Font.Gotham
+archden.TextLabel_11.Text = "Bacon Hub"
+archden.TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_11.TextSize = 14.000
+
+archden.UICorner_29.CornerRadius = UDim.new(0, 4)
+archden.UICorner_29.Parent = archden.TextLabel_11
+
+archden.UICorner_30.Parent = archden._11
+
+archden.UIAspectRatioConstraint_39.Parent = archden._11
+
+archden._12.Name = "12"
+archden._12.Parent = archden.ScrollingFrame
+archden._12.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._12.BorderSizePixel = 0
+archden._12.Position = UDim2.new(0.293216616, 0, 0.512499988, 0)
+archden._12.Size = UDim2.new(0, 113, 0, 113)
+archden._12.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_12.Parent = archden._12
+archden.TextLabel_12.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_12.BorderSizePixel = 0
+archden.TextLabel_12.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_12.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_12.Font = Enum.Font.Gotham
+archden.TextLabel_12.Text = "LuciousWare"
+archden.TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_12.TextSize = 14.000
+
+archden.UICorner_31.CornerRadius = UDim.new(0, 4)
+archden.UICorner_31.Parent = archden.TextLabel_12
+
+archden.UICorner_32.Parent = archden._12
+
+archden.UIAspectRatioConstraint_40.Parent = archden._12
+
+archden._1.Name = "1"
+archden._1.Parent = archden.ScrollingFrame
+archden._1.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._1.BorderSizePixel = 0
+archden._1.Position = UDim2.new(0.024070017, 0, 0.512499988, 0)
+archden._1.Size = UDim2.new(0, 113, 0, 113)
+archden._1.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_13.Parent = archden._1
+archden.TextLabel_13.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_13.BorderSizePixel = 0
+archden.TextLabel_13.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_13.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_13.Font = Enum.Font.Gotham
+archden.TextLabel_13.Text = "Cmd X"
+archden.TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_13.TextSize = 14.000
+
+archden.UICorner_33.CornerRadius = UDim.new(0, 4)
+archden.UICorner_33.Parent = archden.TextLabel_13
+
+archden.UICorner_34.Parent = archden._1
+
+archden.UIAspectRatioConstraint_41.Parent = archden._1
+
+archden.Scripty.Name = "Scripty"
+archden.Scripty.Parent = archden.ScrollingFrame
+archden.Scripty.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty.BorderSizePixel = 0
+archden.Scripty.Position = UDim2.new(0.024070017, 0, 0.678749979, 0)
+archden.Scripty.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_14.Parent = archden.Scripty
+archden.TextLabel_14.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_14.BorderSizePixel = 0
+archden.TextLabel_14.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_14.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_14.Font = Enum.Font.Gotham
+archden.TextLabel_14.Text = "Cool Pro X"
+archden.TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_14.TextSize = 14.000
+
+archden.UICorner_35.CornerRadius = UDim.new(0, 4)
+archden.UICorner_35.Parent = archden.TextLabel_14
+
+archden.UICorner_36.Parent = archden.Scripty
+
+archden.UIAspectRatioConstraint_42.Parent = archden.Scripty
+
+archden._13.Name = "13"
+archden._13.Parent = archden.ScrollingFrame
+archden._13.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden._13.BorderSizePixel = 0
+archden._13.Position = UDim2.new(0.293216616, 0, 0.678749979, 0)
+archden._13.Size = UDim2.new(0, 113, 0, 113)
+archden._13.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_15.Parent = archden._13
+archden.TextLabel_15.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_15.BorderSizePixel = 0
+archden.TextLabel_15.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_15.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_15.Font = Enum.Font.Gotham
+archden.TextLabel_15.Text = "GWAREZ"
+archden.TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_15.TextSize = 14.000
+
+archden.UICorner_37.CornerRadius = UDim.new(0, 4)
+archden.UICorner_37.Parent = archden.TextLabel_15
+
+archden.UICorner_38.Parent = archden._13
+
+archden.UIAspectRatioConstraint_43.Parent = archden._13
+
+archden.Scripty_2.Name = "Scripty"
+archden.Scripty_2.Parent = archden.ScrollingFrame
+archden.Scripty_2.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_2.BorderSizePixel = 0
+archden.Scripty_2.Position = UDim2.new(0.566739619, 0, 0.678749979, 0)
+archden.Scripty_2.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_2.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_16.Parent = archden.Scripty_2
+archden.TextLabel_16.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_16.BorderSizePixel = 0
+archden.TextLabel_16.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_16.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_16.Font = Enum.Font.Gotham
+archden.TextLabel_16.Text = "Universal Aimbot"
+archden.TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_16.TextSize = 14.000
+
+archden.UICorner_39.CornerRadius = UDim.new(0, 4)
+archden.UICorner_39.Parent = archden.TextLabel_16
+
+archden.UICorner_40.Parent = archden.Scripty_2
+
+archden.UIAspectRatioConstraint_44.Parent = archden.Scripty_2
+
+archden.Scripty_3.Name = "Scripty"
+archden.Scripty_3.Parent = archden.ScrollingFrame
+archden.Scripty_3.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_3.BorderSizePixel = 0
+archden.Scripty_3.Position = UDim2.new(0.0218818337, 0, 0.84375, 0)
+archden.Scripty_3.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_3.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_17.Parent = archden.Scripty_3
+archden.TextLabel_17.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_17.BorderSizePixel = 0
+archden.TextLabel_17.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_17.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_17.Font = Enum.Font.Gotham
+archden.TextLabel_17.Text = "Unknown Hub"
+archden.TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_17.TextSize = 14.000
+
+archden.UICorner_41.CornerRadius = UDim.new(0, 4)
+archden.UICorner_41.Parent = archden.TextLabel_17
+
+archden.UICorner_42.Parent = archden.Scripty_3
+
+archden.TextLabel_18.Parent = archden.Scripty_3
+archden.TextLabel_18.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_18.BorderSizePixel = 0
+archden.TextLabel_18.Position = UDim2.new(0, 0, 0.769911528, 0)
+archden.TextLabel_18.Size = UDim2.new(0, 113, 0, 16)
+archden.TextLabel_18.Font = Enum.Font.Gotham
+archden.TextLabel_18.Text = "Key: UpdatedV2.5"
+archden.TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_18.TextSize = 9.000
+
+archden.UICorner_43.CornerRadius = UDim.new(0, 4)
+archden.UICorner_43.Parent = archden.TextLabel_18
+
+archden.UIAspectRatioConstraint_45.Parent = archden.Scripty_3
+
+archden.Scripty_4.Name = "Scripty"
+archden.Scripty_4.Parent = archden.ScrollingFrame
+archden.Scripty_4.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_4.BorderSizePixel = 0
+archden.Scripty_4.Position = UDim2.new(0.29102844, 0, 0.84375, 0)
+archden.Scripty_4.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_4.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_19.Parent = archden.Scripty_4
+archden.TextLabel_19.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_19.BorderSizePixel = 0
+archden.TextLabel_19.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_19.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_19.Font = Enum.Font.Gotham
+archden.TextLabel_19.Text = "Mele GUI"
+archden.TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_19.TextSize = 14.000
+
+archden.UICorner_44.CornerRadius = UDim.new(0, 4)
+archden.UICorner_44.Parent = archden.TextLabel_19
+
+archden.UICorner_45.Parent = archden.Scripty_4
+
+archden.UIAspectRatioConstraint_46.Parent = archden.Scripty_4
+
+archden.Scripty_5.Name = "Scripty"
+archden.Scripty_5.Parent = archden.ScrollingFrame
+archden.Scripty_5.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_5.BorderSizePixel = 0
+archden.Scripty_5.Position = UDim2.new(0.564551413, 0, 0.84375, 0)
+archden.Scripty_5.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_5.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_20.Parent = archden.Scripty_5
+archden.TextLabel_20.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_20.BorderSizePixel = 0
+archden.TextLabel_20.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_20.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_20.Font = Enum.Font.Gotham
+archden.TextLabel_20.Text = "Speed Script"
+archden.TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_20.TextSize = 14.000
+
+archden.UICorner_46.CornerRadius = UDim.new(0, 4)
+archden.UICorner_46.Parent = archden.TextLabel_20
+
+archden.UICorner_47.Parent = archden.Scripty_5
+
+archden.UIAspectRatioConstraint_47.Parent = archden.Scripty_5
+
+archden.UIAspectRatioConstraint_48.Parent = archden.ScrollingFrame
+archden.UIAspectRatioConstraint_48.AspectRatio = 1.143
+
+archden.UICorner_48.Parent = archden.Universal
+
+archden.UIAspectRatioConstraint_49.Parent = archden.Universal
+archden.UIAspectRatioConstraint_49.AspectRatio = 1.143
+
+archden.Game.Name = "Game"
+archden.Game.Parent = archden.Main
+archden.Game.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+archden.Game.BorderSizePixel = 0
+archden.Game.Position = UDim2.new(0.262903214, 0, 0, 0)
+archden.Game.Size = UDim2.new(0.737096786, 0, 1, 0)
+archden.Game.Visible = false
+
+archden.ScrollingFrame_2.Parent = archden.Game
+archden.ScrollingFrame_2.Active = true
+archden.ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+archden.ScrollingFrame_2.BorderSizePixel = 0
+archden.ScrollingFrame_2.Size = UDim2.new(1, 0, 1, 0)
+
+archden.Scripty_6.Name = "Scripty"
+archden.Scripty_6.Parent = archden.ScrollingFrame_2
+archden.Scripty_6.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_6.BorderSizePixel = 0
+archden.Scripty_6.Position = UDim2.new(0.295404792, 0, 0.178750038, 0)
+archden.Scripty_6.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_6.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_21.Parent = archden.Scripty_6
+archden.TextLabel_21.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_21.BorderSizePixel = 0
+archden.TextLabel_21.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_21.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_21.Font = Enum.Font.Gotham
+archden.TextLabel_21.Text = "Arsenal"
+archden.TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_21.TextSize = 14.000
+
+archden.UICorner_49.CornerRadius = UDim.new(0, 4)
+archden.UICorner_49.Parent = archden.TextLabel_21
+
+archden.UICorner_50.Parent = archden.Scripty_6
+
+archden.UIAspectRatioConstraint_50.Parent = archden.Scripty_6
+
+archden.Scripty_7.Name = "Scripty"
+archden.Scripty_7.Parent = archden.ScrollingFrame_2
+archden.Scripty_7.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_7.BorderSizePixel = 0
+archden.Scripty_7.Position = UDim2.new(0.295404792, 0, 0.0162499994, 0)
+archden.Scripty_7.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_7.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_22.Parent = archden.Scripty_7
+archden.TextLabel_22.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_22.BorderSizePixel = 0
+archden.TextLabel_22.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_22.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_22.Font = Enum.Font.Gotham
+archden.TextLabel_22.Text = "Prison Life"
+archden.TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_22.TextSize = 14.000
+
+archden.UICorner_51.CornerRadius = UDim.new(0, 4)
+archden.UICorner_51.Parent = archden.TextLabel_22
+
+archden.UICorner_52.Parent = archden.Scripty_7
+
+archden.UIAspectRatioConstraint_51.Parent = archden.Scripty_7
+
+archden.Scripty_8.Name = "Scripty"
+archden.Scripty_8.Parent = archden.ScrollingFrame_2
+archden.Scripty_8.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_8.BorderSizePixel = 0
+archden.Scripty_8.Position = UDim2.new(0.568927824, 0, 0.178750038, 0)
+archden.Scripty_8.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_8.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_23.Parent = archden.Scripty_8
+archden.TextLabel_23.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_23.BorderSizePixel = 0
+archden.TextLabel_23.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_23.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_23.Font = Enum.Font.Gotham
+archden.TextLabel_23.Text = "BABFT"
+archden.TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_23.TextSize = 14.000
+
+archden.UICorner_53.CornerRadius = UDim.new(0, 4)
+archden.UICorner_53.Parent = archden.TextLabel_23
+
+archden.UICorner_54.Parent = archden.Scripty_8
+
+archden.UIAspectRatioConstraint_52.Parent = archden.Scripty_8
+
+archden.Scripty_9.Name = "Scripty"
+archden.Scripty_9.Parent = archden.ScrollingFrame_2
+archden.Scripty_9.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_9.BorderSizePixel = 0
+archden.Scripty_9.Position = UDim2.new(0.568927824, 0, 0.0162499994, 0)
+archden.Scripty_9.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_9.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_24.Parent = archden.Scripty_9
+archden.TextLabel_24.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_24.BorderSizePixel = 0
+archden.TextLabel_24.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_24.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_24.Font = Enum.Font.Gotham
+archden.TextLabel_24.Text = "Adopt Me!"
+archden.TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_24.TextSize = 14.000
+
+archden.UICorner_55.CornerRadius = UDim.new(0, 4)
+archden.UICorner_55.Parent = archden.TextLabel_24
+
+archden.UICorner_56.Parent = archden.Scripty_9
+
+archden.UIAspectRatioConstraint_53.Parent = archden.Scripty_9
+
+archden.Scripty_10.Name = "Scripty"
+archden.Scripty_10.Parent = archden.ScrollingFrame_2
+archden.Scripty_10.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_10.BorderSizePixel = 0
+archden.Scripty_10.Position = UDim2.new(0.0262582004, 0, 0.178750038, 0)
+archden.Scripty_10.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_10.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_25.Parent = archden.Scripty_10
+archden.TextLabel_25.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_25.BorderSizePixel = 0
+archden.TextLabel_25.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_25.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_25.Font = Enum.Font.Gotham
+archden.TextLabel_25.Text = "Dahood"
+archden.TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_25.TextSize = 14.000
+
+archden.UICorner_57.CornerRadius = UDim.new(0, 4)
+archden.UICorner_57.Parent = archden.TextLabel_25
+
+archden.UICorner_58.Parent = archden.Scripty_10
+
+archden.UIAspectRatioConstraint_54.Parent = archden.Scripty_10
+
+archden.Scripty_11.Name = "Scripty"
+archden.Scripty_11.Parent = archden.ScrollingFrame_2
+archden.Scripty_11.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_11.BorderSizePixel = 0
+archden.Scripty_11.Position = UDim2.new(0.0262582004, 0, 0.0162499994, 0)
+archden.Scripty_11.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_11.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_26.Parent = archden.Scripty_11
+archden.TextLabel_26.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_26.BorderSizePixel = 0
+archden.TextLabel_26.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_26.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_26.Font = Enum.Font.Gotham
+archden.TextLabel_26.Text = "MM2"
+archden.TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_26.TextSize = 14.000
+
+archden.UICorner_59.CornerRadius = UDim.new(0, 4)
+archden.UICorner_59.Parent = archden.TextLabel_26
+
+archden.UICorner_60.Parent = archden.Scripty_11
+
+archden.UIAspectRatioConstraint_55.Parent = archden.Scripty_11
+
+archden.Scripty_12.Name = "Scripty"
+archden.Scripty_12.Parent = archden.ScrollingFrame_2
+archden.Scripty_12.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_12.BorderSizePixel = 0
+archden.Scripty_12.Position = UDim2.new(0.295404792, 0, 0.34375, 0)
+archden.Scripty_12.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_12.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_27.Parent = archden.Scripty_12
+archden.TextLabel_27.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_27.BorderSizePixel = 0
+archden.TextLabel_27.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_27.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_27.Font = Enum.Font.Gotham
+archden.TextLabel_27.Text = "KAT"
+archden.TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_27.TextSize = 14.000
+
+archden.UICorner_61.CornerRadius = UDim.new(0, 4)
+archden.UICorner_61.Parent = archden.TextLabel_27
+
+archden.UICorner_62.Parent = archden.Scripty_12
+
+archden.UIAspectRatioConstraint_56.Parent = archden.Scripty_12
+
+archden.Scripty_13.Name = "Scripty"
+archden.Scripty_13.Parent = archden.ScrollingFrame_2
+archden.Scripty_13.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_13.BorderSizePixel = 0
+archden.Scripty_13.Position = UDim2.new(0.0262582004, 0, 0.34375, 0)
+archden.Scripty_13.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_13.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_28.Parent = archden.Scripty_13
+archden.TextLabel_28.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_28.BorderSizePixel = 0
+archden.TextLabel_28.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_28.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_28.Font = Enum.Font.Gotham
+archden.TextLabel_28.Text = "Brookhaven"
+archden.TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_28.TextSize = 14.000
+
+archden.UICorner_63.CornerRadius = UDim.new(0, 4)
+archden.UICorner_63.Parent = archden.TextLabel_28
+
+archden.UICorner_64.Parent = archden.Scripty_13
+
+archden.UIAspectRatioConstraint_57.Parent = archden.Scripty_13
+
+archden.Scripty_14.Name = "Scripty"
+archden.Scripty_14.Parent = archden.ScrollingFrame_2
+archden.Scripty_14.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_14.BorderSizePixel = 0
+archden.Scripty_14.Position = UDim2.new(0.568927824, 0, 0.34375, 0)
+archden.Scripty_14.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_14.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_29.Parent = archden.Scripty_14
+archden.TextLabel_29.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_29.BorderSizePixel = 0
+archden.TextLabel_29.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_29.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_29.Font = Enum.Font.Gotham
+archden.TextLabel_29.Text = "Jailbreak"
+archden.TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_29.TextSize = 14.000
+
+archden.UICorner_65.CornerRadius = UDim.new(0, 4)
+archden.UICorner_65.Parent = archden.TextLabel_29
+
+archden.UICorner_66.Parent = archden.Scripty_14
+
+archden.UIAspectRatioConstraint_58.Parent = archden.Scripty_14
+
+archden.Scripty_15.Name = "Scripty"
+archden.Scripty_15.Parent = archden.ScrollingFrame_2
+archden.Scripty_15.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_15.BorderSizePixel = 0
+archden.Scripty_15.Position = UDim2.new(0.568927824, 0, 0.516250014, 0)
+archden.Scripty_15.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_15.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_30.Parent = archden.Scripty_15
+archden.TextLabel_30.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_30.BorderSizePixel = 0
+archden.TextLabel_30.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_30.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_30.Font = Enum.Font.Gotham
+archden.TextLabel_30.Text = "Shindo Life"
+archden.TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_30.TextSize = 14.000
+
+archden.UICorner_67.CornerRadius = UDim.new(0, 4)
+archden.UICorner_67.Parent = archden.TextLabel_30
+
+archden.UICorner_68.Parent = archden.Scripty_15
+
+archden.UIAspectRatioConstraint_59.Parent = archden.Scripty_15
+
+archden.Scripty_16.Name = "Scripty"
+archden.Scripty_16.Parent = archden.ScrollingFrame_2
+archden.Scripty_16.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_16.BorderSizePixel = 0
+archden.Scripty_16.Position = UDim2.new(0.295404792, 0, 0.516250014, 0)
+archden.Scripty_16.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_16.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_31.Parent = archden.Scripty_16
+archden.TextLabel_31.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_31.BorderSizePixel = 0
+archden.TextLabel_31.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_31.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_31.Font = Enum.Font.Gotham
+archden.TextLabel_31.Text = "TDS"
+archden.TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_31.TextSize = 14.000
+
+archden.UICorner_69.CornerRadius = UDim.new(0, 4)
+archden.UICorner_69.Parent = archden.TextLabel_31
+
+archden.UICorner_70.Parent = archden.Scripty_16
+
+archden.UIAspectRatioConstraint_60.Parent = archden.Scripty_16
+
+archden.Scripty_17.Name = "Scripty"
+archden.Scripty_17.Parent = archden.ScrollingFrame_2
+archden.Scripty_17.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_17.BorderSizePixel = 0
+archden.Scripty_17.Position = UDim2.new(0.0262582004, 0, 0.516250014, 0)
+archden.Scripty_17.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_17.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_32.Parent = archden.Scripty_17
+archden.TextLabel_32.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_32.BorderSizePixel = 0
+archden.TextLabel_32.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_32.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_32.Font = Enum.Font.Gotham
+archden.TextLabel_32.Text = "Pet Sim X"
+archden.TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_32.TextSize = 14.000
+
+archden.UICorner_71.CornerRadius = UDim.new(0, 4)
+archden.UICorner_71.Parent = archden.TextLabel_32
+
+archden.UICorner_72.Parent = archden.Scripty_17
+
+archden.UIAspectRatioConstraint_61.Parent = archden.Scripty_17
+
+archden.Scripty_18.Name = "Scripty"
+archden.Scripty_18.Parent = archden.ScrollingFrame_2
+archden.Scripty_18.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_18.BorderSizePixel = 0
+archden.Scripty_18.Position = UDim2.new(0.024070017, 0, 0.683750033, 0)
+archden.Scripty_18.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_18.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_33.Parent = archden.Scripty_18
+archden.TextLabel_33.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_33.BorderSizePixel = 0
+archden.TextLabel_33.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_33.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_33.Font = Enum.Font.Gotham
+archden.TextLabel_33.Text = "PF X"
+archden.TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_33.TextSize = 14.000
+
+archden.UICorner_73.CornerRadius = UDim.new(0, 4)
+archden.UICorner_73.Parent = archden.TextLabel_33
+
+archden.UICorner_74.Parent = archden.Scripty_18
+
+archden.UIAspectRatioConstraint_62.Parent = archden.Scripty_18
+
+archden.Scripty_19.Name = "Scripty"
+archden.Scripty_19.Parent = archden.ScrollingFrame_2
+archden.Scripty_19.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_19.BorderSizePixel = 0
+archden.Scripty_19.Position = UDim2.new(0.295404822, 0, 0.683750033, 0)
+archden.Scripty_19.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_19.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_34.Parent = archden.Scripty_19
+archden.TextLabel_34.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_34.BorderSizePixel = 0
+archden.TextLabel_34.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_34.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_34.Font = Enum.Font.Gotham
+archden.TextLabel_34.Text = "Flee the Facility"
+archden.TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_34.TextSize = 14.000
+
+archden.UICorner_75.CornerRadius = UDim.new(0, 4)
+archden.UICorner_75.Parent = archden.TextLabel_34
+
+archden.UICorner_76.Parent = archden.Scripty_19
+
+archden.UIAspectRatioConstraint_63.Parent = archden.Scripty_19
+
+archden.Scripty_20.Name = "Scripty"
+archden.Scripty_20.Parent = archden.ScrollingFrame_2
+archden.Scripty_20.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_20.BorderSizePixel = 0
+archden.Scripty_20.Position = UDim2.new(0.568927824, 0, 0.683750033, 0)
+archden.Scripty_20.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_20.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_35.Parent = archden.Scripty_20
+archden.TextLabel_35.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_35.BorderSizePixel = 0
+archden.TextLabel_35.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_35.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_35.Font = Enum.Font.Gotham
+archden.TextLabel_35.Text = "Sharkbite"
+archden.TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_35.TextSize = 14.000
+
+archden.UICorner_77.CornerRadius = UDim.new(0, 4)
+archden.UICorner_77.Parent = archden.TextLabel_35
+
+archden.UICorner_78.Parent = archden.Scripty_20
+
+archden.UIAspectRatioConstraint_64.Parent = archden.Scripty_20
+
+archden.Scripty_21.Name = "Scripty"
+archden.Scripty_21.Parent = archden.ScrollingFrame_2
+archden.Scripty_21.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_21.BorderSizePixel = 0
+archden.Scripty_21.Position = UDim2.new(0.566739619, 0, 0.838750064, 0)
+archden.Scripty_21.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_21.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_36.Parent = archden.Scripty_21
+archden.TextLabel_36.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_36.BorderSizePixel = 0
+archden.TextLabel_36.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_36.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_36.Font = Enum.Font.Gotham
+archden.TextLabel_36.Text = "Blast Off Sim"
+archden.TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_36.TextSize = 14.000
+
+archden.UICorner_79.CornerRadius = UDim.new(0, 4)
+archden.UICorner_79.Parent = archden.TextLabel_36
+
+archden.UICorner_80.Parent = archden.Scripty_21
+
+archden.UIAspectRatioConstraint_65.Parent = archden.Scripty_21
+
+archden.Scripty_22.Name = "Scripty"
+archden.Scripty_22.Parent = archden.ScrollingFrame_2
+archden.Scripty_22.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_22.BorderSizePixel = 0
+archden.Scripty_22.Position = UDim2.new(0.293216646, 0, 0.838750064, 0)
+archden.Scripty_22.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_22.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_37.Parent = archden.Scripty_22
+archden.TextLabel_37.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_37.BorderSizePixel = 0
+archden.TextLabel_37.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_37.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_37.Font = Enum.Font.Gotham
+archden.TextLabel_37.Text = "Westbound"
+archden.TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_37.TextSize = 14.000
+
+archden.UICorner_81.CornerRadius = UDim.new(0, 4)
+archden.UICorner_81.Parent = archden.TextLabel_37
+
+archden.UICorner_82.Parent = archden.Scripty_22
+
+archden.UIAspectRatioConstraint_66.Parent = archden.Scripty_22
+
+archden.Scripty_23.Name = "Scripty"
+archden.Scripty_23.Parent = archden.ScrollingFrame_2
+archden.Scripty_23.BackgroundColor3 = Color3.fromRGB(23, 25, 30)
+archden.Scripty_23.BorderSizePixel = 0
+archden.Scripty_23.Position = UDim2.new(0.0218818337, 0, 0.838750064, 0)
+archden.Scripty_23.Size = UDim2.new(0, 113, 0, 113)
+archden.Scripty_23.Image = "http://www.roblox.com/asset/?id=3264014749"
+
+archden.TextLabel_38.Parent = archden.Scripty_23
+archden.TextLabel_38.BackgroundColor3 = Color3.fromRGB(34, 36, 43)
+archden.TextLabel_38.BorderSizePixel = 0
+archden.TextLabel_38.Position = UDim2.new(0, 0, 0.911504447, 0)
+archden.TextLabel_38.Size = UDim2.new(0, 113, 0, 22)
+archden.TextLabel_38.Font = Enum.Font.Gotham
+archden.TextLabel_38.Text = "Bee Swarm Sim"
+archden.TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_38.TextSize = 14.000
+
+archden.UICorner_83.CornerRadius = UDim.new(0, 4)
+archden.UICorner_83.Parent = archden.TextLabel_38
+
+archden.UICorner_84.Parent = archden.Scripty_23
+
+archden.UIAspectRatioConstraint_67.Parent = archden.Scripty_23
+
+archden.UICorner_85.Parent = archden.ScrollingFrame_2
+
+archden.UIAspectRatioConstraint_68.Parent = archden.ScrollingFrame_2
+archden.UIAspectRatioConstraint_68.AspectRatio = 1.143
+
+archden.UICorner_86.Parent = archden.Game
+
+archden.UIAspectRatioConstraint_69.Parent = archden.Game
+archden.UIAspectRatioConstraint_69.AspectRatio = 1.143
+
+archden.UICorner_87.Parent = archden.Main
+
+archden.Setting.Name = "Setting"
+archden.Setting.Parent = archden.Main
+archden.Setting.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+archden.Setting.BorderSizePixel = 0
+archden.Setting.Position = UDim2.new(0.262903214, 0, 0, 0)
+archden.Setting.Size = UDim2.new(0.737096786, 0, 1, 0)
+archden.Setting.Visible = false
+
+archden.UICorner_88.Parent = archden.Setting
+
+archden.UIAspectRatioConstraint_70.Parent = archden.Setting
+archden.UIAspectRatioConstraint_70.AspectRatio = 1.143
+
+archden.UIAspectRatioConstraint_71.Parent = archden.Main
+archden.UIAspectRatioConstraint_71.AspectRatio = 1.550
+
+archden.Key.Name = "Key"
+archden.Key.Parent = archden.archden
+archden.Key.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+archden.Key.Position = UDim2.new(0.303672314, 0, 0.301597148, 0)
+archden.Key.Size = UDim2.new(0, 556, 0, 332)
+archden.Key.Visible = false
+
+archden.TextLabel_39.Parent = archden.Key
+archden.TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_39.BackgroundTransparency = 1.000
+archden.TextLabel_39.Position = UDim2.new(0, 25, 0, 23)
+archden.TextLabel_39.Size = UDim2.new(0, 225, 0, 29)
+archden.TextLabel_39.Font = Enum.Font.GothamBold
+archden.TextLabel_39.Text = "ARCHDEN"
+archden.TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_39.TextScaled = true
+archden.TextLabel_39.TextSize = 14.000
+archden.TextLabel_39.TextWrapped = true
+archden.TextLabel_39.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.TextLabel_40.Parent = archden.TextLabel_39
+archden.TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_40.BackgroundTransparency = 1.000
+archden.TextLabel_40.Position = UDim2.new(0, 0, 0, 28)
+archden.TextLabel_40.Size = UDim2.new(0, 225, 0, 17)
+archden.TextLabel_40.Font = Enum.Font.Gotham
+archden.TextLabel_40.Text = "Key System"
+archden.TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_40.TextScaled = true
+archden.TextLabel_40.TextSize = 14.000
+archden.TextLabel_40.TextWrapped = true
+archden.TextLabel_40.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UICorner_89.CornerRadius = UDim.new(0, 12)
+archden.UICorner_89.Parent = archden.Key
+
+archden.Key_2.Name = "Key"
+archden.Key_2.Parent = archden.Key
+archden.Key_2.BackgroundColor3 = Color3.fromRGB(38, 42, 48)
+archden.Key_2.BorderColor3 = Color3.fromRGB(84, 84, 85)
+archden.Key_2.BorderSizePixel = 0
+archden.Key_2.Position = UDim2.new(0.0449640304, 0, 0.451807231, 0)
+archden.Key_2.Size = UDim2.new(0, 291, 0, 32)
+archden.Key_2.Font = Enum.Font.Gotham
+archden.Key_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+archden.Key_2.PlaceholderText = "key"
+archden.Key_2.Text = ""
+archden.Key_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Key_2.TextSize = 14.000
+archden.Key_2.TextWrapped = true
+archden.Key_2.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UICorner_90.Parent = archden.Key_2
+
+archden.TextLabel_41.Parent = archden.Key
+archden.TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_41.BackgroundTransparency = 1.000
+archden.TextLabel_41.Position = UDim2.new(0, 25, 0, 125)
+archden.TextLabel_41.Size = UDim2.new(0, 225, 0, 17)
+archden.TextLabel_41.Font = Enum.Font.Gotham
+archden.TextLabel_41.Text = "Enter Key Here"
+archden.TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_41.TextScaled = true
+archden.TextLabel_41.TextSize = 14.000
+archden.TextLabel_41.TextWrapped = true
+archden.TextLabel_41.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.TextLabel_42.Parent = archden.Key
+archden.TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_42.BackgroundTransparency = 1.000
+archden.TextLabel_42.Position = UDim2.new(0, 25, 0, 254)
+archden.TextLabel_42.Size = UDim2.new(0, 225, 0, 25)
+archden.TextLabel_42.Font = Enum.Font.Gotham
+archden.TextLabel_42.Text = "Get the code in our discord:"
+archden.TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.TextLabel_42.TextScaled = true
+archden.TextLabel_42.TextSize = 14.000
+archden.TextLabel_42.TextWrapped = true
+archden.TextLabel_42.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.DiscordButton.Name = "DiscordButton"
+archden.DiscordButton.Parent = archden.TextLabel_42
+archden.DiscordButton.BackgroundColor3 = Color3.fromRGB(38, 42, 48)
+archden.DiscordButton.BorderSizePixel = 0
+archden.DiscordButton.Position = UDim2.new(0, 0, 1, 0)
+archden.DiscordButton.Size = UDim2.new(0, 200, 0, 28)
+archden.DiscordButton.Font = Enum.Font.Gotham
+archden.DiscordButton.Text = "DISCORD SERVER"
+archden.DiscordButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.DiscordButton.TextSize = 14.000
+archden.DiscordButton.TextXAlignment = Enum.TextXAlignment.Left
+
+archden.UICorner_91.Parent = archden.DiscordButton
+
+archden.ImageLabel_2.Parent = archden.Key
+archden.ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+archden.ImageLabel_2.BackgroundTransparency = 1.000
+archden.ImageLabel_2.Position = UDim2.new(0.609712243, 0, 0.204819292, 0)
+archden.ImageLabel_2.Rotation = 11.000
+archden.ImageLabel_2.Size = UDim2.new(0, 196, 0, 196)
+archden.ImageLabel_2.Image = "rbxassetid://8787289712"
+archden.ImageLabel_2.ImageTransparency = 0.950
+
+archden.Check.Name = "Check"
+archden.Check.Parent = archden.Key
+archden.Check.BackgroundColor3 = Color3.fromRGB(38, 42, 48)
+archden.Check.Position = UDim2.new(0.0449640304, 0, 0.578313231, 0)
+archden.Check.Size = UDim2.new(0, 59, 0, 26)
+archden.Check.Font = Enum.Font.Gotham
+archden.Check.Text = "Check"
+archden.Check.TextColor3 = Color3.fromRGB(255, 255, 255)
+archden.Check.TextSize = 14.000
+
+archden.UICorner_92.Parent = archden.Check
 
 -- Scripts:
 
-local function DBDGYVT_fake_script() -- ScreenGui.Side.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Side)
+local function NECSMG_fake_script() -- archden.Side.LocalScript 
+	local script = Instance.new('LocalScript', archden.Side)
 
 	side = script.Parent
 	main = side.Parent
@@ -1876,9 +2006,9 @@ local function DBDGYVT_fake_script() -- ScreenGui.Side.LocalScript
 	end)
 	]]
 end
-coroutine.wrap(DBDGYVT_fake_script)()
-local function NLHQIV_fake_script() -- ScreenGui.ImageLabel.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.ImageLabel)
+coroutine.wrap(NECSMG_fake_script)()
+local function BQUXZ_fake_script() -- archden.ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', archden.ImageLabel)
 
 	local frame = script.Parent
 	
@@ -1904,9 +2034,9 @@ local function NLHQIV_fake_script() -- ScreenGui.ImageLabel.LocalScript
 	
 	script.Parent.Parent.USERNAME.Text = player.DisplayName
 end
-coroutine.wrap(NLHQIV_fake_script)()
-local function PHCB_fake_script() -- ScreenGui.USERID.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.USERID)
+coroutine.wrap(BQUXZ_fake_script)()
+local function ZRKCVF_fake_script() -- archden.USERID.LocalScript 
+	local script = Instance.new('LocalScript', archden.USERID)
 
 	local player = game.Players.LocalPlayer
 	
@@ -1916,9 +2046,9 @@ local function PHCB_fake_script() -- ScreenGui.USERID.LocalScript
 	
 	script.Parent.Text = userId
 end
-coroutine.wrap(PHCB_fake_script)()
-local function NCTQVT_fake_script() -- ScreenGui.DISPLAY.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.DISPLAY)
+coroutine.wrap(ZRKCVF_fake_script)()
+local function SRMUV_fake_script() -- archden.DISPLAY.LocalScript 
+	local script = Instance.new('LocalScript', archden.DISPLAY)
 
 	local player = game.Players.LocalPlayer
 	
@@ -1928,9 +2058,9 @@ local function NCTQVT_fake_script() -- ScreenGui.DISPLAY.LocalScript
 	
 	script.Parent.Text = dis
 end
-coroutine.wrap(NCTQVT_fake_script)()
-local function LMCUF_fake_script() -- ScreenGui.USER.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.USER)
+coroutine.wrap(SRMUV_fake_script)()
+local function TWZQDT_fake_script() -- archden.USER.LocalScript 
+	local script = Instance.new('LocalScript', archden.USER)
 
 	local player = game.Players.LocalPlayer
 	
@@ -1940,333 +2070,333 @@ local function LMCUF_fake_script() -- ScreenGui.USER.LocalScript
 	
 	script.Parent.Text = dis
 end
-coroutine.wrap(LMCUF_fake_script)()
-local function NCCZ_fake_script() -- ScreenGui._3.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._3)
+coroutine.wrap(TWZQDT_fake_script)()
+local function DJRZXJ_fake_script() -- archden._3.LocalScript 
+	local script = Instance.new('LocalScript', archden._3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
 	end)
 	
 end
-coroutine.wrap(NCCZ_fake_script)()
-local function MNNF_fake_script() -- ScreenGui._6.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._6)
+coroutine.wrap(DJRZXJ_fake_script)()
+local function JLEGO_fake_script() -- archden._6.LocalScript 
+	local script = Instance.new('LocalScript', archden._6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex Explorer V2.txt"))
 	end)
 	
 end
-coroutine.wrap(MNNF_fake_script)()
-local function EEDIR_fake_script() -- ScreenGui._5.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._5)
+coroutine.wrap(JLEGO_fake_script)()
+local function IXFB_fake_script() -- archden._5.LocalScript 
+	local script = Instance.new('LocalScript', archden._5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/VBH32/Verts-Hub/main/Source"), true))()
 	end)
 	
 end
-coroutine.wrap(EEDIR_fake_script)()
-local function HXWV_fake_script() -- ScreenGui._2.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._2)
+coroutine.wrap(IXFB_fake_script)()
+local function WMQX_fake_script() -- archden._2.LocalScript 
+	local script = Instance.new('LocalScript', archden._2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
 	end)
 	
 end
-coroutine.wrap(HXWV_fake_script)()
-local function YUQSNO_fake_script() -- ScreenGui._7.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._7)
+coroutine.wrap(WMQX_fake_script)()
+local function ISJYR_fake_script() -- archden._7.LocalScript 
+	local script = Instance.new('LocalScript', archden._7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/zsC61DcA'),true))()
 	end)
 	
 end
-coroutine.wrap(YUQSNO_fake_script)()
-local function YXVP_fake_script() -- ScreenGui._9.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._9)
+coroutine.wrap(ISJYR_fake_script)()
+local function TFTITRV_fake_script() -- archden._9.LocalScript 
+	local script = Instance.new('LocalScript', archden._9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 	
 end
-coroutine.wrap(YXVP_fake_script)()
-local function SVNG_fake_script() -- ScreenGui._8.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._8)
+coroutine.wrap(TFTITRV_fake_script)()
+local function FGTMY_fake_script() -- archden._8.LocalScript 
+	local script = Instance.new('LocalScript', archden._8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/LionelStreaming/GumaHub/main/LX-FE-Hub"))()
 	end)
 	
 end
-coroutine.wrap(SVNG_fake_script)()
-local function GCPEUDK_fake_script() -- ScreenGui._10.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._10)
+coroutine.wrap(FGTMY_fake_script)()
+local function YZSXCZ_fake_script() -- archden._10.LocalScript 
+	local script = Instance.new('LocalScript', archden._10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 	end)
 	
 end
-coroutine.wrap(GCPEUDK_fake_script)()
-local function OBYP_fake_script() -- ScreenGui._4.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._4)
+coroutine.wrap(YZSXCZ_fake_script)()
+local function YCQLPLB_fake_script() -- archden._4.LocalScript 
+	local script = Instance.new('LocalScript', archden._4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/RcCEjx08'))()
 	end)
 	
 end
-coroutine.wrap(OBYP_fake_script)()
-local function VGLZWT_fake_script() -- ScreenGui._11.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._11)
+coroutine.wrap(YCQLPLB_fake_script)()
+local function OPGB_fake_script() -- archden._11.LocalScript 
+	local script = Instance.new('LocalScript', archden._11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconLords/shit-with-sugar/main/Bacon%20Hub%20Main%20Loader'))()
 	end)
 	
 end
-coroutine.wrap(VGLZWT_fake_script)()
-local function PIKI_fake_script() -- ScreenGui._12.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._12)
+coroutine.wrap(OPGB_fake_script)()
+local function QWYUOFT_fake_script() -- archden._12.LocalScript 
+	local script = Instance.new('LocalScript', archden._12)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FoClips/Luciousware-Cracked/main/Luciousware%20Premium.lua"))()
 	end)
 	
 end
-coroutine.wrap(PIKI_fake_script)()
-local function WRRDPRD_fake_script() -- ScreenGui._1.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._1)
+coroutine.wrap(QWYUOFT_fake_script)()
+local function CWCFYRV_fake_script() -- archden._1.LocalScript 
+	local script = Instance.new('LocalScript', archden._1)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 	
 end
-coroutine.wrap(WRRDPRD_fake_script)()
-local function CBRTI_fake_script() -- ScreenGui.Scripty.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty)
+coroutine.wrap(CWCFYRV_fake_script)()
+local function XVATPGW_fake_script() -- archden.Scripty.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
 	end)
 	
 end
-coroutine.wrap(CBRTI_fake_script)()
-local function YMYRKU_fake_script() -- ScreenGui._13.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui._13)
+coroutine.wrap(XVATPGW_fake_script)()
+local function IAMKK_fake_script() -- archden._13.LocalScript 
+	local script = Instance.new('LocalScript', archden._13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(string.reverse('aul.niam/niam/zeraWg/1mapslarenegd2/moc.tnetnocresubuhtig.war//:sptth')))()
 	end)
 	
 end
-coroutine.wrap(YMYRKU_fake_script)()
-local function HHAU_fake_script() -- ScreenGui.Scripty_2.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_2)
+coroutine.wrap(IAMKK_fake_script)()
+local function CIFWZ_fake_script() -- archden.Scripty_2.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
 	end)
 	
 end
-coroutine.wrap(HHAU_fake_script)()
-local function SANSEPZ_fake_script() -- ScreenGui.Scripty_3.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_3)
+coroutine.wrap(CIFWZ_fake_script)()
+local function NDIW_fake_script() -- archden.Scripty_3.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://paste.ee/r/Qf17k",true))()
 	end)
 	
 end
-coroutine.wrap(SANSEPZ_fake_script)()
-local function VWHH_fake_script() -- ScreenGui.Scripty_4.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_4)
+coroutine.wrap(NDIW_fake_script)()
+local function SBZO_fake_script() -- archden.Scripty_4.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/9QEb9D0x", true))()
 	end)
 	
 end
-coroutine.wrap(VWHH_fake_script)()
-local function YQRSOTQ_fake_script() -- ScreenGui.Scripty_5.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_5)
+coroutine.wrap(SBZO_fake_script)()
+local function KDRLCO_fake_script() -- archden.Scripty_5.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AaronS69420/unca/main/ff"))()
 	end)
 	
 end
-coroutine.wrap(YQRSOTQ_fake_script)()
-local function MAVYBI_fake_script() -- ScreenGui.Scripty_6.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_6)
+coroutine.wrap(KDRLCO_fake_script)()
+local function RUISZK_fake_script() -- archden.Scripty_6.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 	
 end
-coroutine.wrap(MAVYBI_fake_script)()
-local function VRBKBSJ_fake_script() -- ScreenGui.Scripty_7.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_7)
+coroutine.wrap(RUISZK_fake_script)()
+local function DKSZQ_fake_script() -- archden.Scripty_7.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
 	end)
 	
 end
-coroutine.wrap(VRBKBSJ_fake_script)()
-local function UTQX_fake_script() -- ScreenGui.Scripty_8.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_8)
+coroutine.wrap(DKSZQ_fake_script)()
+local function NRSCN_fake_script() -- archden.Scripty_8.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
 	end)
 	
 end
-coroutine.wrap(UTQX_fake_script)()
-local function WSPQI_fake_script() -- ScreenGui.Scripty_9.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_9)
+coroutine.wrap(NRSCN_fake_script)()
+local function BFGFD_fake_script() -- archden.Scripty_9.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 	end)
 	
 end
-coroutine.wrap(WSPQI_fake_script)()
-local function FTNSY_fake_script() -- ScreenGui.Scripty_10.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_10)
+coroutine.wrap(BFGFD_fake_script)()
+local function JLIHLY_fake_script() -- archden.Scripty_10.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
 	end)
 	
 end
-coroutine.wrap(FTNSY_fake_script)()
-local function EEIC_fake_script() -- ScreenGui.Scripty_11.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_11)
+coroutine.wrap(JLIHLY_fake_script)()
+local function HCMSLE_fake_script() -- archden.Scripty_11.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
 	end)
 	
 end
-coroutine.wrap(EEIC_fake_script)()
-local function ADTQ_fake_script() -- ScreenGui.Scripty_12.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_12)
+coroutine.wrap(HCMSLE_fake_script)()
+local function QUOUU_fake_script() -- archden.Scripty_12.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))()
 	end)
 	
 end
-coroutine.wrap(ADTQ_fake_script)()
-local function NVZWX_fake_script() -- ScreenGui.Scripty_13.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_13)
+coroutine.wrap(QUOUU_fake_script)()
+local function ACPQO_fake_script() -- archden.Scripty_13.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/93d59eb6d826262396d8436868e73033/raw/eaa85b6545ff8a06fe89d7093cb3666461b628e8/gaga", true))()
 	end)
 	
 end
-coroutine.wrap(NVZWX_fake_script)()
-local function INIHK_fake_script() -- ScreenGui.Scripty_14.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_14)
+coroutine.wrap(ACPQO_fake_script)()
+local function GUYPYDJ_fake_script() -- archden.Scripty_14.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
 	end)
 	
 end
-coroutine.wrap(INIHK_fake_script)()
-local function LJVQVBQ_fake_script() -- ScreenGui.Scripty_15.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_15)
+coroutine.wrap(GUYPYDJ_fake_script)()
+local function OYAEH_fake_script() -- archden.Scripty_15.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
 	end)
 	
 end
-coroutine.wrap(LJVQVBQ_fake_script)()
-local function HPUFHPX_fake_script() -- ScreenGui.Scripty_16.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_16)
+coroutine.wrap(OYAEH_fake_script)()
+local function UKCZA_fake_script() -- archden.Scripty_16.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://banbus.cf/scripts/autofarmconfig"))()
 	end)
 	
 end
-coroutine.wrap(HPUFHPX_fake_script)()
-local function BZBLO_fake_script() -- ScreenGui.Scripty_17.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_17)
+coroutine.wrap(UKCZA_fake_script)()
+local function YYPIH_fake_script() -- archden.Scripty_17.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()
 	end)
 	
 end
-coroutine.wrap(BZBLO_fake_script)()
-local function IMKFWWV_fake_script() -- ScreenGui.Scripty_18.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_18)
+coroutine.wrap(YYPIH_fake_script)()
+local function EBVG_fake_script() -- archden.Scripty_18.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BRM5/SilentAim.lua"))()
 	end)
 	
 end
-coroutine.wrap(IMKFWWV_fake_script)()
-local function MRTLH_fake_script() -- ScreenGui.Scripty_19.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_19)
+coroutine.wrap(EBVG_fake_script)()
+local function FCPOOHF_fake_script() -- archden.Scripty_19.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()
 	end)
 	
 end
-coroutine.wrap(MRTLH_fake_script)()
-local function CSYXV_fake_script() -- ScreenGui.Scripty_20.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_20)
+coroutine.wrap(FCPOOHF_fake_script)()
+local function GXISWU_fake_script() -- archden.Scripty_20.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
 	end)
 	
 end
-coroutine.wrap(CSYXV_fake_script)()
-local function FQDU_fake_script() -- ScreenGui.Scripty_21.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_21)
+coroutine.wrap(GXISWU_fake_script)()
+local function FULUMA_fake_script() -- archden.Scripty_21.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/MadGics/Scripty/main/Blast.Off")()
 	end)
 	
 end
-coroutine.wrap(FQDU_fake_script)()
-local function ZHPEBEE_fake_script() -- ScreenGui.Scripty_22.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_22)
+coroutine.wrap(FULUMA_fake_script)()
+local function PXVL_fake_script() -- archden.Scripty_22.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Drifter0507/scripts/main/westbound"),true))()
 	end)
 	
 end
-coroutine.wrap(ZHPEBEE_fake_script)()
-local function CGMYKQL_fake_script() -- ScreenGui.Scripty_23.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui.Scripty_23)
+coroutine.wrap(PXVL_fake_script)()
+local function WVEKVBG_fake_script() -- archden.Scripty_23.LocalScript 
+	local script = Instance.new('LocalScript', archden.Scripty_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/not-weuz/Lua/main/kocmoc.lua"))()
 	end)
 	
 end
-coroutine.wrap(CGMYKQL_fake_script)()
-local function VLNA_fake_script() -- ScreenGui.Main.Dragger 
-	local script = Instance.new('LocalScript', ScreenGui.Main)
+coroutine.wrap(WVEKVBG_fake_script)()
+local function YICIMM_fake_script() -- archden.Main.Dragger 
+	local script = Instance.new('LocalScript', archden.Main)
 
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -2311,15 +2441,99 @@ local function VLNA_fake_script() -- ScreenGui.Main.Dragger
 		end
 	end)
 end
-coroutine.wrap(VLNA_fake_script)()
-local function YLCD_fake_script() -- ScreenGui.Main.sizee 
-	local script = Instance.new('LocalScript', ScreenGui.Main)
+coroutine.wrap(YICIMM_fake_script)()
+-- archden.Main.sizee is disabled.
+local function PLAEL_fake_script() -- archden.DiscordButton.LocalScript 
+	local script = Instance.new('LocalScript', archden.DiscordButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard("https://discord.gg/BRr3pHJbdv")
+	end)
+	
+end
+coroutine.wrap(PLAEL_fake_script)()
+local function HVCKXL_fake_script() -- archden.ImageLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', archden.ImageLabel_2)
+
+	frame = script.Parent
+	
+	while true do
+	wait(0.01)
+	frame.Rotation = frame.Rotation +.5
+	end
+end
+coroutine.wrap(HVCKXL_fake_script)()
+local function YTBU_fake_script() -- archden.Key.Dragger 
+	local script = Instance.new('LocalScript', archden.Key)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	local TopBar = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		if input.Position.Y < TopBar.AbsolutePosition.Y + TopBar.AbsoluteSize.Y then
+			local delta = input.Position - dragStart
+			gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and input.Position.Y < TopBar.AbsolutePosition.Y + TopBar.AbsoluteSize.Y then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(YTBU_fake_script)()
+local function OGPP_fake_script() -- archden.Key.KeyChecker 
+	local script = Instance.new('LocalScript', archden.Key)
+
+	script.Parent.Check.MouseButton1Click:Connect(function()
+		if script.Parent.Key.Text == "AMOLEDD" then
+	local tweenService = game:GetService("TweenService")
+	local object = script.Parent
+	object:TweenSize(UDim2.new(0, 0, 0, 0))
+	object.Visible=false
+		wait(1)
+		script.Parent.Parent.Main.sizee.Disabled=false
+		script.Parent:Destroy()
+	end
+	end)
+	
+end
+coroutine.wrap(OGPP_fake_script)()
+local function TFFO_fake_script() -- archden.Key.Size 
+	local script = Instance.new('LocalScript', archden.Key)
 
 	
 	local tweenService = game:GetService("TweenService")
 	local object = script.Parent
-	local object2 = script.Parent.Home
-	local object3 = script.Parent.Side
+	object.BackgroundTransparency = 1
 	
 	object.Size = UDim2.new(0, 0, 0, 0)
 	--object2.Size = UDim2.new(0, 0, 0, 0)
@@ -2328,13 +2542,10 @@ local function YLCD_fake_script() -- ScreenGui.Main.sizee
 	object.AnchorPoint = Vector2.new(0.5, 0.5)
 	object.Position = UDim2.new(0.281, 0,0.262, 0)
 	 
-	wait(2)
+	wait(5)
 	object.Visible=true
-	object2.Visible=true
-	object3.Visible=true
-	object:TweenSize(UDim2.new(0, 620, 0, 400))
-	wait(1.5)
-	tweenService:Create(object2, TweenInfo.new(0.5), {BackgroundTransparency = 0}):Play()
-	tweenService:Create(object3, TweenInfo.new(0.5), {BackgroundTransparency = 0}):Play()
+	object:TweenSize(UDim2.new(0, 556, 0, 332))
+	tweenService:Create(object, TweenInfo.new(0.5), {BackgroundTransparency = 0}):Play()
+	
 end
-coroutine.wrap(YLCD_fake_script)()
+coroutine.wrap(TFFO_fake_script)()
