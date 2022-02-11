@@ -314,6 +314,7 @@ local archden = {
 archden.archden.Name = "archden"
 archden.archden.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 archden.archden.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+archden.archden.ResetOnSpawn = false
 
 archden.Main.Name = "Main"
 archden.Main.Parent = archden.archden
@@ -1963,7 +1964,7 @@ archden.UICorner_92.Parent = archden.Check
 
 -- Scripts:
 
-local function BVFICJ_fake_script() -- archden.Side.LocalScript 
+local function OZDZWHC_fake_script() -- archden.Side.LocalScript 
 	local script = Instance.new('LocalScript', archden.Side)
 
 	side = script.Parent
@@ -2006,8 +2007,8 @@ local function BVFICJ_fake_script() -- archden.Side.LocalScript
 	end)
 	]]
 end
-coroutine.wrap(BVFICJ_fake_script)()
-local function DRHHRD_fake_script() -- archden.ImageLabel.LocalScript 
+coroutine.wrap(OZDZWHC_fake_script)()
+local function WNCN_fake_script() -- archden.ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', archden.ImageLabel)
 
 	local frame = script.Parent
@@ -2034,8 +2035,8 @@ local function DRHHRD_fake_script() -- archden.ImageLabel.LocalScript
 	
 	script.Parent.Parent.USERNAME.Text = player.DisplayName
 end
-coroutine.wrap(DRHHRD_fake_script)()
-local function BOHKQGO_fake_script() -- archden.USERID.LocalScript 
+coroutine.wrap(WNCN_fake_script)()
+local function KSKO_fake_script() -- archden.USERID.LocalScript 
 	local script = Instance.new('LocalScript', archden.USERID)
 
 	local player = game.Players.LocalPlayer
@@ -2046,8 +2047,8 @@ local function BOHKQGO_fake_script() -- archden.USERID.LocalScript
 	
 	script.Parent.Text = userId
 end
-coroutine.wrap(BOHKQGO_fake_script)()
-local function LAOS_fake_script() -- archden.DISPLAY.LocalScript 
+coroutine.wrap(KSKO_fake_script)()
+local function NWSON_fake_script() -- archden.DISPLAY.LocalScript 
 	local script = Instance.new('LocalScript', archden.DISPLAY)
 
 	local player = game.Players.LocalPlayer
@@ -2058,8 +2059,8 @@ local function LAOS_fake_script() -- archden.DISPLAY.LocalScript
 	
 	script.Parent.Text = dis
 end
-coroutine.wrap(LAOS_fake_script)()
-local function ZNLKNOL_fake_script() -- archden.USER.LocalScript 
+coroutine.wrap(NWSON_fake_script)()
+local function TCDA_fake_script() -- archden.USER.LocalScript 
 	local script = Instance.new('LocalScript', archden.USER)
 
 	local player = game.Players.LocalPlayer
@@ -2070,8 +2071,8 @@ local function ZNLKNOL_fake_script() -- archden.USER.LocalScript
 	
 	script.Parent.Text = dis
 end
-coroutine.wrap(ZNLKNOL_fake_script)()
-local function UHBWN_fake_script() -- archden._3.LocalScript 
+coroutine.wrap(TCDA_fake_script)()
+local function WFWBJUB_fake_script() -- archden._3.LocalScript 
 	local script = Instance.new('LocalScript', archden._3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2079,8 +2080,8 @@ local function UHBWN_fake_script() -- archden._3.LocalScript
 	end)
 	
 end
-coroutine.wrap(UHBWN_fake_script)()
-local function EABDQ_fake_script() -- archden._6.LocalScript 
+coroutine.wrap(WFWBJUB_fake_script)()
+local function ZTCG_fake_script() -- archden._6.LocalScript 
 	local script = Instance.new('LocalScript', archden._6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2088,8 +2089,8 @@ local function EABDQ_fake_script() -- archden._6.LocalScript
 	end)
 	
 end
-coroutine.wrap(EABDQ_fake_script)()
-local function KNBYXL_fake_script() -- archden._5.LocalScript 
+coroutine.wrap(ZTCG_fake_script)()
+local function EBBDX_fake_script() -- archden._5.LocalScript 
 	local script = Instance.new('LocalScript', archden._5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2097,8 +2098,8 @@ local function KNBYXL_fake_script() -- archden._5.LocalScript
 	end)
 	
 end
-coroutine.wrap(KNBYXL_fake_script)()
-local function VONDC_fake_script() -- archden._2.LocalScript 
+coroutine.wrap(EBBDX_fake_script)()
+local function UGTOB_fake_script() -- archden._2.LocalScript 
 	local script = Instance.new('LocalScript', archden._2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2106,8 +2107,8 @@ local function VONDC_fake_script() -- archden._2.LocalScript
 	end)
 	
 end
-coroutine.wrap(VONDC_fake_script)()
-local function LJJUANX_fake_script() -- archden._7.LocalScript 
+coroutine.wrap(UGTOB_fake_script)()
+local function XWXX_fake_script() -- archden._7.LocalScript 
 	local script = Instance.new('LocalScript', archden._7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2115,8 +2116,8 @@ local function LJJUANX_fake_script() -- archden._7.LocalScript
 	end)
 	
 end
-coroutine.wrap(LJJUANX_fake_script)()
-local function LGSLDWE_fake_script() -- archden._9.LocalScript 
+coroutine.wrap(XWXX_fake_script)()
+local function QPZBCKB_fake_script() -- archden._9.LocalScript 
 	local script = Instance.new('LocalScript', archden._9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2124,8 +2125,8 @@ local function LGSLDWE_fake_script() -- archden._9.LocalScript
 	end)
 	
 end
-coroutine.wrap(LGSLDWE_fake_script)()
-local function LLUFW_fake_script() -- archden._8.LocalScript 
+coroutine.wrap(QPZBCKB_fake_script)()
+local function MYMD_fake_script() -- archden._8.LocalScript 
 	local script = Instance.new('LocalScript', archden._8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2133,8 +2134,8 @@ local function LLUFW_fake_script() -- archden._8.LocalScript
 	end)
 	
 end
-coroutine.wrap(LLUFW_fake_script)()
-local function EAEZ_fake_script() -- archden._10.LocalScript 
+coroutine.wrap(MYMD_fake_script)()
+local function NGMXT_fake_script() -- archden._10.LocalScript 
 	local script = Instance.new('LocalScript', archden._10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2142,8 +2143,8 @@ local function EAEZ_fake_script() -- archden._10.LocalScript
 	end)
 	
 end
-coroutine.wrap(EAEZ_fake_script)()
-local function XVMFI_fake_script() -- archden._4.LocalScript 
+coroutine.wrap(NGMXT_fake_script)()
+local function NLUVHI_fake_script() -- archden._4.LocalScript 
 	local script = Instance.new('LocalScript', archden._4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2151,8 +2152,8 @@ local function XVMFI_fake_script() -- archden._4.LocalScript
 	end)
 	
 end
-coroutine.wrap(XVMFI_fake_script)()
-local function IJSVQJ_fake_script() -- archden._11.LocalScript 
+coroutine.wrap(NLUVHI_fake_script)()
+local function XCIZXA_fake_script() -- archden._11.LocalScript 
 	local script = Instance.new('LocalScript', archden._11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2160,8 +2161,8 @@ local function IJSVQJ_fake_script() -- archden._11.LocalScript
 	end)
 	
 end
-coroutine.wrap(IJSVQJ_fake_script)()
-local function IJCZ_fake_script() -- archden._12.LocalScript 
+coroutine.wrap(XCIZXA_fake_script)()
+local function DBLVB_fake_script() -- archden._12.LocalScript 
 	local script = Instance.new('LocalScript', archden._12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2169,8 +2170,8 @@ local function IJCZ_fake_script() -- archden._12.LocalScript
 	end)
 	
 end
-coroutine.wrap(IJCZ_fake_script)()
-local function HCGVU_fake_script() -- archden._1.LocalScript 
+coroutine.wrap(DBLVB_fake_script)()
+local function KJXTS_fake_script() -- archden._1.LocalScript 
 	local script = Instance.new('LocalScript', archden._1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2178,8 +2179,8 @@ local function HCGVU_fake_script() -- archden._1.LocalScript
 	end)
 	
 end
-coroutine.wrap(HCGVU_fake_script)()
-local function JZOFXT_fake_script() -- archden.Scripty.LocalScript 
+coroutine.wrap(KJXTS_fake_script)()
+local function YOHIFLP_fake_script() -- archden.Scripty.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2187,8 +2188,8 @@ local function JZOFXT_fake_script() -- archden.Scripty.LocalScript
 	end)
 	
 end
-coroutine.wrap(JZOFXT_fake_script)()
-local function GRRDP_fake_script() -- archden._13.LocalScript 
+coroutine.wrap(YOHIFLP_fake_script)()
+local function EYXOYT_fake_script() -- archden._13.LocalScript 
 	local script = Instance.new('LocalScript', archden._13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2196,8 +2197,8 @@ local function GRRDP_fake_script() -- archden._13.LocalScript
 	end)
 	
 end
-coroutine.wrap(GRRDP_fake_script)()
-local function BFLFB_fake_script() -- archden.Scripty_2.LocalScript 
+coroutine.wrap(EYXOYT_fake_script)()
+local function KMVHVWD_fake_script() -- archden.Scripty_2.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2205,8 +2206,8 @@ local function BFLFB_fake_script() -- archden.Scripty_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(BFLFB_fake_script)()
-local function IVMKF_fake_script() -- archden.Scripty_3.LocalScript 
+coroutine.wrap(KMVHVWD_fake_script)()
+local function GOXJBH_fake_script() -- archden.Scripty_3.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2214,8 +2215,8 @@ local function IVMKF_fake_script() -- archden.Scripty_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(IVMKF_fake_script)()
-local function VWEW_fake_script() -- archden.Scripty_4.LocalScript 
+coroutine.wrap(GOXJBH_fake_script)()
+local function IYMZHO_fake_script() -- archden.Scripty_4.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2223,8 +2224,8 @@ local function VWEW_fake_script() -- archden.Scripty_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(VWEW_fake_script)()
-local function DOWH_fake_script() -- archden.Scripty_5.LocalScript 
+coroutine.wrap(IYMZHO_fake_script)()
+local function TASSJLV_fake_script() -- archden.Scripty_5.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2232,8 +2233,8 @@ local function DOWH_fake_script() -- archden.Scripty_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(DOWH_fake_script)()
-local function GMSE_fake_script() -- archden.Scripty_6.LocalScript 
+coroutine.wrap(TASSJLV_fake_script)()
+local function PZZSUDK_fake_script() -- archden.Scripty_6.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2241,8 +2242,8 @@ local function GMSE_fake_script() -- archden.Scripty_6.LocalScript
 	end)
 	
 end
-coroutine.wrap(GMSE_fake_script)()
-local function WGATIAO_fake_script() -- archden.Scripty_7.LocalScript 
+coroutine.wrap(PZZSUDK_fake_script)()
+local function EVJATA_fake_script() -- archden.Scripty_7.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2250,8 +2251,8 @@ local function WGATIAO_fake_script() -- archden.Scripty_7.LocalScript
 	end)
 	
 end
-coroutine.wrap(WGATIAO_fake_script)()
-local function EEZF_fake_script() -- archden.Scripty_8.LocalScript 
+coroutine.wrap(EVJATA_fake_script)()
+local function RJNTLB_fake_script() -- archden.Scripty_8.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2259,8 +2260,8 @@ local function EEZF_fake_script() -- archden.Scripty_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(EEZF_fake_script)()
-local function NUCUXV_fake_script() -- archden.Scripty_9.LocalScript 
+coroutine.wrap(RJNTLB_fake_script)()
+local function ROKXD_fake_script() -- archden.Scripty_9.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2268,8 +2269,8 @@ local function NUCUXV_fake_script() -- archden.Scripty_9.LocalScript
 	end)
 	
 end
-coroutine.wrap(NUCUXV_fake_script)()
-local function YEZMKJG_fake_script() -- archden.Scripty_10.LocalScript 
+coroutine.wrap(ROKXD_fake_script)()
+local function JJTTTLS_fake_script() -- archden.Scripty_10.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2277,8 +2278,8 @@ local function YEZMKJG_fake_script() -- archden.Scripty_10.LocalScript
 	end)
 	
 end
-coroutine.wrap(YEZMKJG_fake_script)()
-local function VVIKS_fake_script() -- archden.Scripty_11.LocalScript 
+coroutine.wrap(JJTTTLS_fake_script)()
+local function GLKJT_fake_script() -- archden.Scripty_11.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2286,8 +2287,8 @@ local function VVIKS_fake_script() -- archden.Scripty_11.LocalScript
 	end)
 	
 end
-coroutine.wrap(VVIKS_fake_script)()
-local function HHZFXA_fake_script() -- archden.Scripty_12.LocalScript 
+coroutine.wrap(GLKJT_fake_script)()
+local function AATH_fake_script() -- archden.Scripty_12.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2295,8 +2296,8 @@ local function HHZFXA_fake_script() -- archden.Scripty_12.LocalScript
 	end)
 	
 end
-coroutine.wrap(HHZFXA_fake_script)()
-local function QHQKGG_fake_script() -- archden.Scripty_13.LocalScript 
+coroutine.wrap(AATH_fake_script)()
+local function FXWHD_fake_script() -- archden.Scripty_13.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2304,8 +2305,8 @@ local function QHQKGG_fake_script() -- archden.Scripty_13.LocalScript
 	end)
 	
 end
-coroutine.wrap(QHQKGG_fake_script)()
-local function WTIQNX_fake_script() -- archden.Scripty_14.LocalScript 
+coroutine.wrap(FXWHD_fake_script)()
+local function ZOIWYVY_fake_script() -- archden.Scripty_14.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2313,8 +2314,8 @@ local function WTIQNX_fake_script() -- archden.Scripty_14.LocalScript
 	end)
 	
 end
-coroutine.wrap(WTIQNX_fake_script)()
-local function ZDJG_fake_script() -- archden.Scripty_15.LocalScript 
+coroutine.wrap(ZOIWYVY_fake_script)()
+local function IRVN_fake_script() -- archden.Scripty_15.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2322,8 +2323,8 @@ local function ZDJG_fake_script() -- archden.Scripty_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZDJG_fake_script)()
-local function TTBAUO_fake_script() -- archden.Scripty_16.LocalScript 
+coroutine.wrap(IRVN_fake_script)()
+local function YBTYB_fake_script() -- archden.Scripty_16.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2331,8 +2332,8 @@ local function TTBAUO_fake_script() -- archden.Scripty_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(TTBAUO_fake_script)()
-local function IKOLRAI_fake_script() -- archden.Scripty_17.LocalScript 
+coroutine.wrap(YBTYB_fake_script)()
+local function NETF_fake_script() -- archden.Scripty_17.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2340,8 +2341,8 @@ local function IKOLRAI_fake_script() -- archden.Scripty_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(IKOLRAI_fake_script)()
-local function HDDDSQ_fake_script() -- archden.Scripty_18.LocalScript 
+coroutine.wrap(NETF_fake_script)()
+local function YJRJI_fake_script() -- archden.Scripty_18.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2349,8 +2350,8 @@ local function HDDDSQ_fake_script() -- archden.Scripty_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(HDDDSQ_fake_script)()
-local function AKVXOHT_fake_script() -- archden.Scripty_19.LocalScript 
+coroutine.wrap(YJRJI_fake_script)()
+local function HQIGYS_fake_script() -- archden.Scripty_19.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2358,8 +2359,8 @@ local function AKVXOHT_fake_script() -- archden.Scripty_19.LocalScript
 	end)
 	
 end
-coroutine.wrap(AKVXOHT_fake_script)()
-local function YBSA_fake_script() -- archden.Scripty_20.LocalScript 
+coroutine.wrap(HQIGYS_fake_script)()
+local function QSWQ_fake_script() -- archden.Scripty_20.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2367,8 +2368,8 @@ local function YBSA_fake_script() -- archden.Scripty_20.LocalScript
 	end)
 	
 end
-coroutine.wrap(YBSA_fake_script)()
-local function VXXIBPM_fake_script() -- archden.Scripty_21.LocalScript 
+coroutine.wrap(QSWQ_fake_script)()
+local function ZYHHSFB_fake_script() -- archden.Scripty_21.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2376,8 +2377,8 @@ local function VXXIBPM_fake_script() -- archden.Scripty_21.LocalScript
 	end)
 	
 end
-coroutine.wrap(VXXIBPM_fake_script)()
-local function BEWHJTK_fake_script() -- archden.Scripty_22.LocalScript 
+coroutine.wrap(ZYHHSFB_fake_script)()
+local function UTMTNAT_fake_script() -- archden.Scripty_22.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2385,8 +2386,8 @@ local function BEWHJTK_fake_script() -- archden.Scripty_22.LocalScript
 	end)
 	
 end
-coroutine.wrap(BEWHJTK_fake_script)()
-local function LYBKYVO_fake_script() -- archden.Scripty_23.LocalScript 
+coroutine.wrap(UTMTNAT_fake_script)()
+local function FPTUBK_fake_script() -- archden.Scripty_23.LocalScript 
 	local script = Instance.new('LocalScript', archden.Scripty_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2394,8 +2395,8 @@ local function LYBKYVO_fake_script() -- archden.Scripty_23.LocalScript
 	end)
 	
 end
-coroutine.wrap(LYBKYVO_fake_script)()
-local function DTQS_fake_script() -- archden.Main.Dragger 
+coroutine.wrap(FPTUBK_fake_script)()
+local function KSVS_fake_script() -- archden.Main.Dragger 
 	local script = Instance.new('LocalScript', archden.Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2441,9 +2442,9 @@ local function DTQS_fake_script() -- archden.Main.Dragger
 		end
 	end)
 end
-coroutine.wrap(DTQS_fake_script)()
+coroutine.wrap(KSVS_fake_script)()
 -- archden.Main.sizee is disabled.
-local function DIHY_fake_script() -- archden.DiscordButton.LocalScript 
+local function VSFCHT_fake_script() -- archden.DiscordButton.LocalScript 
 	local script = Instance.new('LocalScript', archden.DiscordButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2451,8 +2452,8 @@ local function DIHY_fake_script() -- archden.DiscordButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(DIHY_fake_script)()
-local function SZWANM_fake_script() -- archden.ImageLabel_2.LocalScript 
+coroutine.wrap(VSFCHT_fake_script)()
+local function NZNRUL_fake_script() -- archden.ImageLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', archden.ImageLabel_2)
 
 	frame = script.Parent
@@ -2462,8 +2463,8 @@ local function SZWANM_fake_script() -- archden.ImageLabel_2.LocalScript
 	frame.Rotation = frame.Rotation +.5
 	end
 end
-coroutine.wrap(SZWANM_fake_script)()
-local function JPECB_fake_script() -- archden.Key.Dragger 
+coroutine.wrap(NZNRUL_fake_script)()
+local function SYITB_fake_script() -- archden.Key.Dragger 
 	local script = Instance.new('LocalScript', archden.Key)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2509,8 +2510,8 @@ local function JPECB_fake_script() -- archden.Key.Dragger
 		end
 	end)
 end
-coroutine.wrap(JPECB_fake_script)()
-local function BDOF_fake_script() -- archden.Key.Size 
+coroutine.wrap(SYITB_fake_script)()
+local function VYCZX_fake_script() -- archden.Key.Size 
 	local script = Instance.new('LocalScript', archden.Key)
 
 	
@@ -2531,8 +2532,8 @@ local function BDOF_fake_script() -- archden.Key.Size
 	tweenService:Create(object, TweenInfo.new(0.5), {BackgroundTransparency = 0}):Play()
 	
 end
-coroutine.wrap(BDOF_fake_script)()
-local function XFEBL_fake_script() -- archden.archden.LocalScript 
+coroutine.wrap(VYCZX_fake_script)()
+local function AIJH_fake_script() -- archden.archden.LocalScript 
 	local script = Instance.new('LocalScript', archden.archden)
 
 	script.Parent.Key.Check.MouseButton1Click:Connect(function()
@@ -2567,4 +2568,4 @@ local function XFEBL_fake_script() -- archden.archden.LocalScript
 	
 	
 end
-coroutine.wrap(XFEBL_fake_script)()
+coroutine.wrap(AIJH_fake_script)()
