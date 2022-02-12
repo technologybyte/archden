@@ -2537,7 +2537,7 @@ local function AIJH_fake_script() -- archden.archden.LocalScript
 	local script = Instance.new('LocalScript', archden.archden)
 
 	script.Parent.Key.Check.MouseButton1Click:Connect(function()
-		if script.Parent.Key.Key.Text == "5049381034813749" then
+		if script.Parent.Key.Key.Text == "Release07DenIsAmogusStopSayingThat" then
 	local tweenService = game:GetService("TweenService")
 	local object11 = script.Parent.Key
 	object11.Visible=false
